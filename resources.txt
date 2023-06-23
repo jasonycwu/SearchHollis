@@ -1,0 +1,7 @@
+https://wiki.harvard.edu/confluence/display/LibraryStaffDoc/LibraryCloud 
+https://wiki.harvard.edu/confluence/display/LibraryStaffDoc/LibraryCloud+APIs
+https://github.com/harvard-library/librarycloud
+https://wiki.harvard.edu/confluence/display/LibraryStaffDoc/LibraryCloud+Metadata
+https://wiki.harvard.edu/confluence/display/LibraryStaffDoc/PRESTO+-+Getting+Started
+https://portal.apis.huit.harvard.edu/api-fundamentals#top
+https://www.youtube.com/watch?v=A7-I-FQyC4w

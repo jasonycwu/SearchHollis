@@ -1,0 +1,236 @@
+{
+  "pagination": {
+    "maxPageableSet": "100000",
+    "numFound": 1,
+    "query": "identifier=9784166607273",
+    "limit": 10,
+    "start": 0
+  },
+  "items": {
+    "mods": {
+      "titleInfo": [
+        {
+          "@altRepGroup": "02",
+          "title": "Kin'y\u016b ky\u014dk\u014d to Yudaya, Kirisutoky\u014d"
+        },
+        {
+          "@altRepGroup": "02",
+          "title": "\u91d1\u878d\u6050\u614c\u3068\u30e6\u30c0\u30e4\u30fb\u30ad\u30ea\u30b9\u30c8\u6559"
+        }
+      ],
+      "name": [
+        {
+          "@type": "personal",
+          "@altRepGroup": "01",
+          "namePart": [
+            "Shimada, Hiromi",
+            {
+              "@type": "date",
+              "#text": "1953-"
+            }
+          ],
+          "role": {
+            "roleTerm": {
+              "@type": "text",
+              "#text": "creator"
+            }
+          }
+        },
+        {
+          "@type": "personal",
+          "@altRepGroup": "01",
+          "namePart": [
+            "\u5cf6\u7530\u88d5\u5df3",
+            {
+              "@type": "date",
+              "#text": "1953-"
+            }
+          ]
+        }
+      ],
+      "typeOfResource": "text",
+      "originInfo": [
+        {
+          "@altRepGroup": "03",
+          "place": [
+            {
+              "placeTerm": [
+                {
+                  "@authority": "marccountry",
+                  "@type": "code",
+                  "#text": "ja"
+                },
+                {
+                  "@authority": "marccountry",
+                  "@type": "text",
+                  "#text": "Japan"
+                }
+              ]
+            },
+            {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "T\u014dky\u014d"
+              }
+            }
+          ],
+          "publisher": "Bungei Shunj\u016b",
+          "dateIssued": "2009",
+          "issuance": "monographic"
+        },
+        {
+          "@altRepGroup": "03",
+          "place": {
+            "placeTerm": {
+              "@type": "text",
+              "#text": "\u6771\u4eac :"
+            }
+          },
+          "publisher": "\u6587\u82b8\u6625\u79cb,",
+          "dateIssued": "2009."
+        }
+      ],
+      "language": {
+        "languageTerm": [
+          {
+            "@authority": "iso639-2b",
+            "@type": "code",
+            "#text": "jpn"
+          },
+          {
+            "@authority": "iso639-2b",
+            "@type": "text",
+            "#text": "Japanese"
+          }
+        ]
+      },
+      "physicalDescription": {
+        "form": {
+          "@authority": "marcform",
+          "#text": "print"
+        },
+        "extent": "240 p. : ill. ; 18 cm."
+      },
+      "note": [
+        {
+          "@altRepGroup": "00",
+          "@type": "statement of responsibility",
+          "#text": "Shimada Hiromi."
+        },
+        {
+          "@altRepGroup": "00",
+          "@type": "statement of responsibility",
+          "#text": "\u5cf6\u7530\u88d5\u5df3."
+        }
+      ],
+      "subject": [
+        {
+          "@authority": "jlabsh/4",
+          "@altRepGroup": "05",
+          "topic": "Keizai"
+        },
+        {
+          "@authority": "jlabsh/4",
+          "@altRepGroup": "06",
+          "topic": "Sh\u016bky\u014d"
+        },
+        {
+          "@authority": "jlabsh/4",
+          "@altRepGroup": "05",
+          "topic": "\u7d4c\u6e08"
+        },
+        {
+          "@authority": "jlabsh/4",
+          "@altRepGroup": "06",
+          "topic": "\u5b97\u6559"
+        }
+      ],
+      "relatedItem": [
+        {
+          "titleInfo": {
+            "title": "Bunshun shinsho ; 727"
+          }
+        },
+        {
+          "@type": "series",
+          "titleInfo": {
+            "title": "Bunshun shinsho ; 727"
+          }
+        },
+        {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990126214290203941/catalog"
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "@type": "isbn",
+          "#text": "9784166607273"
+        },
+        {
+          "@type": "isbn",
+          "#text": "4166607278"
+        },
+        {
+          "@type": "oclc",
+          "#text": "491325422"
+        }
+      ],
+      "location": [
+        {
+          "physicalLocation": {
+            "@valueURI": "http://isni.org/isni/0000000121790804",
+            "@displayLabel": "Harvard repository",
+            "@type": "repository",
+            "#text": "Harvard-Yenching Library, Harvard University"
+          },
+          "shelfLocator": "MLC-J"
+        },
+        null,
+        null
+      ],
+      "extension": [
+        {
+          "librarycloud": {
+            "HarvardRepositories": {
+              "HarvardRepository": "Harvard-Yenching"
+            },
+            "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990126214290203941",
+            "priorrecordids": {
+              "recordIdentifier": {
+                "@source": "MH:ALEPH",
+                "#text": "012621429"
+              }
+            },
+            "processingDate": "2022-10-10T08:07Z"
+          }
+        },
+        {
+          "sets": null
+        }
+      ],
+      "recordInfo": {
+        "descriptionStandard": "aacr",
+        "recordContentSource": {
+          "@authority": "marcorg",
+          "#text": "TRCLS"
+        },
+        "recordCreationDate": {
+          "@encoding": "marc",
+          "#text": "091221"
+        },
+        "recordChangeDate": {
+          "@encoding": "iso8601",
+          "#text": "20111004"
+        },
+        "recordIdentifier": {
+          "@source": "MH:ALMA",
+          "#text": "990126214290203941"
+        },
+        "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)"
+      }
+    }
+  }
+}
