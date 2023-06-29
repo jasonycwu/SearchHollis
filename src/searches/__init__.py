@@ -2,6 +2,6 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-29 00:40:01
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-06-29 02:26:28
+# @Last Modified time: 2023-06-29 09:04:34
 
-from searches.search import search, have_results
+from .search import search, have_results

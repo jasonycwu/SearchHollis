@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:22:51
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-06-29 02:24:09
+# @Last Modified time: 2023-06-29 09:46:50
 # from harvardScript import BASE_URL
 from configs.configs import Configs
 from input_output import writeToFile
@@ -18,7 +18,7 @@ from searches import search, have_results
 def search_by_isbn(payload: Payload):
     """
     INPUT= payload, aka extracted data from input
-    OUTPUT=
+    OUTPUT= bool whether a correct match is found
 
     Algorithm:
     1. extract relevant fields and form request url
@@ -34,11 +34,10 @@ def search_by_isbn(payload: Payload):
     writeToFile(response)  # delete later
 
     if have_results(response):
-        response = response["items"]["mods"]
-        confidence = determinant(query_data=payload, api_response=response)
-        # TODO: DETERMINE MATCH (code Determinant)
-        pass
+        response_items = response["items"]["mods"]
+        if determinant(query_data=payload, api_response=response_items):
+            return True
+        else:
+            return False
     else:
-        # return, no results found
         return None
-    return response

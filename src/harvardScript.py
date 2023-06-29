@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:18:58
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-06-29 02:15:28
+# @Last Modified time: 2023-06-29 09:46:16
 import json
 import requests
 from dataclasses import dataclass
@@ -19,7 +19,12 @@ if __name__ == "__main__":
         item = item.split(",")
         payload = extract_input_payload(item)
 
-        response = search_by_isbn(payload)
+        if search_by_isbn(payload):
+            # TODO: found, mark on file
+            pass
+        else:
+            pass
+
         # harvard_script.have_results(response)
         # print(response)
         # ISBN Search

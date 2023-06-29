@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:25:35
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-06-29 02:17:22
+# @Last Modified time: 2023-06-29 09:47:47
 from dataclasses import dataclass
 import os
 
@@ -17,3 +17,5 @@ class Configs:
     OUTPUT_PATH = os.path.join(TEST_ROOT, "output")
     TEST_IUTPUT_TXT_PATH = os.path.join(INPUT_PATH, "testInput.txt")
     TEST_OUTPUT_TXT_PATH = os.path.join(OUTPUT_PATH, "testOutput.txt")
+
+    PERM_REPO = ["Harvard-Yenching Library, Harvard University"]
