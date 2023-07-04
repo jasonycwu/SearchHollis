@@ -2,11 +2,11 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:22:51
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-06-29 09:46:50
+# @Last Modified time: 2023-07-04 12:03:49
 # from harvardScript import BASE_URL
 from configs.configs import Configs
 from input_output import writeToFile
-from determinant.determinant import determinant
+from determinant.determinant import determinant, held_at_harvard
 from data_structures.data_structures import Payload
 from searches import search, have_results
 
@@ -27,17 +27,21 @@ def search_by_isbn(payload: Payload):
     4. if determinant meets threshhold, return match
         false otherwise
     """
+    print("SEARCHING BY ISBN")
+
     isbn_field = f"identifier={payload.ISBN}"
     request_url = Configs.BASE_URL + f"{isbn_field}"
-
+    # print(request_url)
     response = search(request_url)
-    writeToFile(response)  # delete later
+    writeToFile(response)
+    num_of_results = have_results(response)
 
-    if have_results(response):
-        response_items = response["items"]["mods"]
-        if determinant(query_data=payload, api_response=response_items):
-            return True
-        else:
-            return False
+    if num_of_results == 1:
+        response_item = response["items"]["mods"]
+        if determinant(query_data=payload, api_response=response_item):  # same bok
+            # print(held_at_harvard(api_response=response_item))
+            return held_at_harvard(api_response=response_item)
+        else:  # not same bok
+            return None
     else:
         return None

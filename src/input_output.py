@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:33:18
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-06-29 02:16:05
+# @Last Modified time: 2023-07-04 11:44:56
 import json
 from data_structures.data_structures import Payload
 from helpers import format_isbn
@@ -27,12 +27,13 @@ def get_input(filename) -> list:
 
 
 def extract_input_payload(input_data) -> Payload:
-    # print(input_data)
+    all_title_names = [input_data[1]] + input_data[1].split(" ")
     extracted_input = Payload(
         format_isbn(input_data[0]),  # ISBN, will need a list
         input_data[1],  # TITLE
         input_data[2],  # AUTHOR, will need a list
         input_data[3],  # PUBLISHER
         input_data[4],  # PUB YEAR
+        all_title_names,  # list of TITLE broken down
     )
     return extracted_input

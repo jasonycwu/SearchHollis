@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:29:05
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-06-29 00:52:48
+# @Last Modified time: 2023-06-29 13:57:48
 import requests
 import json
 
@@ -21,6 +21,7 @@ def search(request_url):
 
 # checks if response from API is empty
 def have_results(response: dict):
+    return response["pagination"]["numFound"]
     return (response["pagination"]["numFound"] != 0) and (response["items"] != None)
 
 
