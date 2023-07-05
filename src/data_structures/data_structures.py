@@ -2,14 +2,14 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:18:58
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-04 11:36:29
+# @Last Modified time: 2023-07-05 02:55:21
 from dataclasses import dataclass
 from typing import List
 
 
 @dataclass
 class Payload:
-    ISBN: list
+    ISBN: List[str]
     FULL_TITLE: str
     AUTHOR: str
     PUBLISHER: str

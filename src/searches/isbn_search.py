@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:22:51
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-04 12:03:49
+# @Last Modified time: 2023-07-05 10:14:16
 # from harvardScript import BASE_URL
 from configs.configs import Configs
 from input_output import writeToFile
@@ -31,15 +31,12 @@ def search_by_isbn(payload: Payload):
 
     isbn_field = f"identifier={payload.ISBN}"
     request_url = Configs.BASE_URL + f"{isbn_field}"
-    # print(request_url)
     response = search(request_url)
-    writeToFile(response)
     num_of_results = have_results(response)
 
     if num_of_results == 1:
         response_item = response["items"]["mods"]
         if determinant(query_data=payload, api_response=response_item):  # same bok
-            # print(held_at_harvard(api_response=response_item))
             return held_at_harvard(api_response=response_item)
         else:  # not same bok
             return None

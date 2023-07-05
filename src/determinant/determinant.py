@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-28 10:39:02
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-04 12:03:58
+# @Last Modified time: 2023-07-05 11:01:41
 from data_structures.data_structures import Payload
 from fuzzywuzzy import fuzz
 import helpers
@@ -23,15 +23,14 @@ def determinant(query_data: Payload, api_response) -> bool:
     input_publisher_jpn = query_data.PUBLISHER
     input_pub_year = query_data.PUB_YEAR
 
-    if "titleInfo" in api_response:
-        response_titles = helpers.get_titles_list(api_response["titleInfo"])
+    # TODO: change data structure such that you only pass api_response once
+    response_titles = helpers.get_response_titles(api_response)
+    response_isbn = helpers.get_response_isbn(api_response)
+    response_author_names = helpers.get_response_author_names(api_response)
+    # response_publisher_names = [...]
+    # response_publish_year = int
 
-    if "identifier" in api_response:
-        response_isbn = helpers.get_isbn_list(api_response["identifier"])
-
-    if "name" in api_response:
-        response_author_names = helpers.get_author_names_list(api_response["name"])
-
+    print(response_author_names)
     # response_publisher_eng = api_response["originInfo"][0]["publisher"]
     # response_publisher_jpn = api_response["originInfo"][1]["publisher"]
     # response_pub_year = api_response["originInfo"][0]["dateIssued"]
@@ -48,18 +47,12 @@ def held_at_harvard(api_response) -> str:
         "Widener Library, Harvard University",
         "Harvard-Yenching Library, Harvard University",
     ]
-    # print(api_response)
     if "location" in api_response:
         item_location = api_response["location"]
-        # print(item_location)
-        if type(item_location) == dict:
-            item_location = [item_location]
-        if "physicalLocation" in item_location[0]:
-            item_location = item_location[0]["physicalLocation"]["#text"]
-            # print(item_location)
-            if item_location in permanent:
-                return item_location
-            else:
-                return ""
-    else:
-        return ""
+        print(item_location)
+        if item_location and (isinstance(item_location, list)):
+            if "physicalLocation" in item_location[0]:
+                item_location = item_location[0]["physicalLocation"]["#text"]
+                if item_location in permanent:
+                    return item_location
+    return ""
