@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:22:51
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-10 08:06:53
+# @Last Modified time: 2023-07-11 15:09:12
 # from harvardScript import BASE_URL
 from configs.configs import Configs
 from input_output import writeToFile
@@ -33,6 +33,7 @@ def search_by_isbn(payload: Payload):
     request_url = Configs.BASE_URL + f"{isbn_field}"
     response = search(request_url)
     num_of_results = have_results(response)
+    writeToFile(response)
 
     if num_of_results == 1:
         response_item = response["items"]["mods"]

@@ -2,19 +2,25 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:29:05
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-05 10:14:03
+# @Last Modified time: 2023-07-13 16:56:20
 import requests
 import json
+import time
 
 
 # general search function using a given request_url
 def search(request_url):
     try:
         response = requests.get(request_url)  # hit harvard api
+        if response.status_code == 403:
+            print(
+                f"API RESPONSE ERROR <Response [403]>: LIMIT REACHED. request_url={request_url}. Waiting..."
+            )
+            time.sleep(300)
+            print(f"RETRYING WITH request_url={request_url}")
+            response = requests.get(request_url)  # trying again
         if response.status_code == 200:  # api hit success
             response = json.loads(response.content)  # convert to Python dict
-        elif response.status_code == 403:
-            print("API RESPONSE ERROR <Response [403]")
     except requests.exceptions.RequestException as e:
         print(response.status_code)
         print(f"Error: {e}")

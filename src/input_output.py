@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:33:18
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-05 02:54:49
+# @Last Modified time: 2023-07-11 13:47:39
 import json
 import math
 import pandas as pd
@@ -43,7 +43,10 @@ def extract_input_payload(input_data) -> Payload:
     pub_year = input_data["Year Published"]
 
     # gets the full title itself, and diff components of the full title
-    all_title_parts = [t for t in ([title] + title.split(" ")) if len(t) >= 2]
+    if title == title.split(" ")[0]:
+        all_title_parts = [title]
+    else:
+        all_title_parts = [title, title.split(" ")[0]]
 
     # breaks down and groups all author name
     if type(author) is not float:

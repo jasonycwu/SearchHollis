@@ -2,11 +2,12 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-28 10:39:02
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-10 08:11:25
+# @Last Modified time: 2023-07-13 16:44:13
 from data_structures.data_structures import Payload
 from fuzzywuzzy import fuzz
 import helpers
 from .match import match_isbn, match_title, match_author, match_publication
+from typing import List
 
 
 def determinant(query_data: Payload, api_response) -> bool:
@@ -37,33 +38,33 @@ def determinant(query_data: Payload, api_response) -> bool:
             input_publisher_jpn, input_pub_year, response_publish_info
         )
     )
-    return match_isbn(input_isbn, response_isbn) or title_determinant
-
-    if isbn_determinant and title_determinant:
-        # print("determinant TRUE-ISBN and TITLE")
-        return True
-    elif isbn_determinant and not title_determinant:
-        # print("determinant TRUE-ISBN only")
-        return True
-    elif title_determinant and not isbn_determinant:
-        # print("determinant TRUE-TITLE only")
-        return True
-    else:
-        # print("determinant FALSE")
-        return False
+    return isbn_determinant or title_determinant
 
 
-def held_at_harvard(api_response) -> str:
+def held_at_harvard(api_response) -> dict:
     permanent = [
         "Widener Library, Harvard University",
         "Harvard-Yenching Library, Harvard University",
     ]
+    output = {"item_location": None, "permalink": None}
     if "location" in api_response:
         item_location = api_response["location"]
-        # print(item_location)
-        if item_location and (isinstance(item_location, list)):
-            if "physicalLocation" in item_location[0]:
+        if item_location and (isinstance(item_location, List)):
+            if item_location[0] and "physicalLocation" in item_location[0]:
                 item_location = item_location[0]["physicalLocation"]["#text"]
                 if item_location in permanent:
-                    return item_location
-    return ""
+                    output["item_location"] = item_location
+
+    if "relatedItem" in api_response:
+        relatedItem = api_response["relatedItem"]
+        if not isinstance(relatedItem, List):
+            relatedItem = [relatedItem]
+        for item in relatedItem:
+            if (
+                "@otherType" in item
+                and item["@otherType"] == "HOLLIS record"
+                and "location" in item
+            ):
+                if "url" in item["location"] and item["location"]["url"]:
+                    output["permalink"] = item["location"]["url"]
+    return output

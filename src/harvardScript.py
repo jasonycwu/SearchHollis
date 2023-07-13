@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:18:58
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-10 08:50:03
+# @Last Modified time: 2023-07-13 17:19:53
 
 from data_structures.data_structures import Payload
 from searches.isbn_search import search_by_isbn
@@ -22,13 +22,20 @@ if __name__ == "__main__":
     input_data = get_input(
         "/Users/jasonycwu/Documents/GitHub/harvardScript/tests/input/to-search-official.csv"
     )
-    query_count = 0
     found = 0
     total_items_num = 0
 
     with open("output.csv", "w", newline="") as file:
         writer = csv.writer(file)
-        header = ["ISBN", "TITLE", "AUTHOR", "PUBLISHER", "YEAR"]
+        header = [
+            "ISBN",
+            "TITLE",
+            "AUTHOR",
+            "PUBLISHER",
+            "YEAR",
+            "FOUND/NOT FOUND",
+            "LINK",
+        ]
         writer.writerow(header)
         # going title by title from the input list
         for item in input_data.iterrows():
@@ -44,29 +51,27 @@ if __name__ == "__main__":
                 payload.AUTHOR,
                 payload.PUBLISHER,
                 payload.PUB_YEAR,
+                "Not Found",
+                "No Link",
             ]
-            query_count += 1
             isbn_search_result = search_by_isbn(payload)
-            title_search_result = search_by_title(payload)
 
             if isbn_search_result:
                 found += 1
-                # print(f"--FOUND by ISBN: {isbn_search_result}")
-                row = row + [f"Held in {isbn_search_result}"]
-            elif title_search_result:
-                found += 1
-                query_count += 1
-                # print(f"--FOUND by TITLE {title_search_result}")
-                row = row + [f"Held in {title_search_result}"]
+                print(f"--FOUND by ISBN: {isbn_search_result['item_location']}")
+                row[5] = f"Held in {isbn_search_result['item_location']}"
+                if isbn_search_result["permalink"]:
+                    row[6] = isbn_search_result["permalink"]
             else:
-                query_count += 1
-                # print(f"--NOT found (ISBN and TITLE)")
-                row = row + [f"Not Found"]
+                title_search_result = search_by_title(payload)
+                if title_search_result:
+                    found += 1
+                    print(f"--FOUND by TITLE {title_search_result['item_location']}")
+                    row[5] = f"Held in {title_search_result['item_location']}"
+                    if title_search_result["permalink"]:
+                        row[6] = title_search_result["permalink"]
+                else:
+                    print(f"--NOT found (ISBN and TITLE)")
 
             writer.writerow(row)
             print()
-            # if query_count >= 100:
-            #     break
-
-        # print(f"TOTAL ITEMS SEARCHED: {total_items_num}")
-        # print(f"NUM FOUND: {found}")
