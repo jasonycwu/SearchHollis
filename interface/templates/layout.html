@@ -1,0 +1,24 @@
+<!-- 
+  @Author: Jason Y. Wu
+  @Date:   2023-07-18 15:38:22
+  @Last Modified by:   Jason Y. Wu
+  @Last Modified time: 2023-07-18 15:42:15
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"> </script>
+</head>
+<body>
+  <nav>
+    <ul>
+    </ul>
+  </nav>
+  
+  <div class="content">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

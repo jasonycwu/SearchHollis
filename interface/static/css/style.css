@@ -1,0 +1,92 @@
+/**
+ * @Author: Jason Y. Wu
+ * @Date:   2023-07-18 15:40:34
+ * @Last Modified by:   Jason Y. Wu
+ * @Last Modified time: 2023-07-18 15:40:47
+ */
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"], button {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  button {
+    background-color: crimson;
+    color: white;
+    border: none;
+  }
+  
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+    ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: crimson;
+  }
+  
+  /* Style the navigation links */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  
+  #loadingSpinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

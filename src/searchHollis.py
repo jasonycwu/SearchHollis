@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:18:58
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-13 17:19:53
+# @Last Modified time: 2023-07-18 16:47:08
 
 from data_structures.data_structures import Payload
 from searches.isbn_search import search_by_isbn
@@ -25,6 +25,7 @@ if __name__ == "__main__":
     found = 0
     total_items_num = 0
 
+    # TODO: change such that the outputs are appended to the original file
     with open("output.csv", "w", newline="") as file:
         writer = csv.writer(file)
         header = [
