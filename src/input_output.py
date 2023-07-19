@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:33:18
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-11 13:47:39
+# @Last Modified time: 2023-07-19 11:14:38
 import json
 import math
 import pandas as pd
@@ -24,23 +24,15 @@ def writeToFile(data) -> None:
 # gets all the items (titles) from an input file
 def get_input(filename):
     df = pd.read_csv(filename)
-    cols_to_keep = ["ISBN", "Title", "Author", "Publisher", "Year Published"]
-    df = df[cols_to_keep]
     return df
 
 
-def get_input_from_csv(filename) -> list:
-    with open(filename) as file:
-        lines = file.readlines()
-    return lines
-
-
-def extract_input_payload(input_data) -> Payload:
-    isbn = input_data["ISBN"]
-    title = input_data["Title"]
-    author = input_data["Author"]
-    publisher = input_data["Publisher"]
-    pub_year = input_data["Year Published"]
+def extract_input_payload(input_data, col_indices) -> Payload:
+    isbn = input_data[col_indices["ISBN"]]
+    title = input_data[col_indices["TITLE"]]
+    author = input_data[col_indices["AUTHOR"]]
+    publisher = input_data[col_indices["PUBLISHER"]]
+    pub_year = input_data[col_indices["YEAR"]]
 
     # gets the full title itself, and diff components of the full title
     if title == title.split(" ")[0]:
@@ -49,9 +41,8 @@ def extract_input_payload(input_data) -> Payload:
         all_title_parts = [title, title.split(" ")[0]]
 
     # breaks down and groups all author name
-    if type(author) is not float:
+    if author:
         authors = [t for t in ([author[0]] + author.split(" ")) if len(t) >= 2]
-        # print(authors)
     else:
         authors = [""]
 
