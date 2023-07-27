@@ -2,13 +2,13 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:22:51
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-19 10:52:17
+# @Last Modified time: 2023-07-27 03:08:35
 # from harvardScript import BASE_URL
-from configs.configs import Configs
-from input_output import writeToFile
-from determinant.determinant import determinant, held_at_harvard
-from data_structures.data_structures import Payload
-from searches import search, have_results
+from src.configs.configs import Configs
+from src.input_output import writeToFile
+from src.determinant.determinant import determinant, held_at_harvard
+from src.data_structures.data_structures import Payload
+from src.searches import search, have_results
 
 
 # wrapper function to search by isbn

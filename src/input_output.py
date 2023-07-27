@@ -2,13 +2,13 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:33:18
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-19 11:14:38
+# @Last Modified time: 2023-07-27 03:02:59
 import json
 import math
 import pandas as pd
-from data_structures.data_structures import Payload
-from helpers import format_isbn
-from configs.configs import Configs
+from src.data_structures.data_structures import Payload
+from src.helpers import format_isbn
+from src.configs.configs import Configs
 
 
 # write some data to a txt file

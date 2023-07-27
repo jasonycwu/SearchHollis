@@ -2,12 +2,12 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:56:17
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-13 16:56:32
-from configs.configs import Configs
-from input_output import writeToFile
-from determinant.determinant import determinant, held_at_harvard
-from data_structures.data_structures import Payload
-from searches import search, have_results
+# @Last Modified time: 2023-07-27 03:10:46
+from src.configs.configs import Configs
+from src.input_output import writeToFile
+from src.determinant.determinant import determinant, held_at_harvard
+from src.data_structures.data_structures import Payload
+from src.searches import search, have_results
 
 
 def search_by_title(payload: Payload):
