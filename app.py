@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-27 03:36:17
+# @Last Modified time: 2023-07-27 05:26:23
 
 import os
 import sys
@@ -10,17 +10,21 @@ import shutil
 from flask import Flask, request, render_template, send_from_directory
 
 # adds the root directory
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
 from src.searchHollis import searchHollis
 
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = "uploads"
+UPLOAD_FOLDER = "interface/uploads"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-DOWNLOAD_FOLDER = "downloads"
+DOWNLOAD_FOLDER = "interface/downloads"
 app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
+
+INTERFACE_FOLDER = os.path.join(os.path.dirname(__file__), "interface")
+app.template_folder = os.path.join(INTERFACE_FOLDER, "templates")
+app.static_folder = os.path.join(INTERFACE_FOLDER, "static")
 
 
 def clear_folder(folder_path):
@@ -63,7 +67,7 @@ def upload_file():
             os.path.join(app.config["UPLOAD_FOLDER"], file.filename), output_file_path
         )
 
-        return f"File successfully uplaoded and processed <a href='/download/{os.path.basename(output_file_path)}'>Download processed file</a>."
+        return f"File successfully uplaoded and processed <a href='download/{os.path.basename(output_file_path)}'>Download processed file</a>."
 
     # if the method is GET, render the upload form
     return render_template("upload.html")
