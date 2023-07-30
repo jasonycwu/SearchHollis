@@ -2,11 +2,10 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-27 05:26:23
+# @Last Modified time: 2023-07-30 14:38:51
 
 import os
 import sys
-import shutil
 from flask import Flask, request, render_template, send_from_directory
 
 # adds the root directory
@@ -16,15 +15,14 @@ from src.searchHollis import searchHollis
 
 app = Flask(__name__)
 
-UPLOAD_FOLDER = "interface/uploads"
-app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
-
-DOWNLOAD_FOLDER = "interface/downloads"
-app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
-
 INTERFACE_FOLDER = os.path.join(os.path.dirname(__file__), "interface")
 app.template_folder = os.path.join(INTERFACE_FOLDER, "templates")
 app.static_folder = os.path.join(INTERFACE_FOLDER, "static")
+UPLOAD_FOLDER = os.path.join(INTERFACE_FOLDER, "uploads")
+DOWNLOAD_FOLDER = os.path.join(INTERFACE_FOLDER, "downloads")
+
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
 
 
 def clear_folder(folder_path):
