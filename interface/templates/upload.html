@@ -2,7 +2,7 @@
   @Author: Jason Y. Wu
   @Date:   2023-07-24 04:47:25
   @Last Modified by:   Jason Y. Wu
-  @Last Modified time: 2023-08-01 00:48:27
+  @Last Modified time: 2023-08-01 01:17:45
 -->
 
 <!DOCTYPE html>
@@ -68,12 +68,17 @@
             margin-bottom: 20px;
         }
     </style>
+    <script>
+        function clearForm() {
+            document.getElementById("uploadForm").reset();
+        }
+    </script>
 </head>
 <body>
     <div class="background-image-container"></div>
     <div class="container">
         <h1>Upload a CSV File</h1>
-        <form action="/" method="post" enctype="multipart/form-data">
+        <form id="uploadForm" action="/" method="post" enctype="multipart/form-data">
             <input type="file" name="file" id="file">
 
             <label for="isbn_index">ISBN Col Index:</label>
@@ -87,8 +92,9 @@
             <label for="publish_year_index">Publ Year Col Index:</label>
             <input type="text" name="publish_year_index" id="publish_year_index" pattern="[A-Za-z]" required>
 
+            <button onclick="clearForm()">Reset</button>
 
-            <input type="submit" value="Upload">
+            <input type="submit" value="Upload and Search">
         </form>
     </div>
 </body>
