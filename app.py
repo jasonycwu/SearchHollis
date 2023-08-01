@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-01 00:43:46
+# @Last Modified time: 2023-08-01 01:29:28
 
 import os
 import sys
@@ -34,6 +34,7 @@ def clear_folder(folder_path):
 
 def run_search_hollis(input_file_path, output_file_path, column_indices=None):
     searchHollis(input_file_path, output_file_path, column_indices=column_indices)
+    return os.path.basename(output_file_path)
 
 
 @app.route("/", methods=["GET", "POST"])
@@ -69,13 +70,15 @@ def upload_file():
             f"{os.path.splitext(file.filename)[0]}_processed.csv",
         )
 
+        # run backend code
         run_search_hollis(
             os.path.join(app.config["UPLOAD_FOLDER"], file.filename),
             output_file_path,
             column_indices,
         )
 
-        return f"File successfully uplaoded and processed <a href='download/{os.path.basename(output_file_path)}'>Download processed file</a>."
+        processed_filename = os.path.basename(output_file_path)
+        return render_template("download.html", processed_filename=processed_filename)
 
     # if the method is GET, render the upload form
     return render_template("upload.html")

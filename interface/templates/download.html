@@ -1,0 +1,19 @@
+<!-- 
+  @Author: Jason Y. Wu
+  @Date:   2023-08-01 01:22:37
+  @Last Modified by:   Jason Y. Wu
+  @Last Modified time: 2023-08-01 01:28:25
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download File</title>
+</head>
+<body>
+    <h1>Download File</h1>
+    <p>File successfully processed!</p>
+    <p>Download the processed file here: <a href="{{ url_for('download_file', filename=processed_filename) }}"> {{ processed_filename }}</a>.</p>
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
