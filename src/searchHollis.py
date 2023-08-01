@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:18:58
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-27 03:24:38
+# @Last Modified time: 2023-08-01 00:39:02
 
 import sys
 import os
@@ -22,20 +22,19 @@ from csv import writer, reader
 
 # main
 # if __name__ == "__main__":
-def searchHollis(input_file, output_file):
+def searchHollis(input_file, output_file, column_indices):
     # input_data = get_input(INPUT_FILE_PATH)
     # input_data = get_input(input_file)
     found = 0
     total_items_num = 0
     header_row = True
 
-    # TODO: eventually, users will specify these indices
     col_indices = {
-        "ISBN": 3,
-        "TITLE": 4,
-        "AUTHOR": 5,
-        "PUBLISHER": 7,
-        "YEAR": 8,
+        "ISBN": ord(column_indices["ISBN"].upper()) - 65,
+        "TITLE": ord(column_indices["TITLE"].upper()) - 65,
+        "AUTHOR": ord(column_indices["AUTHOR"].upper()) - 65,
+        "PUBLISHER": ord(column_indices["PUBLISHER"].upper()) - 65,
+        "PUB_YEAR": ord(column_indices["PUB_YEAR"].upper()) - 65,
     }
 
     with open(input_file, "r") as read_obj, open(
@@ -61,7 +60,12 @@ def searchHollis(input_file, output_file):
                 if isbn_search_result:
                     found += 1
                     print(f"--FOUND by ISBN: {isbn_search_result['item_location']}")
-                    result[0] = f"Held in {isbn_search_result['item_location']}"
+
+                    if isbn_search_result["item_location"] == None:
+                        result[0] = f"Held Online; Not in Widener/Yenching"
+                    else:
+                        result[0] = f"Held in {isbn_search_result['item_location']}"
+
                     if isbn_search_result["permalink"]:
                         result[1] = isbn_search_result["permalink"]
                 else:

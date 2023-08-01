@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:33:18
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-27 03:02:59
+# @Last Modified time: 2023-08-01 00:29:26
 import json
 import math
 import pandas as pd
@@ -32,7 +32,7 @@ def extract_input_payload(input_data, col_indices) -> Payload:
     title = input_data[col_indices["TITLE"]]
     author = input_data[col_indices["AUTHOR"]]
     publisher = input_data[col_indices["PUBLISHER"]]
-    pub_year = input_data[col_indices["YEAR"]]
+    pub_year = input_data[col_indices["PUB_YEAR"]]
 
     # gets the full title itself, and diff components of the full title
     if title == title.split(" ")[0]:

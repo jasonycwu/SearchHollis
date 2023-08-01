@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-30 14:38:51
+# @Last Modified time: 2023-08-01 00:43:46
 
 import os
 import sys
@@ -32,8 +32,8 @@ def clear_folder(folder_path):
             os.unlink(file_path)
 
 
-def run_search_hollis(input_file_path, output_file_path):
-    searchHollis(input_file_path, output_file_path)
+def run_search_hollis(input_file_path, output_file_path, column_indices=None):
+    searchHollis(input_file_path, output_file_path, column_indices=column_indices)
 
 
 @app.route("/", methods=["GET", "POST"])
@@ -47,6 +47,14 @@ def upload_file():
         # checks if user submitted an empty file
         if file.filename == "":
             return "No file selected"
+
+        column_indices = {
+            "ISBN": request.form.get("isbn_index"),
+            "TITLE": request.form.get("title_index"),
+            "AUTHOR": request.form.get("author_index"),
+            "PUBLISHER": request.form.get("publisher_index"),
+            "PUB_YEAR": request.form.get("publish_year_index"),
+        }
 
         # clears files within the download and upload folders to free space
         clear_folder(app.config["DOWNLOAD_FOLDER"])
@@ -62,7 +70,9 @@ def upload_file():
         )
 
         run_search_hollis(
-            os.path.join(app.config["UPLOAD_FOLDER"], file.filename), output_file_path
+            os.path.join(app.config["UPLOAD_FOLDER"], file.filename),
+            output_file_path,
+            column_indices,
         )
 
         return f"File successfully uplaoded and processed <a href='download/{os.path.basename(output_file_path)}'>Download processed file</a>."
