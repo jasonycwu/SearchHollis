@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:56:17
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-27 03:10:46
+# @Last Modified time: 2023-08-03 16:33:14
 from src.configs.configs import Configs
 from src.input_output import writeToFile
 from src.determinant.determinant import determinant, held_at_harvard
@@ -14,7 +14,7 @@ def search_by_title(payload: Payload):
     print("SEARCHING BY TITLE")
     for title in payload.TITLES:
         title_field = f"q={title}"
-        request_url = Configs.BASE_URL + f"{title_field}&limit=100"
+        request_url = Configs.BASE_URL + f"{title_field}&limit=10"
         response = search(request_url)
         numFound = have_results(response)
 

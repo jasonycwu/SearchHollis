@@ -2,11 +2,16 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-01 01:29:28
+# @Last Modified time: 2023-08-03 17:17:54
 
 import os
 import sys
+import time
+import requests
+import pandas as pd
+import math
 from flask import Flask, request, render_template, send_from_directory
+import threading
 
 # adds the root directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
@@ -62,7 +67,8 @@ def upload_file():
         clear_folder(app.config["UPLOAD_FOLDER"])
 
         # save the uploaded file to the UPLOAD_FOLDER directory
-        file.save(os.path.join(app.config["UPLOAD_FOLDER"], file.filename))
+        uploaded_file_path = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
+        file.save(uploaded_file_path)
 
         # create the path for the output file in the DOWNLOAD_FOLDER
         output_file_path = os.path.join(
