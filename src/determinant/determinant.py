@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-28 10:39:02
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-07-27 03:08:18
+# @Last Modified time: 2023-08-13 14:36:44
 from src.data_structures.data_structures import Payload
 from fuzzywuzzy import fuzz
 import src.helpers as helpers
@@ -38,6 +38,7 @@ def determinant(query_data: Payload, api_response) -> bool:
             input_publisher_jpn, input_pub_year, response_publish_info
         )
     )
+    print("isbn_d=", isbn_determinant, "title_d=", title_determinant)
     return isbn_determinant or title_determinant
 
 
@@ -61,7 +62,8 @@ def held_at_harvard(api_response) -> dict:
             relatedItem = [relatedItem]
         for item in relatedItem:
             if (
-                "@otherType" in item
+                item
+                and "@otherType" in item
                 and item["@otherType"] == "HOLLIS record"
                 and "location" in item
             ):

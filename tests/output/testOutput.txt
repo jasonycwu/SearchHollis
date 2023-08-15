@@ -1,10 +1,2566 @@
 {
   "pagination": {
     "maxPageableSet": "100000",
-    "numFound": 0,
-    "query": "identifier=9784121021120",
+    "numFound": 114535,
+    "query": "q=\u30ae\u30ea\u30b7\u30e3\u8a9e\u3001\u30d8\u30d6\u30e9\u30a4\u8a9e\u3001\u30e2\u30f3\u30b4\u30eb\u8a9e\u3001\u901f\u8a18\u8853&limit=10",
     "limit": 10,
     "start": 0
   },
-  "items": null
+  "items": {
+    "mods": [
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "01",
+            "title": "Mikasa no Miya Denka beiju kinen ronshu\u0304"
+          },
+          {
+            "@altRepGroup": "01",
+            "title": "\u4e09\u7b20\u5bae\u6bbf\u4e0b\u7c73\u5bff\u8a18\u5ff5\u8ad6\u96c6"
+          }
+        ],
+        "name": [
+          {
+            "@type": "personal",
+            "@altRepGroup": "07",
+            "namePart": [
+              "Mikasa no Miya Takahito",
+              {
+                "@type": "termsOfAddress",
+                "#text": "Prince, son of Taisho\u0304, Emperor of Japan"
+              },
+              {
+                "@type": "date",
+                "#text": "1915-2016"
+              }
+            ]
+          },
+          {
+            "@type": "corporate",
+            "@altRepGroup": "08",
+            "namePart": "Mikasa no Miya Denka Beiju Kinen Ronshu\u0304 Kanko\u0304kai"
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "07",
+            "namePart": [
+              "\u4e09\u7b20\u5bae\u5d07\u4ec1",
+              {
+                "@type": "termsOfAddress",
+                "#text": "Prince, Son of Taisho\u0304, Emperor of Japan"
+              },
+              {
+                "@type": "date",
+                "#text": "1915-"
+              }
+            ]
+          },
+          {
+            "@type": "corporate",
+            "@altRepGroup": "08",
+            "namePart": "\u4e09\u7b20\u5bae\u6bbf\u4e0b\u7c73\u5bff\u8a18\u5ff5\u8ad6\u96c6\u520a\u884c\u4f1a"
+          }
+        ],
+        "typeOfResource": "text",
+        "genre": [
+          {
+            "@authority": "marcgt",
+            "#text": "bibliography"
+          },
+          {
+            "@authority": "marcgt",
+            "#text": "festschrift"
+          },
+          {
+            "@authority": "marcgt",
+            "#text": "biography"
+          },
+          {
+            "@authority": "rdacontent",
+            "#text": "text"
+          }
+        ],
+        "originInfo": [
+          {
+            "@altRepGroup": "02",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "ja"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "Japan"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "To\u0304kyo\u0304"
+                }
+              }
+            ],
+            "publisher": "To\u0304sui Shobo\u0304",
+            "dateIssued": [
+              "Heisei 16 [2004]",
+              {
+                "@encoding": "marc",
+                "#text": "2004"
+              }
+            ],
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "02",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u6771\u4eac :"
+              }
+            },
+            "publisher": "\u5200\u6c34\u66f8\u623f,",
+            "dateIssued": "\u5e73\u6210 16 [2004]"
+          }
+        ],
+        "language": [
+          {
+            "languageTerm": [
+              {
+                "@authority": "iso639-2b",
+                "@type": "code",
+                "#text": "jpn"
+              },
+              {
+                "@authority": "iso639-2b",
+                "@type": "text",
+                "#text": "Japanese"
+              }
+            ]
+          },
+          {
+            "languageTerm": {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "eng"
+            }
+          },
+          {
+            "@objectPart": "table of contents",
+            "languageTerm": {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "eng"
+            }
+          }
+        ],
+        "physicalDescription": {
+          "form": [
+            {
+              "@authority": "marcform",
+              "#text": "print"
+            },
+            {
+              "@type": "media",
+              "@authority": "rdamedia",
+              "#text": "unmediated"
+            },
+            {
+              "@type": "carrier",
+              "@authority": "rdacarrier",
+              "#text": "volume"
+            }
+          ],
+          "extent": "xxviii, 953, xii pages, [2] leaves of plates : illustrations, maps ; 22 cm"
+        },
+        "tableOfContents": [
+          {
+            "@altRepGroup": "04",
+            "#text": "<CJK input only>."
+          },
+          {
+            "@altRepGroup": "04",
+            "#text": "\u30ab\u30c3\u30c4\u30a1\u30cd\u30c3\u30ed\u306e\u30ed\u30fc\u30de\u6642\u4ee3\u5225\u8358\u306e\u6240\u6709\u8005\u306b\u3064\u3044\u3066 / \u9752\u67f3\u6b63\u898f\u8457. \u30a2\u30f4\u30a1\u30fc\u30eb\u3068\u305d\u306e\u74b0\u982d\u5927\u5200 / \u7a74\u6ca2\u548c\u5149\u8457. \u4e21\u5510\u66f8\u5fd7\u8868\u7ba1\u7aba / \u6c60\u7530\u6e29\u8457. \u77e5\u6075\u306e\u8db3\u8de1 / \u6c60\u7530\u88d5\u8457. \u4e00\u516d\u4e09\u4e8c\u5e74\u306b\u30a2\u30f3\u30b3\u30fc\u30eb\u30fb\u30ef\u30c3\u30c8\u3092\u8a2a\u308c\u305f\u68ee\u672c\u53f3\u8fd1\u592a\u592b\u4e00\u623f\u306e\u6d88\u606f / \u77f3\u6fa4\u826f\u662d\u8457. \u30a2\u30e9\u30d3\u30a2\u30f3\u30fb\u30ca\u30a4\u30c8\u306e\u5869 / \u4e95\u4e0a\u745e\u5b50\u8457. \u86d9\u795e\u4e8b\u306e\u6e90\u6d41 / \u4e95\u672c\u82f1\u4e00\u8457. \u592a\u967d\u306e\u8f1d\u304f\u56fd\u300c\u65e5\u672c\u300d / \u30a4\u30fc\u30e9\u30b8\u30e5\u30fb\u30a2\u30d5\u30b7\u30e3\u30fc\u30eb\u8457 ; \u7fbd\u7530\u4ea8\u4e00\u8a33. \u4e2d\u592e\u30a2\u30ca\u30c8\u30ea\u30a2\u306e\u523b\u6587\u571f\u5668 / \u5927\u6751\u5e78\u5f18\u8457. \u30da\u30eb\u30b7\u30a2\u6587\u5b66\u306b\u304a\u3051\u308b\u5973\u6027\u50cf\u306e\u6607\u83ef / \u5ca1\u7530\u6075\u7f8e\u5b50\u8457. \u30be\u30ed\u30a2\u30b9\u30bf\u30fc\u654e\u3068\u795e\u79d8\u4e3b\u7fa9 / \u5ca1\u7530\u660e\u61b2\u8457. \u30df\u30c8\u30e9\u30b9\u654e\u3068\u30b3\u30de\u30b2\u30cd / \u5c0f\u5ddd\u82f1\u96c4\u8457. \u30a4\u30b9\u30e9\u30a8\u30eb\u56fd\u30a8\u30f3\u30fb\u30b2\u30f4\u907a\u8de1\u7b2c\u4e03\u6b21\u767a\u6398\u8abf\u67e5\u901f\u5831 / \u7f6e\u7530\u96c5\u662d\u8457. \u53e4\u4ee3\u30a4\u30e9\u30f3\u306e\u5c04\u793c\u3068\u738b\u6a29 / \u5965\u897f\u5cfb\u4ecb\u8457. \u30d5\u30a1\u30e9\u30fc\u30c6\u30a3\u30fc(falati)\u8003 / \u52a0\u85e4\u535a\u8457. [\u30b1\u30c4]\u3068\u73e5\u3068[\u30b1\u30c4]\u72b6\u8033\u98fe / \u91d1\u95a2\u6055\u8457. \u30eb\u30cd\u30b5\u30f3\u30b9\u6642\u4ee3\u306b\u304a\u3051\u308b\u30d8\u30d6\u30e9\u30a4\u8a9e\u5370\u5237\u306e\u8a95\u751f / \u6a3a\u5c71\u7d18\u4e00\u8457. \u3008\u539f\u521d\u306e\u5951\u7d04\u3009\u3068\u30a4\u30b9\u30e9\u30fc\u30e0\u306e\u795e\u79d8\u5bb6 / \u938c\u7530\u7e41\u8457. \u4e2d\u56fd\u9676\u78c1\u5668\u7247\u3068\u523b\u6587\u306b\u898b\u308b\u4e2d\u4e16\u30a4\u30f3\u30c9\u6d0b\u306e\u6771\u897f\u8cbf\u6613 / \u8f9b\u5cf6\u6607\u8457. \u30b7\u30ca\u30a4\u534a\u5cf6\u30ca\u30fc\u30af\u30fc\u30b9\u5c71\u306e\u30a2\u30e9\u30d3\u30a2\u8a9e\u5ca9\u58c1\u7891\u6587\u306b\u3064\u3044\u3066 / \u5ddd\u5e8a\u7766\u592b\u8457. \u300c\u6ce2\u65af\u300d\u570b\u306e\u6307\u3059\u3068\u3053\u308d / \u6df8\u702c\u7fa9\u4e09\u90ce\u5247\u5e9c\u8457. \u9752\u68ee\u770c\u5927\u9593\u753a\u306e\u5abd\u7956\u4fe1\u4ef0 / \u7aaa\u5fb3\u5fe0\u8457. \u30b7\u30ca\u30a4\u5c71\u3068\u30ac\u30f3\u30ac\u30fc\u6cb3\u304c\u547c\u3073\u3055\u307e\u3059\u3082\u306e / \u4e45\u4fdd\u7530\u5c55\u5f18\u8457. \u30a6\u30c7\u30a3\u30e4\u30fc\u30ca\u8a18 / \u6851\u5c71\u6b63\u9032\u8457. \u8056\u8005\u4f1d\u3068\u3057\u3066\u306e\u30e0\u30cf\u30f3\u30de\u30c9\u4f1d / \u5f8c\u85e4\u660e\u8457. \u307b\u304b34\u7de8\u5e74\u8b5c\u3042\u308a."
+          }
+        ],
+        "note": [
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "Mikasa no Miya Denka Beiju Kinen Ronshu\u0304 Kanko\u0304kai hen."
+          },
+          {
+            "@altRepGroup": "03",
+            "#text": "English title on last p.: Collected articles and essays in honour of His Imperial Highness Prince Mikasa on the occasion of his eighty-eighth birthday."
+          },
+          {
+            "@type": "bibliography",
+            "#text": "Includes list of works by Mikasa no Miya (pages vii-ix, 1st group)."
+          },
+          {
+            "@type": "bibliography",
+            "#text": "Includes bibliographical references."
+          },
+          {
+            "@type": "additional physical form",
+            "#text": "Also issued online."
+          },
+          {
+            "@type": "language",
+            "#text": "In Japanese and English; table of contents also in English."
+          },
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "\u4e09\u7b20\u5bae\u6bbf\u4e0b\u7c73\u5bff\u8a18\u5ff5\u8ad6\u96c6\u520a\u884c\u4f1a\u7de8."
+          },
+          {
+            "@altRepGroup": "03",
+            "#text": "\u4e09\u7b20\u5bae\u6bbf\u4e0b\u5fa1\u7565\u6b74\u30fb\u5fa1\u8457\u4f5c\u76ee\u9304:\u982dp1-9."
+          }
+        ],
+        "subject": [
+          {
+            "geographicCode": [
+              {
+                "@authority": "marcgac",
+                "#text": "a------"
+              },
+              {
+                "@authority": "marcgac",
+                "#text": "aw-----"
+              }
+            ]
+          },
+          {
+            "@authority": "lcsh",
+            "@altRepGroup": "05",
+            "name": {
+              "@type": "personal",
+              "namePart": [
+                "Mikasa no Miya Takahito",
+                {
+                  "@type": "termsOfAddress",
+                  "#text": "Prince, son of Taisho\u0304, Emperor of Japan"
+                },
+                {
+                  "@type": "date",
+                  "#text": "1915-2016"
+                }
+              ]
+            }
+          },
+          {
+            "@authority": "fast",
+            "name": {
+              "@type": "personal",
+              "namePart": [
+                "Mikasa no Miya Takahito",
+                {
+                  "@type": "termsOfAddress",
+                  "#text": "Prince, son of Taisho\u0304, Emperor of Japan"
+                },
+                {
+                  "@type": "date",
+                  "#text": "1915-2016"
+                }
+              ]
+            }
+          },
+          {
+            "@authority": "jlabsh/3",
+            "@altRepGroup": "06",
+            "topic": "Sekaishi-Kodai"
+          },
+          {
+            "@authority": "fast",
+            "topic": "Study skills"
+          },
+          {
+            "@authority": "lcsh",
+            "geographic": [
+              "Asia",
+              "Japan"
+            ],
+            "topic": "Study and teaching"
+          },
+          {
+            "@authority": "lcsh",
+            "geographic": [
+              "Middle East",
+              "Japan"
+            ],
+            "topic": "Study and teaching"
+          },
+          {
+            "@authority": "fast",
+            "geographic": "Asia"
+          },
+          {
+            "@authority": "fast",
+            "geographic": "Japan"
+          },
+          {
+            "@authority": "fast",
+            "geographic": "Middle East"
+          },
+          {
+            "@altRepGroup": "05",
+            "name": {
+              "@type": "personal",
+              "namePart": [
+                "\u4e09\u7b20\u5bae\u5d07\u4ec1",
+                {
+                  "@type": "termsOfAddress",
+                  "#text": "Prince, Son of Taisho\u0304, Emperor of Japan"
+                },
+                {
+                  "@type": "date",
+                  "#text": "1915-"
+                }
+              ]
+            }
+          },
+          {
+            "@authority": "jlabsh/3",
+            "@altRepGroup": "06",
+            "topic": "\u4e16\u754c\u53f2-\u53e4\u4ee3"
+          }
+        ],
+        "classification": [
+          {
+            "@authority": "lcc",
+            "#text": "DS32.9.J3 M55 2004"
+          },
+          {
+            "@authority": "njb",
+            "#text": "041.3"
+          },
+          {
+            "@authority": "njb/9",
+            "#text": "209.3"
+          }
+        ],
+        "identifier": [
+          {
+            "@type": "isbn",
+            "#text": "4887083343"
+          },
+          {
+            "@type": "isbn",
+            "#text": "9784887083349"
+          },
+          {
+            "@type": "oclc",
+            "#text": "57566212"
+          }
+        ],
+        "relatedItem": {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990100134410203941/catalog"
+          }
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "DS32.9.J3 M55 2004"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990100134410203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "010013441"
+                }
+              },
+              "processingDate": "2022-10-06T08:33Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "descriptionStandard": "aacr",
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "LWU"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "041222"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20170214"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990100134410203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)",
+          "languageOfCataloging": {
+            "languageTerm": {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "eng"
+            }
+          }
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "02",
+            "title": "Yin bing shi he ji"
+          },
+          {
+            "@type": "alternative",
+            "@altRepGroup": "08",
+            "title": "Yin bing shi wen ji"
+          },
+          {
+            "@type": "alternative",
+            "@altRepGroup": "09",
+            "title": "Yin bing shi zhuan ji"
+          },
+          {
+            "@altRepGroup": "02",
+            "title": "\u98ee\u51b0\u5ba4\u5408\u96c6"
+          },
+          {
+            "@type": "alternative",
+            "@altRepGroup": "08",
+            "title": "\u98ee\u51b0\u5ba4\u6587\u96c6"
+          },
+          {
+            "@type": "alternative",
+            "@altRepGroup": "09",
+            "title": "\u98ee\u51b0\u5ba4\u5c08\u96c6"
+          }
+        ],
+        "name": [
+          {
+            "@type": "personal",
+            "@altRepGroup": "01",
+            "namePart": [
+              "Liang, Qichao",
+              {
+                "@type": "date",
+                "#text": "1873-1929"
+              }
+            ],
+            "role": {
+              "roleTerm": {
+                "@type": "text",
+                "#text": "creator"
+              }
+            }
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "01",
+            "namePart": [
+              "\u6881\u555f\u8d85",
+              {
+                "@type": "date",
+                "#text": "1873-1929"
+              }
+            ]
+          }
+        ],
+        "typeOfResource": "text",
+        "genre": {
+          "@authority": "rdacontent",
+          "#text": "text"
+        },
+        "originInfo": [
+          {
+            "@altRepGroup": "0304",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "cc"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "China"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "Beijing"
+                }
+              }
+            ],
+            "publisher": [
+              "Zhonghua shu ju",
+              "Xin hua shu dian Beijing fa xing suo fa xing"
+            ],
+            "dateIssued": "1989",
+            "edition": "Di 1 ban.",
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "0304",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u5317\u4eac :"
+              }
+            },
+            "publisher": "\u4e2d\u83ef\u66f8\u5c40 :",
+            "dateIssued": "1989.",
+            "edition": "\u7b2c1\u7248."
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "chi"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Chinese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": [
+            {
+              "@authority": "marcform",
+              "#text": "print"
+            },
+            {
+              "@type": "media",
+              "@authority": "rdamedia",
+              "#text": "unmediated"
+            },
+            {
+              "@type": "carrier",
+              "@authority": "rdacarrier",
+              "#text": "volume"
+            }
+          ],
+          "extent": "12 volumes : portrait ; 21 cm"
+        },
+        "tableOfContents": [
+          {
+            "@altRepGroup": "07",
+            "#text": "volume 1. wen ji 1-9 -- volume 2. wen ji 10-19 -- volume 3. wen ji 20-26 -- volume 4. wen ji 27-37 -- volume 5. wen ji 38-45 -- volume 6. zhuan ji 1-21 -- volume 7. zhuan ji 22-29 -- volume 8. zhuan ji 30-45 -- volume 9. zhuan ji 46-72 -- volume 10. zhuan ji 73-87 -- volume 11. zhuan ji 88-95 -- volume 12. zhuan ji 96-104."
+          },
+          {
+            "@altRepGroup": "07",
+            "#text": "volume 1. \u6587\u96c61-9 -- volume 2. \u6587\u96c610-19 -- volume 3. \u6587\u96c620-26 -- volume 4. \u6587\u96c627-37 -- volume 5. \u6587\u96c638-45 -- volume 6. \u5c08\u96c61-21 -- volume 7. \u5c08\u96c622-29 -- volume 8. \u5c08\u96c630-45 -- volume 9. \u5c08\u96c646-72 -- volume 10. \u5c08\u96c673-87 -- volume 11. \u5c08\u96c688-95 -- volume 12. \u5c08\u96c696-104."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 1 (\u6587\u96c61-9). \u98ee\u51b0\u5ba4\u5408\u96c6\u5e8f(\u6797\u5fd7\u921e). \u8b8a\u6cd5\u901a\u8b70. \u8ad6\u4e2d\u570b\u5b9c\u8b1b\u6c42\u6cd5\u5f8b\u4e4b\u5b78. \u53e4\u8b70\u9662\u8003. \u8ad6\u4e2d\u570b\u7a4d\u5f31\u7531\u65bc\u9632\u5f0a. \u8ad6\u5831\u9928\u6709\u76ca\u65bc\u570b\u4e8b. \u8ad6\u52a0\u7a05. \u4e0a\u5357\u76ae\u5f35\u5c1a\u66f8\u66f8. \u8207\u56b4\u5e7c\u9675\u5148\u751f\u66f8. \u8207\u788e\u4f5b\u66f8. \u8207\u5433\u5b63\u6e05\u66f8. \u8aaa\u6a59. \u4e09\u5148\u751f\u50b3. \u8a18\u6c5f\u897f\u5eb7\u5973\u58eb. \u6212\u7e8f\u8db3\u6703\u6558. \u897f\u5b78\u66f8\u76ee\u8868\u5e8f\u4f8b. \u897f\u5b78\u66f8\u76ee\u8868\u5f8c\u5e8f. \u897f\u66f8\u63d0\u8981\u8fb2\u5b78\u7e3d\u5e8f. \u8fb2\u6703\u5831\u5e8f. \u9069\u53ef\u9f4b\u8a18\u8a00\u8a18\u884c\u5e8f. \u6c88\u6c0f\u97f3\u66f8\u5e8f. \u5730\u540d\u97fb\u8a9e\u5e8f. \u8aaa\u7fa4\u5e8f. \u8ad6\u541b\u653f\u6c11\u653f\u76f8\u5b17\u4e4b\u7406. \u8ad6\u4e2d\u570b\u4e4b\u5c07\u5f37. \u6cbb\u59cb\u65bc\u9053\u8def\u8aaa. \u5021\u8a2d\u5973\u5b78\u5802\u555f. \u8a66\u8fa6\u4e0d\u7e8f\u8db3\u6703\u7c21\u660e\u7ae0\u7a0b. \u6e56\u5357\u6642\u52d9\u5b78\u5802\u5b78\u7d04. \u8a18\u6771\u4fe0. \u8a18\u5c1a\u8ce2\u5802. \u8a18\u81ea\u5f37\u8ecd. \u842c\u6728\u8349\u5802\u5c0f\u5b78\u5b78\u8a18. \u53f2\u8a18\u8ca8\u6b96\u5217\u50b3\u4eca\u7fa9. \u7d93\u4e16\u6587\u65b0\u7de8\u5e8f. \u6625\u79cb\u4e2d\u570b\u5937\u72c4\u8fa8\u5e8f. \u65e5\u672c\u570b\u5fd7\u5f8c\u5e8f. \u4e2d\u570b\u5de5\u85dd\u5546\u696d\u8003\u63d0\u8981. \u8b80\u65e5\u672c\u66f8\u76ee\u5fd7\u66f8\u5f8c. \u8403\u5831\u6558. \u8499\u5b78\u5831\u6f14\u7fa9\u5831\u5408\u6558. \u5927\u540c\u8b6f\u66f8\u5c40\u6558\u4f8b. \u8836\u52d9\u689d\u9673\u6558. \u7e8c\u8b6f\u5217\u570b\u6b72\u8a08\u653f\u8981\u6558. \u65b0\u5b78\u507d\u7d93\u8003\u6558. \u897f\u653f\u53e2\u66f8\u6558. \u5357\u5b78\u6703\u6558. \u77e5\u6065\u5b78\u6703\u6558. \u91ab\u5b78\u5584\u6703\u5e8f. \u77e5\u65b0\u5831\u6558\u4f8b. \u8207\u6797\u8fea\u81e3\u592a\u5b88\u66f8. \u81f4\u4f0d\u79e9\u5eb8\u661f\u4f7f\u66f8. \u6628\u53cb\u4eba\u8ad6\u4fdd\u6559\u66f8. \u548c\u5289\u53e4\u611a\u5c71\u5de5\u66f8. \u8b80\u6625\u79cb\u754c\u8aaa. \u8b80\u5b5f\u5b50\u754c\u8aaa. \u516c\u8eca\u4e0a\u66f8\u8acb\u8b8a\u901a\u79d1\u8209\u6298. \u842c\u6728\u8349\u5802\u66f8\u85cf\u5fb5\u6350\u570b\u66f8\u555f. \u4fdd\u570b\u6703\u6f14\u8aaa\u8a5e. \u6e05\u8b70\u5831\u6558\u4f8b. \u4ec1\u5b78\u5e8f. \u4fc4\u571f\u6230\u7d00\u6558. \u8b6f\u5370\u653f\u6cbb\u5c0f\u8aaa\u5e8f. \u7d00\u5e74\u516c\u7406. \u8aaa\u52d5."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u8ad6\u6e56\u5357\u61c9\u8fa6\u4e4b\u4e8b. \u8ad6\u4e2d\u570b\u4eba\u7a2e\u4e4b\u5c07\u4f86. \u8ad6\u652f\u90a3\u5b97\u6559\u6539\u9769. \u570b\u6c11\u5341\u5927\u5143\u6c23\u8ad6. \u611b\u570b\u8ad6. \u5546\u6703\u8b70. \u8ad6\u5546\u696d\u6703\u8b70\u6240\u4e4b\u76ca. \u8ad6\u5167\u5730\u96dc\u5c45\u8207\u5546\u52d9\u95dc\u4fc2. \u74dc\u5206\u5371\u8a00. \u4ea1\u7f8a\u9304(\u4e00\u540d\u4e19\u7533\u4ee5\u4f86\u5916\u4ea4\u53f2). \u8ad6\u8fd1\u4e16\u570b\u6c11\u7af6\u722d\u4e4b\u5927\u52e2\u53ca\u4e2d\u570b\u524d\u9014. \u8ad6\u4e2d\u570b\u8207\u6b50\u6d32\u570b\u9ad4\u7570\u540c. \u8ad6\u652f\u90a3\u7368\u7acb\u4e4b\u5be6\u529b\u8207\u65e5\u672c\u6771\u65b9\u653f\u7b56. \u5404\u570b\u61b2\u6cd5\u7570\u540c\u8ad6. \u65e5\u672c\u6a6b\u6ff1\u4e2d\u570b\u5927\u540c\u5b78\u6821\u7de3\u8d77. \u8ad6\u5b78\u65e5\u672c\u6587\u4e4b\u76ca. \u6771\u7c4d\u6708\u65e6. \u7acb\u61b2\u6cd5\u8b70. \u5c11\u5e74\u4e2d\u570b\u8aaa. \u4e2d\u570b\u7a4d\u5f31\u6eaf\u6e90\u8ad6. \u5341\u7a2e\u5fb7\u6027\u76f8\u53cd\u76f8\u6210\u7fa9. \u8ad6\u4eca\u65e5\u5404\u570b\u5f85\u4e2d\u570b\u4e4b\u5584\u6cd5. \u4e0a\u7ca4\u7763\u674e\u50b3\u76f8\u66f8. \u4e0a\u9102\u7763\u5f35\u5236\u8ecd\u66f8. \u8907\u91d1\u5c71\u4e2d\u83ef\u6703\u9928\u66f8. \u5475\u65c1\u89c0\u8005\u6587. \u4e2d\u570b\u53f2\u6558\u8ad6. \u570b\u5bb6\u601d\u60f3\u8b8a\u9077\u7570\u540c\u8ad6. \u582f\u821c\u70ba\u4e2d\u570b\u4e2d\u592e\u541b\u6b0a\u6feb\u89f4\u8003. \u904e\u6e21\u6642\u4ee3\u8ad6. \u6ec5\u570b\u65b0\u6cd5\u8ad6. \u6e05\u8b70\u5831\u4e00\u767e\u518a\u795d\u8fad\u4e26\u8ad6\u5831\u9928\u4e4b\u8cac\u4efb\u53ca\u672c\u9928\u4e4b\u7d93\u6b77. \u5357\u6d77\u5eb7\u5148\u751f\u50b3. \u970d\u5e03\u58eb\u5b78\u6848HOBBES. \u65af\u7247\u632a\u838e\u5b78\u6848BARUCH SPINOZA. \u76e7\u68ad\u5b78\u6848JEAN JACQUES ROUSSEAU. \u8ad6\u5b78\u8853\u4e4b\u52e2\u529b\u5de6\u53f3\u4e16\u754c. \u8ad6\u4e2d\u570b\u5b78\u8853\u601d\u60f3\u8b8a\u9077\u4e4b\u5927\u52e2. \u65b0\u6c11\u8b70. \u4e2d\u570b\u6539\u9769\u8ca1\u653f\u79c1\u6848. \u65b0\u53f2\u5b78. \u6559\u80b2\u653f\u7b56\u79c1\u8b70. \u91cb\u9769. \u8ad6\u5b97\u6559\u5bb6\u8207\u54f2\u5b78\u5bb6\u4e4b\u9577\u77ed\u5f97\u5931. \u4fdd\u6559\u975e\u6240\u4ee5\u5c0a\u5b54\u8ad6. \u4e2d\u570b\u5c08\u5236\u653f\u6cbb\u9032\u5316\u53f2\u8ad6. \u8ad6\u5c08\u5236\u653f\u9ad4\u6709\u767e\u5bb3\u65bc\u541b\u4e3b\u800c\u7121\u4e00\u5229. \u8ad6\u7acb\u6cd5\u6b0a --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 2 (\u6587\u96c610-19). \u8ad6\u653f\u5e9c\u8207\u4eba\u6c11\u4e4b\u6b0a\u9650. \u8ad6\u5c0f\u8aaa\u8207\u7fa4\u6cbb\u4e4b\u95dc\u4fc2. \u8ad6\u6c11\u65cf\u7af6\u722d\u4e4b\u5927\u52e2. \u4e2d\u570b\u53f2\u4e0a\u4eba\u53e3\u4e4b\u7d71\u8a08. \u8ad6\u4f5b\u6559\u8207\u7fa4\u6cbb\u4e4b\u95dc\u4fc2. \u8ad6\u6559\u80b2\u7576\u5b9a\u5b97\u65e8. \u653f\u6cbb\u5b78\u5b78\u7406\u646d\u8a00. \u4e9e\u6d32\u5730\u7406\u5927\u52e2\u8ad6. \u4e2d\u570b\u5730\u7406\u5927\u52e2\u8ad6. \u6b50\u6d32\u5730\u7406\u5927\u52e2\u8ad6. \u5730\u7406\u8207\u6587\u660e\u4e4b\u95dc\u4fc2. \u8ad6\u7f8e\u975e\u82f1\u793e\u4e4b\u6230\u4e8b\u95dc\u4fc2\u65bc\u4e2d\u570b. \u4e09\u5341\u81ea\u8ff0. \u656c\u544a\u7559\u5b78\u751f\u8af8\u541b. \u656c\u544a\u7576\u9053\u8005. \u656c\u544a\u6211\u540c\u696d\u8af8\u541b. \u7b54\u98db\u751f. \u7b54\u548c\u4e8b\u4eba. \u7b54\u67d0\u541b\u554f\u5fb7\u570b\u65e5\u672c\u88c1\u6291\u6c11\u6b0a\u4e8b. \u751f\u8a08\u5b78\u7522\u6cbf\u9769\u5c0f\u53f2. \u8ad6\u5e0c\u81d8\u53e4\u4ee3\u5b78\u8853. \u4e9e\u91cc\u58eb\u591a\u5fb7\u4e4b\u653f\u6cbb\u5b78\u8aaa. \u9032\u5316\u8ad6\u9769\u547d\u8005\u9821\u5fb7\u4e4b\u5b78\u8aaa. \u8fd1\u4e16\u6587\u660e\u521d\u7956\u4e8c\u5927\u5bb6\u4e4b\u5b78\u8aaa. \u5929\u6f14\u5b78\u521d\u7956\u9054\u723e\u6587\u4e4b\u5b78\u8aaa\u53ca\u5176\u7565\u50b3. \u6cd5\u7406\u5b78\u5927\u5bb6\u5b5f\u5fb7\u65af\u9ce9\u4e4b\u5b78\u8aaa. \u6a02\u5229\u4e3b\u7fa9\u6cf0\u6597\u908a\u6c81\u4e4b\u5b78\u8aaa. \u8fd1\u4e16\u7b2c\u4e00\u5927\u54f2\u5eb7\u5fb7\u4e4b\u5b78\u8aaa. \u653f\u6cbb\u5b78\u5927\u5bb6\u4f2f\u502b\u5728\u7406\u4e4b\u5b78\u8aaa. \u8ad6\u4e2d\u570b\u570b\u6c11\u4e4b\u54c1\u683c. \u8ad6\u7368\u7acb. \u670d\u5f9e\u91cb\u7fa9. \u8aaa\u5e0c\u671b. \u656c\u544a\u4e2d\u570b\u570b\u6c11. \u7b54\u67d0\u541b\u554f\u8fa6\u7406\u5357\u6d0b\u516c\u5b78\u5584\u5f8c\u4e8b\u5b9c. \u7b54\u67d0\u541b\u554f\u65e5\u672c\u7981\u6b62\u6559\u79d1\u66f8\u4e8b. \u7b54\u67d0\u541b\u554f\u6cd5\u570b\u7981\u6b62\u6c11\u6b0a\u81ea\u7531\u4e4b\u8aaa. \u65e5\u672c\u4e4b\u671d\u9bae. \u4e8c\u5341\u4e16\u7d00\u4e4b\u5de8\u9748\uff1a\u6258\u8fa3\u65af. \u4e16\u754c\u5c07\u4f86\u5927\u52e2\u8ad6. \u65e5\u4fc4\u6230\u5f79\u95dc\u65bc\u570b\u793a\u6cd5\u4e0a\u4e2d\u570b\u4e4b\u5730\u4f4d\u53ca\u5404\u7a2e\u554f\u984c. \u8ad6\u4fc4\u7f85\u65af\u865b\u7121\u9ee8. \u4e2d\u570b\u6b77\u53f2\u4e0a\u9769\u547d\u4e4b\u7814\u7a76. \u4e2d\u570b\u6cd5\u7406\u5b78\u767c\u9054\u53f2\u8ad6. \u8ad6\u4e2d\u570b\u6210\u6587\u6cd5\u7de8\u5236\u4e4b\u6cbf\u9769\u5f97\u5931. \u5916\u8cc7\u8f38\u5165\u554f\u984c. \u4e2d\u570b\u8ca8\u5e63\u554f\u984c. \u8fd1\u4e16\u4e2d\u570b\u79d8\u53f2\u5e8f. \u9918\u4e4b\u6b7b\u751f\u89c0. \u91cd\u5370\u912d\u6240\u5357\u5fc3\u53f2\u5e8f. \u958b\u660e\u5c08\u5236\u8ad6. \u99c1\u67d0\u5831\u4e4b\u571f\u5730\u570b\u6709\u8ad6. \u7b54\u67d0\u5831\u7b2c\u56db\u865f\u5c0d\u65bc\u65b0\u6c11\u53e2\u5831\u4e4b\u99c1\u8ad6\uff08\u9644\u9304\u539f\u6587\uff09. \u7533\u8ad6\u7a2e\u65cf\u9769\u547d\u8207\u653f\u6cbb\u9769\u547d\u4e4b\u5f97\u5931. \u73fe\u653f\u5e9c\u8207\u9769\u547d\u9ee8. \u66b4\u52d5\u8207\u5916\u570b\u5e72\u6d89. \u95dc\u7a05\u6b0a\u554f\u984c. \u4e16\u754c\u53f2\u4e0a\u5ee3\u6771\u4e4b\u4f4d\u7f6e. \u4fc4\u7f85\u65af\u9769\u547d\u4e4b\u5f71\u97ff --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 3 (\u6587\u96c620-26). \u793e\u6703\u4e3b\u7fa9\u8ad6\u5e8f. \u4e16\u754c\u5927\u52e2\u6709\u4e2d\u570b\u524d\u9014. \u653f\u6cbb\u8207\u4eba\u6c11. \u653f\u805e\u793e\u5ba3\u8a00\u66f8. \u570b\u6587\u8a9e\u539f\u89e3. \u4e2d\u570b\u53e4\u4ee3\u5e63\u6750\u8003. \u5f35\u6070\u9435\u8def\u554f\u984c. \u57ce\u93ae\u9109\u81ea\u6cbb\u7ae0\u7a0b\u8cea\u7591. \u8ad6\u5404\u570b\u5e72\u6d89\u4e2d\u570b\u8ca1\u653f\u4e4b\u52d5\u6a5f. \u767c\u884c\u516c\u50b5\u6574\u7406\u5b98\u9214\u63a8\u884c\u570b\u5e63\u8aaa\u5e16. \u8ad6\u570b\u6c11\u5b9c\u4e9f\u6c42\u8ca1\u653f\u5e38\u8b58. \u5404\u7701\u6feb\u9444\u9285\u5143\u5c0f\u53f2. \u8ad6\u4e2d\u570b\u570b\u6c11\u751f\u8a08\u4e4b\u5371\u6a5f. \u516c\u50b5\u653f\u7b56\u4e4b\u5148\u6c7a\u554f\u984c. \u5730\u65b9\u8ca1\u653f\u5148\u6c7a\u554f\u984c. \u8ad6\u5730\u65b9\u7a05\u8207\u570b\u7a05\u4e4b\u95dc\u4fc2. \u570b\u6c11\u7c4c\u9084\u570b\u50b5\u554f\u984c. \u518d\u8ad6\u7c4c\u9084\u570b\u50b5\u6703. \u511f\u9084\u570b\u50b5\u610f\u898b\u66f8. \u8ad6\u76f4\u96b8\u6e56\u5317\u5b89\u5fbd\u4e4b\u5730\u65b9\u516c\u50b5. \u8ad6\u5e63\u5236\u9812\u5b9a\u4e4b\u9072\u901f\u7cfb\u570b\u5bb6\u4e4b\u5b58\u4ea1. \u683c\u91cc\u68ee\u8ca8\u5e63\u539f\u5247\u8aaa\u7565. \u656c\u544a\u570b\u4e2d\u4e4b\u8ac7\u5be6\u696d\u8005. \u5e63\u5236\u689d\u8b70. \u7bc0\u7701\u653f\u8cbb\u554f\u984c. \u5916\u50b5\u5e73\u8b70. \u570b\u5bb6\u904b\u547d\u8ad6. \u8aaa\u5e38\u8b58. \u8aaa\u653f\u7b56. \u70ba\u570b\u6709\u671f\u9650\u554f\u984c\u656c\u544a\u570b\u4eba. \u8ad6\u8acb\u9858\u570b\u6703\u7576\u8207\u8acb\u9858\u653f\u5e9c\u4e26\u884c. \u61b2\u653f\u6dfa\u8aaa. \u570b\u6703\u8207\u7fa9\u52d9. \u7acb\u61b2\u653f\u9ad4\u8207\u653f\u6cbb\u9053\u5fb7. \u8cac\u4efb\u5167\u95a3\u8207\u653f\u6cbb\u5bb6. \u5b98\u5236\u8207\u5b98\u898f. \u5916\u5b98\u5236\u79c1\u8b70. \u4e2d\u570b\u5916\u4ea4\u65b9\u91dd\u79c1\u8b70. \u570b\u6703\u958b\u6703\u671f\u8207\u6703\u8a08\u5e74\u5ea6\u958b\u59cb\u671f. \u8b80\u65e5\u672c\u5927\u9688\u4f2f\u7235\u958b\u570b\u4e94\u5341\u5e74\u53f2\u66f8\u5f8c."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u6539\u9e7d\u6cd5\u8b70. \u4e2d\u570b\u570b\u6703\u5236\u5ea6\u79c1\u8b70. \u73fe\u4eca\u5168\u4e16\u754c\u7b2c\u4e00\u5927\u4e8b. \u82f1\u570b\u653f\u754c\u5287\u722d\u8a18. \u570b\u98a8\u5831\u6558\u4f8b. \u8b80\u8fb2\u5de5\u5546\u90e8\u7c4c\u501f\u52f8\u696d\u5bcc\u7c3d\u516c\u50b5\u6298\u66f8\u5f8c. \u8aee\u8b70\u5c40\u6b0a\u9650\u8077\u52d9\u5341\u8ad6. \u897f\u85cf\u6230\u4e82\u554f\u984c. \u65b0\u8ecd\u6ecb\u4e8b\u611f\u8a00. \u8ecd\u6a5f\u5927\u81e3\u7f72\u540d\u8207\u7acb\u61b2\u570b\u4e4b\u570b\u52d9\u5927\u81e3\u526f\u7f72. \u99ad\u85cf\u653f\u7b56\u4e4b\u6628\u4eca. \u6e58\u4e82\u611f\u8a00. \u8b80\u5ea6\u652f\u90e8\u594f\u5831\u5404\u7701\u8ca1\u653f\u6298\u66f8\u5f8c. \u8b80\u5ea6\u652f\u90e8\u594f\u5b9a\u8a66\u8fa6\u8c6b\u7b97\u5927\u6982\u60c5\u5f62\u647a\u53ca\u518a\u5f0f\u66f8\u5f8c. \u570b\u6703\u671f\u9650\u554f\u984c. \u9326\u611b\u9435\u8def\u554f\u984c. \u6eff\u6d32\u9435\u8def\u4e2d\u7acb\u554f\u984c. \u81fa\u8aeb\u8fd1\u4e8b\u611f\u8a00. \u7c73\u7981\u5371\u8a00. \u8b80\u5e63\u5236\u5247\u4f8b\u53ca\u5ea6\u652f\u90e8\u7c4c\u8fa6\u8af8\u6298\u66f8\u5f8c. \u8ad6\u653f\u5e9c\u963b\u6493\u570b\u6703\u4e4b\u975e. \u8cc7\u653f\u9662\u7ae0\u7a0b\u8cea\u7591. \u8461\u8404\u7259\u9769\u547d\u4e4b\u539f\u56e0\u53ca\u5176\u5c07\u4f86. \u4e2d\u570b\u6700\u8fd1\u5e02\u9762\u6050\u614c\u4e4b\u539f\u56e0. \u8b80\u5341\u6708\u521d\u4e09\u65e5: \u4e0a\u8aed\u611f\u8a00. \u8a55\u4e00\u842c\u842c\u5713\u4e4b\u65b0\u5916\u50b5. \u8ad6\u8cc7\u653f\u9662\u4e4b\u5929\u8077. \u4e99\u53e4\u672a\u805e\u4e4b\u8c6b\u7b97\u6848. \u8a55\u65b0\u5b98\u5236\u4e4b\u526f\u5927\u81e3. \u6731\u8aed\u8207\u7acb\u61b2\u653f\u9ad4. \u8a55\u8cc7\u653f\u9662. \u5c07\u4f86\u767e\u8ad6. \u6539\u7528\u592a\u967d\u66c6\u6cd5\u8b70. \u8aaa\u570b\u98a8\u4e0a. \u8aaa\u570b\u98a8\u4e2d. \u8aaa\u570b\u98a8\u4e0b. \u5b78\u8207\u8853. \u4e2d\u4fc4\u4ea4\u6d89\u8207\u6642\u5c40\u4e4b\u5371\u6a5f. \u70ba\u7c4c\u5236\u5ba3\u7d71\u56db\u5e74\u9810\u7b97\u6848\u4e8b\u656c\u544a\u90e8\u81e3\u53ca\u7586\u540f. \u8ad6\u653f\u5e9c\u9055\u6cd5\u501f\u50b5\u4e4b\u7f6a. \u70ba\u5ddd\u6f22\u9435\u8def\u4e8b\u656c\u544a\u5168\u8700\u7236\u8001. \u8ad6\u908a\u9632\u9435\u8def. \u6536\u56de\u5e79\u7dda\u9435\u8def\u554f\u984c. \u4e2d\u570b\u524d\u9014\u4e4b\u5e0c\u671b\u8207\u570b\u6c11\u8cac\u4efb. \u50e5\u5016\u8207\u79e9\u5e8f. \u5c0d\u5916\u8207\u5c0d\u5167. \u653f\u9ee8\u8207\u653f\u6cbb\u4e0a\u4e4b\u4fe1\u689d. \u7acb\u61b2\u570b\u8a54\u65e8\u4e4b\u7a2e\u985e\u53ca\u5176\u5728\u570b\u6cd5\u4e0a\u4e4b\u5730\u4f4d. \u656c\u544a\u570b\u4eba\u4e4b\u8aa4\u89e3\u61b2\u653f\u8005 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 4 (\u6587\u96c627-37). \u8cac\u4efb\u5167\u95a3\u91cb\u7fa9. \u65b0\u4e2d\u570b\u5efa\u8a2d\u554f\u984c. \u8207\u4e0a\u6d77\u67d0\u67d0\u7b49\u5831\u9928\u4e3b\u7b46\u66f8. \u5317\u4eac\u8abf\u67e5\u6236\u53e3\u4e4b\u5831\u544a\u00b7 \u6642\u4e8b\u96dc\u611f. \u4fc4\u570b\u8207\u9054\u8cf4\u5587\u561b\u00b7 \u6642\u4e8b\u96dc\u611f. \u6211\u653f\u5e9c\u4e4b\u5c0d\u4fc4\u653f\u7b56\u00b7 \u6642\u4e8b\u96dc\u611f. \u4fc4\u570b\u4e4b\u7b2c\u4e8c\u6b21\u54c0\u7684\u7f8e\u6566\u66f8 \u00b7 \u6642\u4e8b\u96dc\u611f. \u82f1\u7f8e\u8207\u82f1\u65e5\u00b7 \u6642\u4e8b\u96dc\u611f. \u55da\u547c\u4e00\u842c\u842c\u5713\u4e4b\u65b0\u5916\u50b5\u00b7 \u6642\u4e8b\u96dc\u611f. \u7ca4\u4e82\u611f\u8a00. \u9055\u5236\u8ad6. \u570b\u6c11\u7834\u7522\u4e4b\u5669\u5146. \u5229\u7528\u5916\u8cc7\u8207\u6d88\u8cbb\u5916\u8cc7\u4e4b\u8fa8. \u7bb4\u7acb\u6cd5\u5bb6. \u543e\u9ee8\u5c0d\u65bc\u4e0d\u63db\u7d19\u5e63\u4e4b\u610f\u898b. \u4e2d\u570b\u9053\u5fb7\u4e4b\u5927\u539f. \u653f\u7b56\u8207\u653f\u6cbb\u6a5f\u95dc. \u5c08\u8a2d\u61b2\u6cd5\u6848\u8d77\u8349\u6a5f\u95dc\u8b70. \u7701\u5236\u554f\u984c. \u4e2d\u570b\u7acb\u570b\u5927\u65b9\u91dd. \u9119\u4eba\u5c0d\u65bc\u8a00\u8ad6\u754c\u4e4b\u904e\u53bb\u53ca\u5c07\u4f86. \u5230\u4eac\u7b2c\u4e00\u6b21\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u5171\u548c\u9ee8\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u6c11\u4e3b\u9ee8\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u540c\u5b78\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u5ee3\u6771\u540c\u9109\u8336\u8a71\u6703\u6f14\u8aaa\u8fad. \u849e\u5317\u4eac\u5546\u6703\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u5317\u4eac\u516c\u6c11\u6703\u516b\u65d7\u751f\u8a08\u6703\u806f\u5408\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u4f5b\u6559\u7e3d\u6703\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u5c71\u897f\u7968\u5546\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u849e\u5317\u4eac\u5927\u5b78\u6821\u6b61\u8fce\u6703\u6f14\u8aaa\u8fad. \u7b54\u79ae\u8336\u8a71\u6703\u6f14\u8aaa\u8fad. \u6cbb\u6a19\u8ca1\u653f\u7b56. \u570b\u6027\u7bc7. \u7f6a\u8a00. \u61b2\u6cd5\u4e4b\u4e09\u5927\u7cbe\u795e. \u61b2\u6cd5\u554f\u984c\u6558. \u653f\u5e9c\u5927\u653f\u65b9\u91dd\u5ba3\u8a00\u66f8. \u540c\u610f\u6b0a\u8207\u89e3\u6563\u6b0a. \u8ecd\u4e8b\u8cbb\u554f\u984c\u7b54\u5ba2\u96e3. \u6697\u6bba\u4e4b\u7f6a\u60e1. \u570b\u6703\u4e4b\u81ea\u6bba. \u4e00\u5e74\u4f86\u4e4b\u653f\u8c61\u8207\u570b\u6c11\u7a0b\u5ea6\u4e4b\u6620\u5c04. \u5171\u548c\u9ee8\u4e4b\u5730\u4f4d\u8207\u5176\u614b\u5ea6. \u653f\u6cbb\u4e0a\u4e4b\u5c0d\u6297\u529b. \u591a\u6578\u653f\u6cbb\u4e4b\u8a66\u9a57. \u6b50\u6d32\u653f\u6cbb\u9769\u9032\u4e4b\u539f\u56e0. \u8aaa\u5e7c\u7a1a. \u9769\u547d\u76f8\u7e8c\u4e4b\u539f\u7406\u53ca\u5176\u60e1\u679c."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u8b80\u4e2d\u83ef\u6c11\u570b\u5927\u7e3d\u7d71\u9078\u8209\u6cd5. \u9032\u6b65\u9ee8\u64ec\u4e2d\u83ef\u6c11\u570b\u61b2\u6cd5\u8349\u6848. \u9032\u6b65\u9ee8\u653f\u52d9\u90e8\u7279\u8a2d\u61b2\u6cd5\u554f\u984c\u8a0e\u8ad6\u6703\u901a\u544a\u66f8. \u9032\u6b65\u9ee8\u8abf\u67e5\u653f\u8cbb\u610f\u898b\u66f8. \u656c\u544a\u653f\u9ee8\u53ca\u653f\u9ee8\u54e1. \u4e0a\u7e3d\u7d71\u66f8(\u8ca1\u653f\u554f\u984c). \u64ec\u5927\u7e3d\u7d71\u4ee4(\u6574\u9813\u53f8\u6cd5). \u4ee4\u4eac\u5916\u5404\u7d1a\u5be9\u6aa2\u5ef3. \u4ee4\u9ad8\u7b49\u5be9\u6aa2\u5ef3\u5de5. \u5448\u7e3d\u7d71\u6587(\u53f8\u6cd5\u554f\u984c). \u8ff0\u6b78\u570b\u5f8c\u4e00\u5e74\u4f86\u6240\u611f. \u8fad\u53f8\u6cd5\u7e3d\u9577\u8077\u5448\u6587. \u5e63\u5236\u689d\u4f8b\u7406\u7531\u66f8(\u674e\u7336\u9f8d\u7b46\u8ff0). \u9280\u884c\u88fd\u5ea6\u4e4b\u5efa\u8a2d. \u6574\u7406\u6feb\u767c\u7d19\u5e63\u8207\u5229\u7528\u516c\u50b5. \u64ec\u767c\u884c\u570b\u5e63\u532f\u514c\u5238\u8aaa\u5e16. \u826f\u77e5(\u4fd7\u8b58)\u8207\u5b78\u8b58\u4e4b\u8abf\u548c. \u4e2d\u83ef\u5927\u5b57\u5178\u5e8f. \u9e97\u97d3\u5341\u5bb6\u6587\u9214\u5e8f. \u9001\u4e00\u4e5d\u4e00\u56db\u5e74. \u4f59\u4e4b\u5e63\u5236\u91d1\u878d\u653f\u7b56. \u544a\u5c0f\u8aaa\u5bb6. \u6e05\u83ef\u5b78\u6821\u4e2d\u7b49\u79d1\u56db\u5e74\u7d1a\u5b78\u751f\u7562\u696d\u7d00\u5ff5\u518a\u5e8f. \u83f2\u65af\u7684\u4eba\u751f\u5929\u8077\u8ad6\u8ff0\u8a55. \u4e2d\u65e5\u4ea4\u6d89\u532f\u8a55. \u75db\u5b9a\u7f6a\u8a00. \u61b2\u6cd5\u8d77\u8349\u554f\u984c\u7b54\u5ba2\u554f. \u6b50\u6230\u8821\u6e2c. \u4e2d\u570b\u8207\u571f\u8033\u5176\u4e4b\u7570. \u5be6\u696d\u8207\u865b\u696d. \u653f\u6cbb\u4e4b\u57fa\u790e\u8207\u8a00\u8ad6\u5bb6\u4e4b\u6307\u91dd. \u656c\u8209\u5169\u8cea\u7fa9\u4fc3\u570b\u6c11\u4e4b\u81ea\u89ba. \u4f5c\u5b98\u8207\u8b00\u751f. \u543e\u4eca\u5f8c\u6240\u4ee5\u5831\u570b\u8005. \u50b7\u5fc3\u4e4b\u8a00. \u5b54\u5b50\u6559\u7fa9\u5be6\u969b\u88e8\u76ca\u65bc\u4eca\u65e5\u570b\u6c11\u8005\u4f55\u5728\u6b32\u660c\u660e\u4e4b\u5176\u9053\u4f55\u7531. \u5fa9\u53e4\u601d\u6f6e\u5e73\u8b70. \u912d\u8927\u88f3\u756b\u5f15. \u79cb\u87ea\u541f\u9928\u8a69\u9214\u5e8f. \u897f\u7586\u5efa\u7f6e\u6cbf\u9769\u8003\u5e8f. \u4eac\u5831\u589e\u520a\u570b\u6587\u795d\u8fad. \u5927\u4e2d\u83ef\u9aee\u520a\u8fad. \u8ad6\u4e2d\u570b\u8ca1\u653f\u5b78\u4e0d\u767c\u9054\u4e4b\u539f\u56e0\u53ca\u53e4\u4ee3\u8ca1\u653f\u5b78\u8aaa\u4e4b\u4e00\u6591. \u66fe\u6587\u6b63\u516c\u5609\u8a00\u9214\u5e8f. \u4e0a\u7e3d\u7d71\u66f8(\u570b\u9ad4\u554f\u984c). \u8881\u4e16\u51f1\u4e4b\u89e3\u5256. \u64f4\u5145\u5bcc\u6ec7\u9280\u884c\u4ee5\u6551\u570b\u5229\u5546\u8b70. \u756a\u79ba\u6e6f\u516c\u7565\u50b3. \u5357\u6d77\u738b\u516c\u7565\u50b3."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u65b0\u6703\u8b5a\u516c\u7565\u50b3. \u90b5\u967d\u8521\u516c\u7565\u50b3. \u9ebb\u54c8\u5433\u516c\u7565\u50b3. \u8cb4\u5b9a\u6234\u516c\u7565\u50b3. \u90fd\u52fb\u718a\u516c\u7565\u50b3. \u6c38\u5ddd\u9ec3\u516c\u7565\u50b3. \u66f8\u5289\u9053\u4e00\u70c8\u58eb\u50b3\u5f8c. \u653f\u5c40\u85e5\u8a00. \u5916\u4ea4\u65b9\u91dd\u8cea\u8a00(\u53c3\u6230\u554f\u984c). \u4f59\u8207\u6b64\u6b21\u5c0d\u5fb7\u5916\u4ea4\u4e4b\u95dc\u4fc2\u53ca\u5176\u6240\u4e3b\u5f35. \u53cd\u5c0d\u8907\u95e2\u96fb. \u4ee3\u6bb5\u797a\u745e\u8a0e\u5f35\u52db\u5fa9\u8f9f\u901a\u96fb. \u89e3\u653e\u8207\u6539\u9020\u767c\u520a\u8a5e. \u5916\u4ea4\u5931\u6557\u4e4b\u539f\u56e0\u53ca\u4eca\u5f8c\u570b\u6c11\u4e4b\u89ba\u609f. \u570b\u6c11\u81ea\u885b\u4e4b\u7b2c\u4e00\u7fa9. \u4e3b\u5f35\u570b\u6c11\u52d5\u8b70\u5236\u61b2\u4e4b\u7406\u7531. \u8ecd\u95a5\u99d0\u9b25\u8207\u570b\u6c11\u81ea\u885b. \u570b\u969b\u806f\u76df\u8ad6\u5e8f. \u5433\u6dde\u4e2d\u570b\u516c\u5b78\u5fc5\u8fa6\u5927\u5b78\u52df\u6350\u555f. \u6b50\u6d32\u6587\u85dd\u5fa9\u8208\u53f2\u5e8f. \u590d\u5f35\u6771\u84c0\u66f8\u8ad6\u793e\u6703\u4e3b\u7fa9\u904b\u52d5. \u653f\u6cbb\u904b\u52d5\u4e4b\u610f\u7fa9\u53ca\u50f9\u503c. \u5c0d\u65bc\u65e5\u672c\u63d0\u6848\u7b2c\u4e09\u689d\u4e4b\u6279\u8a55. \u5c0d\u65bc\u5317\u4eac\u570b\u6c11\u88c1\u5175\u904b\u52d5\u5927\u6703\u7684\u611f\u60f3. \u6b77\u53f2\u4e0a\u4e2d\u83ef\u570b\u6c11\u4e8b\u696d\u4e4b\u6210\u6557\u53ca\u4eca\u5f8c\u9769\u9032\u4e4b\u6a5f\u904b. \u81ea\u7531\u8b1b\u5ea7\u5236\u4e4b\u6559\u80b2. \u5f9e\u767c\u97f3\u4e0a\u7814\u7a76\u4e2d\u570b\u6587\u5b57\u4e4b\u6e90. \u9670\u967d\u4e94\u884c\u8aaa\u4e4b\u4f86\u6b77. \u8faf\u8ad6\u8853\u4e4b\u5be6\u7fd2\u8207\u5b78\u7406\u5e8f. \u5e73\u6c11\u6559\u80b2\u5b5f\u797f\u7279\u865f\u5e8f. \u6642\u4e8b\u65b0\u5831\u4e94\u5343\u865f\u7d00\u5ff5\u8fad. \u81f4\u5433\u5b50\u7389\u66f8. \u81f4\u984f\u99ff\u4eba\u66f8. \u4ee3\u718a\u79c9\u4e09\u76ea\u975c\u751f\u81f4\u8d99\u708e\u5348\u66f8. \u4ee3\u9ece\u5143\u6d2a\u7b49\u81f4\u8d99\u708e\u5348\u66f8. \u4ee3\u9ece\u5143\u6d2a\u7b49\u81f4\u856d\u8000\u5357\u66f8. \u4ee3\u9ece\u5143\u6d2a\u7b49\u81f4\u5433\u5b50\u7389\u66f8. \u65b0\u592a\u5e73\u6d0b\u767c\u520a\u8fad\u98ee\u51b0\u5ba4\u6587\u96c6\u4e4b\u4e09\u5341\u4e03. \u8f9b\u4ea5\u9769\u547d\u4e4b\u610f\u7fa9\u8207\u5341\u5e74\u96d9\u5341\u7bc0\u4e4b\u6a02\u89c0. \u592a\u5e73\u6d0b\u6703\u8b70\u4e2d\u5169\u7a2e\u5916\u8ad6\u95e2\u8b2c\u91cd\u756b\u4e2d\u570b\u7586\u571f\u8aaa\u8207\u570b\u969b\u5171\u7ba1\u8aaa. \u7121\u69cd\u968e\u7d1a\u5c0d\u6709\u69cd\u968e\u7d1a. \u5e02\u6c11\u8207\u9280\u884c. \u7e8c\u8ad6\u5e02\u6c11\u8207\u9280\u884c. \u5916\u4ea4\u6b5f\u5167\u653f\u6b5f. \u77e5\u4e0d\u53ef\u800c\u70ba\u4e3b\u7fa9\u8207\u70ba\u800c\u4e0d\u6709\u4e3b\u7fa9. \u6642\u52d9\u5b78\u5802\u7b54\u8a18\u6b98\u5377\u5e8f. \u4e2d\u570b\u97fb\u6587\u88e1\u982d\u6240\u8868\u73fe\u7684\u60c5\u611f --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 5 (\u6587\u96c638-45). \u5b5f\u797f\u8b1b\u6f14\u96c6\u5e8f. \u54c0\u544a\u8b70\u54e1. \u6211\u5c0d\u65bc\u5973\u5b50\u9ad8\u7b49\u6559\u80b2\u5e0c\u671b\u7279\u5225\u6ce8\u91cd\u7684\u5e7e\u7a2e\u5b78\u79d1. \u7f8e\u8853\u8207\u79d1\u5b78. \u8da3\u5473\u6559\u80b2\u8207\u6559\u80b2\u8da3\u5473. \u8a55\u975e\u5b97\u6559\u540c\u76df. \u4e2d\u570b\u5730\u7406\u6cbf\u9769\u5716\u5e8f. \u4e2d\u5b78\u570b\u53f2\u6559\u672c\u6539\u9020\u6848\u4e26\u76ee\u9304. \u60c5\u8056\u675c\u752b. \u8a55\u80e1\u9069\u4e4b\u4e2d\u570b\u54f2\u5b78\u53f2\u5927\u7db1. \u6559\u80b2\u8207\u653f\u6cbb. \u79d1\u5b78\u7cbe\u795e\u8207\u6771\u897f\u6587\u5316. \u6559\u80b2\u5bb6\u7684\u81ea\u5bb6\u7530\u5730. \u5b78\u554f\u4e4b\u8da3\u5473. \u751f\u7269\u5b78\u5728\u5b78\u8853\u754c\u4e4b\u4f4d\u7f6e. \u7f8e\u8853\u8207\u751f\u6d3b. \u656c\u696d\u8207\u6a02\u696d. \u6559\u80b2\u61c9\u7528\u7684\u9053\u5fb7\u516c\u6e96(\u5eb7\u701a, \u674e\u5112\u52c9). \u5e02\u6c11\u7684\u7fa4\u773e\u904b\u52d5\u4e4b\u610f\u7fa9\u53ca\u50f9\u503c. \u5c0d\u65bc\u96d9\u5341\u7bc0\u5317\u4eac\u570b\u6c11\u88c1\u5175\u904b\u52d5\u5927\u6703\u6240\u611f. \u4e94\u5341\u5e74\u4e2d\u570b\u9032\u5316\u6982\u8ad6. \u8fd1\u8457\u7b2c\u4e00\u8f2f\u5e8f. \u5c48\u539f\u7814\u7a76. \u6b77\u53f2\u7d71\u8a08\u5b78. \u4eba\u6b0a\u8207\u5973\u6b0a. \u8b77\u570b\u4e4b\u5f79\u56de\u9867\u8ac7. \u4ec0\u9ebc\u662f\u6587\u5316. \u70ba\u5b78\u8207\u505a\u4eba. \u6cbb\u570b\u5b78\u7684\u5169\u689d\u5927\u8def(\u674e\u7af6\u82b3\u8a18\u9304). \u7814\u7a76\u6587\u5316\u53f2\u7684\u5e7e\u500b\u91cd\u8981\u554f\u984c. \u5c0d\u65bc\u820a\u8457\u4e2d\u570b\u6b77\u53f2\u7814\u7a76\u6cd5\u4e4b\u4fee\u88dc\u53ca\u4fee\u6b63. \u6771\u5357\u5927\u5b78\u8ab2\u7562\u544a\u5225\u8fad(\u674e\u7af6\u82b3, \u738b\u89ba\u65b0\u7b46\u8a18). \u70ba\u6c5f\u8607\u7701\u8b70\u54e1\u6467\u6b98\u6559\u80b2\u4e8b\u8b66\u544a\u6c5f\u8607\u4eba\u6c11. \u6668\u5831\u589e\u520a\u7d93\u6fdf\u754c\u5e8f. \u6e58\u5831\u5e8f. \u967d\u660e\u5148\u751f\u50b3\u53ca\u967d\u660e\u5148\u751f\u5f1f\u5b50\u9304\u5e8f. \u7a37\u5c71\u8ad6\u66f8\u8a69\u5e8f. \u5df4\u9ece\u548c\u6703\u9810\u5099\u63d0\u6848\u5e8f. \u4eba\u751f\u89c0\u8207\u79d1\u5b78\u5c0d\u65bc\u5f35\u4e01\u8ad6\u6230\u7684\u6279\u8a55. \u95dc\u65bc\u7384\u5b78\u79d1\u5b78\u8ad6\u6230\u4e4b\u6230\u6642\u570b\u969b\u516c\u6cd5. \u66ab\u6642\u5c40\u5916\u4e2d\u7acb\u4eba\u6881\u555f\u8d85\u5ba3\u8a00."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u677e\u5761\u5716\u66f8\u9928\u8a18. \u9ec3\u68a8\u6d32\u6731\u821c\u6c34\u4e5e\u5e2b\u65e5\u672c\u8faf. \u6551\u707d\u540c\u5fd7\u6703\u516c\u555f(\u65e5\u5730\u9707). \u8207\u66f9\u4ef2\u73ca\u8ad6\u6642\u4e8b\u66f8. \u6234\u6771\u539f\u751f\u65e5\u4e8c\u767e\u5e74\u7d00\u5ff5\u6703\u7de3\u8d77. \u6234\u6771\u539f\u5148\u751f\u50b3. \u6234\u6771\u539f\u54f2\u5b78. \u6234\u6771\u539f\u8457\u8ff0\u7e82\u6821\u66f8\u76ee\u8003. \u6234\u6771\u539f\u5716\u66f8\u9928\u7de3\u8d77. \u81ea\u9451\u5e8f. \u6e05\u4ee3\u901a\u53f2\u5e8f. \u984f\u674e\u9ee8\u6d3e\u8207\u73fe\u4ee3\u6559\u80b2\u601d\u6f6e. \u660e\u6e05\u4e4b\u4ea4\u4e2d\u570b\u601d\u60f3\u754c\u53ca\u5176\u4ee3\u8868\u4eba\u7269. \u5370\u5ea6\u8207\u4e2d\u570b\u6587\u5316\u4e4b\u89aa\u5c6c\u7684\u95dc\u4fc2. \u6cf0\u8c37\u723e\u7684\u4e2d\u570b\u540d\uff1a\u7afa\u9707\u65e6. \u8fd1\u4ee3\u5b78\u98a8\u4e4b\u5730\u7406\u7684\u5206\u4f48. \u975e\u552f. \u8aaa\u65b9\u5fd7. \u7b2c\u5341\u5ea6\u7684\u4e94\u4e03. \u5e2b\u7bc4\u5927\u5b78\u7d93\u4e00\u6b21\u7562\u696d\u540c\u5b78\u9304\u5e8f. \u6731\u541b\u6587\u4f2f\u5c0f\u50b3. \u7fa9\u70cf\u5433\u6c0f\u5bb6\u8b5c\u5e8f. \u70ba\u6539\u7d04\u554f\u984c\u656c\u544a\u53cb\u90a6. \u7121\u7522\u968e\u7d1a\u8207\u7121\u696d\u968e\u7d1a. \u70ba\u6eec\u6848\u656c\u544a\u6b50\u7f8e\u670b\u53cb. \u5c0d\u6b50\u7f8e\u53cb\u90a6\u4e4b\u5ba3\u8a00. \u81f4\u7f85\u7d20\u96fb. \u8ac7\u5224\u8207\u5ba3\u6230. \u81f4\u6bb5\u57f7\u653f\u66f8(\u6eec\u6848). \u6211\u5011\u8a72\u600e\u9ebc\u6a23\u61c9\u4ed8\u4e0a\u6d77\u6158\u6bba\u4e8b\u4ef6. \u6eec\u6848\u6d89\u65b9\u7565\u656c\u544a\u653f\u5e9c. \u8d95\u7dca\u7d44\u7e54\u6703\u5be9\u5147\u624b\u7684\u6a5f\u95dc\u554a. \u7b54\u5317\u4eac\u5927\u5b78\u6559\u8077\u54e1(\u6eec\u6848). \u590d\u6bb5\u829d\u6cc9\u57f7\u653f\u8ad6\u61b2\u6cd5\u8d77\u8349\u6703\u4e8b. \u590d\u9918\u59da\u8a55\u8ad6\u793e\u8ad6\u90b5\u4e8c\u53bb\u5b78\u8853. \u4e2d\u83ef\u5716\u66f8\u9928\u5354\u6703\u6210\u7acb\u6703\u6f14\u8aaa\u8fad. \u5982\u4f55\u624d\u80fd\u5b8c\u6210\u570b\u6176\u7684\u610f\u7fa9. \u590d\u5289\u52c9\u5df1\u66f8\u8ad6\u5c0d\u4fc4\u554f\u984c. \u9f8d\u904a\u7e23\u5fd7\u5e8f. \u6e05\u83ef\u7814\u7a76\u9662\u8336\u8a71\u6703\u6f14\u8aaa\u8fad(\u9678\u4f83\u5982\u5289\u7bc0\u5408\u8a18). \u5716\u66f8\u9928\u5b78\u5b63\u520a\u767c\u520a\u8fad. \u70ba\u5357\u958b\u5927\u5b78\u52f8\u6350\u555f. \u6c11\u570b\u521d\u5e74\u4e4b\u5e63\u5236\u6539\u9769(\u5b6b\u78a7\u5947\u7b46\u8a18). \u5b78\u751f\u7684\u653f\u6cbb\u6d3b\u52d5. \u7121\u696d\u904a\u6c11\u8207\u6709\u696d\u5e73\u6c11. \u8a2d\u7f6e\u570b\u969b\u8ecd\u968a\u554f\u984c. \u738b\u967d\u660e\u77e5\u884c\u5408\u4e00\u4e4b\u6559. \u6703\u525b\u7236\u8a69\u96c6\u5e8f."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u665a\u6e05\u5169\u5927\u5bb6\u8a69\u9214\u984c\u8fad. \u5b78\u6821\u8b80\u7d93\u554f\u984c. \u70ba\u4ec0\u9ebc\u8981\u6ce8\u91cd\u6558\u4e8b\u6587\u5e8f. \u5448\u8acb\u78ba\u7acb\u6559\u80b2\u7d93\u8cbb\u4e8b. \u570b\u7522\u4e4b\u4fdd\u8b77\u53ca\u734e\u52f5. \u796d\u516d\u541b\u5b50\u6587. \u6e05\u5149\u9304\u5927\u592b\u79ae\u90e8\u5c1a\u66f8\u674e\u516c\u5893\u8a8c\u9298. \u5609\u61c9\u9ec3\u5148\u751f\u5893\u8a8c\u9298. \u8aa5\u5c01\u69ae\u9304\u5927\u592b\u5141\u521d\u9ec3\u516c\u756b\u50cf\u8d0a. \u6797\u592a\u606d\u4eba\u58fd\u5e8f. \u6e6f\u6bcd\u8521\u592a\u592b\u4eba\u58fd\u8a00. \u796d\u8521\u677e\u5761\u6587. \u516c\u796d\u8521\u677e\u5761\u6587. \u796d\u6d77\u73e0\u4e09\u70c8\u6587. \u9ec3\u592a\u516c\u58fd\u8fad. \u756a\u79ba\u6e6f\u516c\u5893\u8a8c\u9298. \u8523\u6bcd\u694a\u592a\u592b\u4eba\u5893\u8a8c\u9298. \u4ea1\u53cb\u590f\u7a57\u537f\u5148\u751f. \u60bc\u555f. \u9673\u4f2f\u8b19\u8a84\u8a5e. \u7bc4\u6bcd\u8b1d\u592a\u592b\u4eba\u4e03\u5341\u58fd\u8a00. \u5357\u6d77\u5148\u751f\u4e03\u5341\u58fd\u8a00. \u516c\u796d\u5eb7\u5357\u6d77\u5148\u751f\u6587. \u9db4\u6d32\u96f6\u62d3\u672c\u761e\u9db4\u9298. \u6f22\u840a\u5b50\u4faf\u6b98\u77f3. \u6f22\u912d\u56fa\u7891. \u6f22\u53f8\u99ac\u9577\u5143\u77f3\u9580\u984c\u540d. \u53c8\u6f22\u5ef6\u5149\u6b98\u7891. \u6f22\u6606\u5f1f\u516d\u4eba\u8cb7\u5c71\u5730\u8a18. \u9b4f\u516c\u537f\u4e0a\u5c0a\u865f\u594f. \u7bc4\u5f0f\u7891. \u6f22\u5b54\u5b99\u7891. \u6f22\u541b\u8eca\u7b49\u5b57\u756b\u8c61. \u6f22\u53f2\u6668\u990a\u5b54\u5edf\u7891. \u5317\u9f4a\u897f\u9580\u8c79\u7891\u980c. \u6f22\u7941\u95a3\u980c. \u5b54\u8912\u7891. \u88f4\u5c91\u7d00\u529f\u7891. \u6f22\u9b6f\u5cfb\u7891. \u79e6\u746f\u90aa\u53f0\u523b\u77f3. \u77f3\u9f13\u6587. \u6f22\u958b\u6bcd\u5edf\u77f3\u95d5\u9298. \u9b4f\u9ad8\u8c9e\u7891. \u6f22\u4e59\u745b\u7891. \u6f22\u666f\u541b\u9298. \u962e\u82b8\u53f0\u5148\u751f\u756b\u50cf. \u6649\u5442\u592a\u516c\u8868. \u6f22\u897f\u72f9\u980c. \u6f22\u9b6f\u76f8\u8b01\u5b54\u5edf\u6b98\u7891. \u6649\u674e\u82de\u6f58\u5b97\u4f2f\u95a3\u9053\u984c\u5b57. \u6f22\u6a0a\u654f\u7891. \u6f22\u7941\u95a3\u980c. \u96d9\u9264\u5510\u62d3\u5b9a\u6b66\u843d\u6c34\u862d\u4ead. \u5289\u5b8b\u5289\u61f7\u6c11\u5893\u8a8c. \u6881\u9676\u9077\u9020\u8c61. \u968b\u738b\u5584\u4f86\u5893\u8a8c. \u968b\u8607\u5b5d\u6148\u5893\u8a8c. \u9b4f\u912d\u9053\u5fe0\u5fd7. \u9b4f\u674e\u8b00\u5fd7. \u9b4f\u4fde\u7384\u5fd7. \u859b\u7a37\u66f8\u5f35\u5143\u96b1\u771f\u5eb5\u8a18. \u96d9\u9264\u672c\u891a\u66f8\u96a8\u6e05\u5a1b\u5893\u8a8c. \u5510\u674e\u9095\u66f8\u9748\u56b4\u5bfa\u7891\u980c."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u9b4f\u738b\u50e7\u5fd7. \u968b\u674e\u5bcc\u5a18\u5893\u8a8c. \u9b4f\u4e09\u9ad4\u77f3\u7d93\u6b98\u7891. \u9b4f\u99ac\u9cf4\u5bfa\u7891. \u820a\u62d3\u6587\u6b8a\u822c\u82e5\u7d93. \u6771\u967d\u672c\u862d\u4ead\u5e8f. \u6f22\u4e09\u8001\u5fcc\u65e5\u8a18. \u6f22\u6b66\u6c0f\u77f3\u95d5\u9298. \u79e6\u6cf0\u5c71\u523b\u77f3\u6b98\u5b57. \u6f22\u7940\u4e09\u516c\u5c71\u7891. \u9b4f\u9ad8\u690d\u5fd7. \u9b4f\u5289\u7389\u5fd7. \u968b\u5143\u592a\u50d5\u59ec\u592b\u4eba\u5893\u8a8c. \u9b4f\u53d7\u79aa\u7891. \u5510\u984f\u9b6f\u516c\u66f8\u6771\u65b9\u6714\u756b\u50cf\u8d0a\u7891. \u6f22\u803f\u52f8\u813e\u52f3\u7891. \u8dcb\u7a0b\u6b63\u4f2f\u66f8\u821f\u8a5e. \u8dcb\u56db\u5377\u672c\u7a3c\u8ed2\u8a5e. \u5433\u863f\u7a97\u5e74\u9f52\u8207\u59dc\u77f3\u5e1a. \u8a18\u862d\u7579\u96c6. \u8a18\u6642\u8ce2\u672c\u4e8b\u66f2\u5b50\u96c6. \u975c\u6625\u8a5e\u8dcb. \u81ea\u81e8\u5f35\u731b\u9f8d\u7891. \u8dcb\u9031\u5370\u6606\u6240\u85cf\u5de6\u6587\u8944\u66f8\u7258. \u9673\u767d\u6c99\u884c\u66f8\u8a69\u5377. \u4f0a\u58a8\u537f\u81e8\u6f22\u7891\u7acb\u8ef8. \u9ece\u4e8c\u6a35\u66f8\u4e16\u8aaa\u65b0\u8a9e. \u61a8\u5c71\u548c\u5c1a\u624b\u66f8\u907a\u5048\u8ef8. \u9673\u767d\u6c99\u8a69\u7a3f\u8ef8. \u6881\u85e5\u4ead\u884c\u66f8\u516b\u8a00\u806f. \u77f3\u9189\u516d\u85cf\u6c5f\u5efa\u971e\u907a\u58a8. \u8ac7\u6b78\u548c\u5c1a\u8349\u66f8\u8a69\u518a. \u80e1\u91d1\u7af9\u624b\u66f8\u8a69\u5377. \u4f55\u6696\u53df\u81e8\u5f35\u9077\u7891. \u60e0\u5929\u7267\u884c\u66f8\u5433\u6885\u6751\u8a69\u8ef8. \u8b1d\u91cc\u7236\u81ea\u66f8\u8a69\u8ef8. \u9f94\u5b5d\u62f1\u66f8\u6a6b\u984d. \u6dc7\u7518\u6cc9\u81ea\u66f8\u8a69\u8ef8. \u5b6b\u6df5\u5982\u7bc6\u66f8\u806f. \u5fb7\u7814\u9999\u6977\u66f8\u8ef8. \u5f35\u85e5\u623f\u884c\u66f8\u8ef8. \u5f6d\u6625\u6d32\u81e8\u5b54\u8b19\u78a3. \u9673\u767d\u6c99\u8349\u66f8\u8a69\u5377. \u767d\u81e8\u5f35\u8868\u7891 . \u4f55\u9f8d\u53cb\u984c\u756b\u8a69\u70ba\u80e1\u9149\u4ef2\u5beb\u6247. \u81ea\u81e8\u5f35\u9077\u7891. \u8dcb\u5b8b\u4ef2\u6eab\u6025\u5c31\u7ae0\u771f\u8de1. \u6881\u7ae0\u5189\u8cfa\u862d\u4ead\u5716. \u5f35\u9435\u6a4b\u756b\u99ac\u9577\u5377. \u7fc1\u677e\u79aa\u756b\u725b\u5377. \u6234\u6587\u9032\u5c71\u6c34\u5377. \u6797\u865b\u7a97\u53e4\u6728\u5bd2\u9d09\u8ef8. \u7518\u5115\u9db4\u5c71\u6c34\u8ef8. \u9673\u767d\u6c99\u5148\u751f\u756b. \u9ad8\u671b\u516c\u79cb\u539f\u7368\u7acb\u5716. \u5f35\u7a46\u4e4b\u756b\u6247. \u9ece\u6d1e\u77f3\u756b\u6247. \u6c6a\u767d\u5cb8\u5c71\u6c34\u8ef8. \u5f35\u7a46\u4e4b\u67f3\u6d6a\u6d74\u9d1b\u5716\u8ef8. \u6797\u865b\u7a97\u756b\u6247. \u9ad8\u671b\u516c\u756b\u6247."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u9ec3\u865b\u821f\u4eff\u96f2\u6797\u79cb\u5c71\u5716\u8ef8. \u6881\u85e5\u4ead\u7b20\u5c65\u5c0b\u82b3\u5716\u8ef8. \u9ad8\u671b\u516c\u5c71\u6c34\u8ef8. \u9322\u9078\u756b\u5377. \u6731\u862d\u5d4e\u81e8\u674e\u9f8d\u7720\u6240\u756b\u6771\u5761\u7b20\u5c65\u50cf. \u984c\u6f89\u5c71\u6aa2\u66f8\u5716. \u984c\u656c\u9109\u6a13\u5716. \u8a69\u8a71. \u82e6\u75db\u4e2d\u7684\u5c0f\u73a9\u610f\u5152. \u6d77\u9047\u96ea\u5bc4\u8559. \u5bc4\u5167\u56db\u9996. \u8207\u6c5f\u5b5d\u901a\u806f\u53e5. \u53bb\u570b\u884c. \u904a\u7bb1\u6839\u6d74\u6eab\u6cc9\u4f5c. \u7faf\u5357\u6e56\u6751\u62db\u98ee\u4e0a\u91ce\u4e4b\u9daf\u4ead\u4ee5\u8a69\u70ba\u4ee4\u5f37\u6210\u4e00\u7ae0. \u96f7\u95b9\u884c(\u8d08\u6e56\u6751\u5c0f\u96b1). \u6e38\u6625\u96dc\u611f. \u8b80\u9678\u653e\u7fc1\u96c6. \u58ef\u5225\u4e8c\u5341\u516d\u9996. \u592a\u5e73\u6d0b\u9047\u96e8. \u7d00\u4e8b\u4e8c\u5341\u56db\u9996. \u5949\u916c\u661f\u6d32\u5bd3\u516c\u898b\u61f7\u4e00\u9996\u6b21\u539f\u97fb. \u66f8\u611f\u56db\u9996\u5bc4\u661f\u6d32\u5bd3\u516c\u4ecd\u7528\u524d\u97fb. \u6771\u6b78\u611f\u61f7. \u7559\u5225\u6881\u4efb\u5357\u6f22\u632a\u8def\u76e7. \u5289\u834a\u5dde. \u6b21\u97fb\u916c\u661f\u6d32\u5bd3\u516c\u90f5\u61f7\u4e8c\u9996\u4e26\u793a\u9041\u5eb5. \u8d08\u5225\u912d\u79cb\u8543\u517c\u8b1d\u60e0\u756b. \u5ee3\u8a69\u4e2d\u516b\u8ce2\u6b4c. \u7559\u5225\u6fb3\u6d32\u8af8\u540c\u5fd7\u516d\u9996. \u5c07\u53bb\u6fb3\u6d32\u7559\u5225\u9673\u58fd. \u9435\u8840(\u6fb3\u6d32\u4f5c). \u6fb3\u4e9e\u6b78\u819b\u96dc\u8208. \u81ea\u52f5\u4e8c\u9996. \u5fd7\u672a\u916c. \u8209\u570b\u7686\u6211\u6575. \u6fb3\u4e9e\u6b78\u821f\u8d08\u5c0f\u91c1\u56db\u90ce. \u4e8c\u5341\u4e16\u7d00\u592a\u5e73\u6d0b\u6b4c. \u79cb\u591c. \u695a\u537f\u81f3\u81ea\u4e0a\u6d77\u5c0f\u96c6\u65cb\u5225\u8ce6\u8d08. \u66c9\u4f86. \u81ea\u984c\u65b0\u4e2d\u570b\u672a\u4f86\u8a18. \u984c\u6771\u6b50\u5973\u8c6a\u5091\u4ee3\u7fbd\u8863\u5973\u58eb. \u611b\u570b\u6b4c\u56db\u7ae0. \u5927\u540c\u540c\u5b78\u9304\u984c\u8fad\u56db\u5341\u97fb. \u821f\u4e2d\u4f5c\u8a69\u5448\u5225\u5357\u6d77\u5148\u751f. \u9001\u571f\u723e\u6248\u7279\u738b\u6b78\u570b. \u9001\u9577\u7dac\u537f\u6b78\u570b. \u806f\u53e5\u5bc4\u61f7\u86fb\u844a(\u6b21\u97d3\u5b5f\u540c\u5bbf\u806f\u53e5). \u8377\u844a\u651c\u5a66\u6771\u6e21\u5c07\u81f3\u559c\u8ce6(\u6b21\u97d3\u5b5f\u6703\u5408\u806f\u53e5\u97fb\u8207\u82e5\u6d77\u806f\u53e5). \u6b21\u97fb\u916c\u86fb\u95b9\u898b\u5bc4(\u9644\u539f\u4f5c). \u65e2\u96e8. \u5076\u6210. \u6b32\u96ea. \u81d8\u516b\u5c0f\u98ee. \u82e5\u6d77\u81ea\u7a31\u5176\u66f8\u5df2\u812b\u53e4\u516c\u5f79\u5c6c\u8981\u6211\u627f\u70ba\u7368\u7acb\u570b\u4f5c\u8a69\u6f6e\u4e4b."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u82e5\u6d77\u9817\u601d\u6298\u7bc0\u6cbb\u4e16\u4fd7\u4e4b\u5b78\u8981\u543e\u70ba\u4e4b\u8aa6\u8aaa\u671f\u4ee5\u534a\u6b72\u76e1\u543e\u6240\u6709\u5bc4\u8a69\u5805\u660e\u7d04\u675f\u4e14\u4fc3\u5176\u4f86. \u82e5\u6d77\u8ce6\u9577\u53e5\u4e8c\u7ae0\u5448\u5357\u6d77\u5148\u751f\u5148\u751f\u4f9d\u97fb\u5c6c\u548c\u4f59\u4ea6\u7e7c\u8072. \u9023\u5915\u8207\u5f31\u95b9\u4f8d\u5357\u6d77\u5148\u751f\u8a71\u570b\u4e8b\u758a\u524d\u97fb\u518d\u5448. \u4e09\u758a\u5747\u8d08\u82e5\u6d77\u884c. \u5357\u6d77\u5148\u751f\u4ee5\u6f09\u58eb\u91d1\u5b57\u9675\u9285\u4fd1\u820d\u885b\u4f5b\u8b1b\u5802\u5e61\u96c5\u5178\u9676\u5c0a\u90a6\u5351\u7586\u77f3\u8036\u8def\u6492\u51b7\u7fa4\u5349\u5716\u898b\u8d08\u8ce6\u8b1d . \u4e2d\u79cb\u524d\u4e00\u5915\u9001\u856d\u7acb\u8aa0\u6b78\u570b. \u6bc5\u5b89\u5f1f\u4e5e\u66f8. \u9001\u4f5c\u826f\u904a\u5b78\u7f8e\u6d32. \u5bc4\u61f7\u4ef2\u7b56\u5f1f\u7f8e\u6d32. \u6548\u660c\u9ece\u96d9\u70cf\u8a69\u8d08\u694a\u7699\u4e86. \u805e\u82f1\u5bc7\u96f2\u5357\u4fc4\u5bc7\u4f0a\u7281\u611f\u61a4\u6210\u4f5c. \u5357\u6d77\u5148\u751f\u5026\u904a\u6b50\u7f8e\u8f09\u6e21\u65e5\u672c\u540c\u5c45\u9808\u78e8\u6d66\u4e4b\u96d9\u6fe4\u95a3\u8ff0\u820a\u6292\u61f7\u656c\u5448\u4e00\u767e\u97fb. \u9808\u78e8\u5bfa\u8a2a\u6885. \u6795\u4e0a\u4f5c. \u6625\u671d\u6f2b\u53e5. \u5b50\u525b\u81ea\u54c8\u723e\u6ff1\u6b78\u4e0a\u6d77\u5bc4\u8a69\u554f\u8a0a. \u5bc4\u61f7\u82e5\u6d77\u5373\u4fc3\u5176\u6771\u6e21\u7528\u554f\u8a0a\u5b50\u525b\u7bc7\u97fb. \u5bc4\u61f7\u4f55\u7a62\u9ad8\u5916\u90e8(\u85fb\u7fca1908). \u620a\u7533\u521d\u5ea6. \u81d8\u4e0d\u76e1\u4e8c\u65e5\u9063\u61f7. \u5176\u5915\u5927\u96e8\u5fb9\u65e6\u4e0d\u5bd0\u91cd\u6709\u611f. \u5143\u65e5\u653e\u6674\u4e8c\u65e5\u96e8\u4e09\u65e5\u9670\u973e. \u5949\u61f7\u5357\u6d77\u5148\u751f\u661f\u52a0\u5761\u517c\u6566\u8acb\u6771\u6e21. \u79cb\u98a8\u65b7\u85e4\u66f2. \u904a\u65e5\u672c\u4eac\u90fd\u5cf6\u6d25\u88fd\u4f5c\u6240\u8d08\u6240\u4e3b\u5cf6\u6d25\u6e90\u85cf. \u8d08\u4f5c\u4f5b\u8607\u5373\u8cc0\u5176\u8fce\u5a66. \u963f\u838a. \u6b21\u97fb\u5b7a\u535a\u5bc4\u61f7\u66fc\u5ba3\u82f1\u502b\u4e4b\u4f5c\u5373\u8d08\u4e8c\u541b(\u9644\u539f\u4f5c). \u766d\u516c\u898b\u8d08\u71c9\u714c\u77f3\u5ba4\u85cf\u5510\u4eba\u5beb\u7dad\u6469\u8a70\u7d93\u83e9\u85a9\u884c\u54c1\u4e00\u5377\u53e3\u5360\u5949\u8b1d. \u8abf\u6f58\u5c71\u4eba. \u6885\u590f\u4ee5\u6240\u984c\u5916\u50b5\u5e73\u8b70\u4e00\u5f8b\u898b\u5bc4\u4f9d\u97fb\u5949\u548c(\u9644\u539f\u4f5c). \u66c9\u4f86. \u7368\u591c. \u5949\u984c\u5357\u6d77\u5148\u751f\u6240\u85cf\u7fc1\u8983\u6eaa\u624b\u5beb\u99ae\u5929\u56b4\u5893\u8a8c\u9298. \u611f\u79cb\u96dc\u8a69. \u81ea\u984c\u6240\u85cf\u5510\u4eba\u5beb\u7dad\u6469\u8a70\u7d93\u5377\u70ba\u71c9\u714c\u77f3\u5ba4\u7269\u7f85\u766d\u516c\u898b\u8d08\u8005."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u96ea\u822b\u4e2d\u5e74\u5f97\u4e00\u5b50\u752b\u903e\u9031\u666c\u800c\u6ba4\u70ba\u8a69\u4ee5\u585e\u5176\u54c0. \u9001\u9580\u4eba\u694a\u7dad\u65b0\u5165\u4eac. \u9001\u674e\u8000\u5fe0\u4f84\u6b78\u570b. \u5f97\u64ce\u4e00\u66f8\u5831\u92b3\u5eb5\u5614\u8840\u5176\u5915\u5927\u98a8\u96e8\u611f\u559f\u4e0d\u5bd0\u62ab\u8863\u8d70\u7b46\u7d00\u8a69\u4ee5\u8a0a. \u8377\u5ee3\u9664\u5915\u7259\u75db\u4f5c\u8a69\u8abf\u4e4b. \u671d\u9bae\u54c0\u8a5e\u4e94\u5f8b\u4e8c\u5341\u56db\u9996. \u6842\u5712\u66f2. \u984c\u85dd\u8605\u9928\u65e5\u8a18\u7b2c\u4e00\u7de8. \u5e7c\u9054\u540c\u5e74\u4efb\u795e\u6236\u9818\u4e8b\u50c5\u6578\u6708\u53d7\u4ee3\u53bb\u6b4c\u4ee5\u9001\u4e4b. \u6625\u9670. \u96d9\u6fe4\u5712\u8b80\u66f8. \u9112\u5d16\u4ee5\u6240\u984c\u543e\u5916\u50b5\u5e73\u8b70\u7bc7\u4e00\u5f8b\u898b\u5bc4\u4f9d\u97fb\u5949\u548c\u5f97\u4e8c\u9996. \u5afb\u5152\u8b80\u543e\u548c\u9112\u5d16\u85aa\u5b57\u97fb\u8a69\u82e5\u8a1d\u5176\u6578\u5178\u4e4b\u5947\u8005\u4e43\u66f4\u70ba\u758a\u97fb\u516b\u7ae0\u793a\u4e4b\u4e26\u5beb\u5bc4\u9112\u5d16. \u5148\u738b\u7236\u6559\u8aed\u516c\u4e8c\u5341\u9031\u5fcc\u7387\u5a66\u5b50\u9059\u796d\u79ae\u6210\u6ce3\u8ce6. \u89c0\u5afb\u5152\u8b80\u66f2\u9006\u4faf\u50b3\u7b54\u8a18\u6709\u6240\u611f\u6f2b\u984c\u5176\u5f8c. \u9808\u78e8\u5957\u4e94\u8a60. \u8ad6\u624d. \u5e9a\u620c\u6b72\u66ae\u611f\u61f7. \u4eba\u65e5\u7acb\u6625. \u5143\u5915. \u5341\u516d\u65e5\u8a8c\u615f. \u8f9b\u4ea5\u4e8c\u6708\u4e8c\u5341\u56db\u65e5\u5055\u8377\u5ee3\u53ca\u5973\u5152\u4ee4\u5afb\u4e58\u7b20\u6236\u4e38\u904a\u53f0\u7063\u4e8c\u5341\u516b\u65e5\u62b5\u96de\u9f8d\u5c71\u821f\u4e2d\u96dc\u8208. \u53f0\u5317\u6545\u57ce\u6bc0\u77e3\u7559\u5176\u56db\u9580. \u4e09\u6708\u4e09\u65e5\u907a\u8001\u767e\u9918\u8f29\u8a2d\u6b61\u8fce\u6703\u65bc\u53f0\u5317\u6545\u57ce\u4e4b\u8588\u82b3\u6a13\u656c\u8ce6\u9577\u53e5\u5949\u8b1d. \u62c6\u5c4b\u884c. \u6adf\u793e\u8af8\u8ce2\u898b\u62db. \u737b\u5802\u7e7c\u5c0a\u752b\u5175\u90e8\u516c\u4e4b\u5fd7\u7bc9\u840a\u5712\u4ee5\u5949\u91cd\u570d\u592a\u592b\u4eba\u9918\u904a\u53f0\u9928\u9918\u65bc\u5712\u4e4b\u4e94\u6842\u6a13\u656c\u8ce6. \u6b21\u97fb\u916c\u6797\u75f4\u4ed9\u898b\u8d08. \u8d08\u6797\u5e7c\u6625. \u840a\u5712\u96dc\u8a60. \u7329\u7329\u6728. \u76f8\u601d\u6a39. \u53f0\u7063\u7af9\u679d\u8a5e. \u8d08\u53f0\u7063\u9038\u6c11\u67d0\u517c\u7c21\u5176\u5f9e\u5b50. \u904a\u53f0\u7063\u8ffd\u61f7\u5289\u58ef\u8085\u516c. \u8ff0\u6b78\u4e94\u9996. \u9808\u78e8\u9996\u9014\u9047\u96e8\u53e3\u5360. \u6b78\u821f\u5152\u6708. \u821f\u62b5\u5927\u9023\u671b\u65c5\u9806. \u7531\u5927\u9023\u591c\u5317\u6c7d\u8eca\u81f3\u5949\u5929. \u7531\u5949\u5929\u537b\u81f3\u5927\u9023\u9053\u4e2d\u4f5c. \u58fd\u56b4\u5e7e\u9053\u5148\u751f."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u766d\u516c\u4ee5\u5510\u9053\u58eb\u7d22\u6d1e\u7384\u6240\u66f8\u672c\u969b\u7d93\u5c6c\u984c. \u7678\u4e11\u4e09\u65e5\u9080\u7fa4\u8ce2\u4fee\u798a\u842c\u751f\u5712\u62c8\u862d\u4ead\u5e8f\u5206\u97fb\u5f97\u6fc0\u5b57. \u7532\u5bc5\u4e0a\u5df2\u62b1\u5b58\u4fee\u798a\u5357\u6d77\u5b50\u767c\u97fb\u5f97\u5e36\u5b57. \u7532\u5bc5\u51ac\u5047\u9928\u8457\u66f8\u65bc\u897f\u90ca\u4e4b\u6e05\u83ef\u5b78\u6821\u6210\u6b50\u6d32\u6230\u5f79\u53f2\u8ad6\u8ce6\u793a\u6821\u54e1\u53ca\u8af8\u751f. \u984c\u59da\u5ee3\u5b5d\u70ba\u4e2d\u5c71\u738b\u756b\u5c71\u6c34\u5377. \u64ec\u5910\u53df\u5148\u751f\u4e03\u5341\u58fd\u8a69. \u984c\u838a\u601d\u7dd8\u6276\u6851\u6fef\u8db3\u5716. \u984c\u9031\u990a\u5b89\u7bdd\u71c8\u7d21\u8b80\u5716. \u5c0d\u9152\u5716\u4e94\u7ae0\u7ae0\u516b\u53e5\u70ba\u8e47\u5b63\u5e38\u984c\u4ee5\u6fc1\u91aa(\u6709\u5999\u7406\u70ba\u97fb). \u984c\u8881\u6d77\u89c0\u5c1a\u66f8\u6240\u85cf\u51ac\u5fc3\u756b\u6885. \u54ed\u5b7a\u535a\u516b\u9996. \u796d\u9ea5\u5b7a\u535a\u8a69. \u516c\u535a\u85e4\u9f95\u70ba\u4e88\u4f5c\u7d2b\u967d\u5cf0\u5716\u8ce6\u8b1d(\u758a\u97fb). \u5468\u5b5d\u61f7\u5c45\u6182\u4ee5\u6bcd\u592a\u592b\u4eba\u4e8b\u7565\u898b\u8a52\u656c\u984c\u5176\u5f8c\u5949\u5501. \u8b5a\u4f36\u81ea\u7e61\u50cf\u4f5c\u6f01\u7fc1\u4e5e\u984c. \u5bc4\u8d99\u582f\u751f\u4f8d\u5fa1\u4ee5\u8a69\u4ee3\u66f8. \u5f35\u6f64\u4e4b\u5148\u751f\u516d\u5341\u96d9\u58fd\u8a69(\u5e76\u5e8f1925). \u58fd\u59da\u832b\u7236\u4e94\u5341. \u96c6\u53e5\u984c\u7518\u767d\u77f3\u756b\u8ef8. \u984c\u8d8a\u5712\u756b\u96d9\u677e. \u6c34\u8abf\u6b4c\u982d(1894). \u9f4a\u5929\u6a02(1894). \u6eff\u6c5f\u7d05\u8d08\u9b4f\u4e8c(1894). \u6e58\u6708\u58fd\u4f55\u5927. \u91c7\u6851\u5b50. \u8b1d\u79cb\u5a18. \u558b\u6200\u82b1\u4e8c\u95cb. \u6d6a\u6dd8\u6c99. \u9694\u6eaa\u6885\u4ee4\u6b21\u97fb\u5b5d\u901a. \u63da\u5dde\u6162\u9001\u6c5f\u9022\u8fb0\u6b78\u5c71. \u8776\u6200\u82b1\u4e09\u95cb\u6625\u76e1\u611f\u4e8b\u9001\u6b78\u8005. \u83e9\u85a9\u66fc. \u5982\u5922\u4ee4. \u91d1\u7e37\u66f2. \u6e1b\u5b57\u6728\u862d\u82b1\u70ba\u5b7a\u535a\u984c\u79e6\u90ce\u756b\u6247. \u535c\u7b97\u5b50. \u5ff5\u5974\u5b0c\u58fd\u4f55\u6885\u590f. \u862d\u9675\u738b\u81f3\u65e5\u5bc4\u8559\u4ed9\u8a08\u6642\u7576\u5728\u9053\u4e2d. \u6d1e\u4ed9\u6b4c\u4e2d\u79cb\u5bc4\u5167. \u53f0\u57ce\u8def\u9ec3\u6d66\u6c5f\u9001\u8559\u4ed9\u6b78\u5be7\u4e4b\u9ed4\u9918\u4ea6\u5357\u9084\u77e3. \u6e05\u5e73\u6a02\u5341\u4e00\u6708\u5341\u516b\u591c\u5bbf\u9152\u525b\u9192\u731b\u61b6\u524d\u6708\u4eca\u5915\u4e43\u9ec3\u5a46\u9001\u5225\u6642\u4e5f\u60d8\u7136\u5f97\u53e5. \u8776\u6200\u82b1. \u8cc0\u65b0\u90ce."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u91d1\u7e37\u66f2\u4e01\u672a\u4e94\u6708\u6b78\u570b\u65cb\u5fa9\u6771\u6e21\u537b\u5bc4\u6eec\u4e0a\u8af8\u5b50. \u61b6\u6c5f\u5357\u5bf6\u96f2\u6a13\u590f\u65e5\u5373\u8208(\u5bf6\u96f2\u6a13\u4e43\u9808\u78e8\u4e4b\u4e00\u6a13). \u4e09\u59dd\u5a9a\u9001\u9673\u5927\u6b78\u570b\u7528\u8349\u7a97\u9001\u78a7\u5c71\u9084\u8d8a\u5747. \u9d72\u6a4b\u4ed9\u967d\u66c6\u4e03\u6708\u4e03\u65e5\u6771\u90a6\u58eb\u5973\u76f8\u5c07\u4e5e\u5de7\u5fd8\u8207\u6f22\u81d8\u932f\u727e\u4e5f\u6232\u8ce6\u6b64\u89e3. \u9577\u4ead\u6028\u6162\u6587\u537f\u9060\u904a\u5931\u8077\u7262\u843d\u800c\u6b78\u501a\u6b64\u9001\u4e4b\u4e0d\u80dc\u6cb3\u6881\u65e5\u66ae\u4e4b\u611f. \u516b\u8072\u7518\u5dde\u912d\u5ef6\u5e73\u738b\u7960\u5802\u7528\u863f\u7a97\u904a\u9748\u56b4\u97fb. \u6697\u9999\u5ef6\u5e73\u738b\u7960\u53e4\u6885\u76f8\u50b3\u738b\u6642\u7269\u4e5f. \u9ad8\u967d\u53f0\u984c\u53f0\u7063\u9038\u6c11\u67d0\u756b\u862d. \u897f\u6cb3\u57fa\u9686\u61f7\u53e4(\u7528\u7f8e\u6210\u97fb). \u5ff5\u5974\u5b0c\u57fa\u9686\u7559\u5225(\u7528\u7389\u7530\u97fb). \u8776\u6200\u82b1\u611f\u6625(\u904a\u53f0\u7063\u4f5c). \u6d63\u6eaa\u6c99\u53f0\u7063\u6b78\u821f\u665a\u671b. \u6d63\u6eaa\u6c99\u4e59\u4e11\u7aef\u5348\u5915\u4fc4\u516c\u5712\u591c\u5750 . \u865e\u7f8e\u4eba\u81ea\u984c\u5c0f\u5f71\u5bc4\u601d\u9806. \u9d72\u6a4b\u4ed9\u81ea\u984c\u5c0f\u5f71\u5bc4\u601d\u6210. \u597d\u4e8b\u8fd1\u4ee3\u601d\u79ae\u984c\u5c0f\u5f71\u5bc4\u601d\u9806. \u9dd3\u9d23\u5929\u4e01\u536f\u4e2d\u79cb\u674e\u592b\u4eba\u4e09\u9031\u5fcc\u65e5. \u6c81\u5712\u6625\u5df1\u5df2\u9001\u6e6f\u4f69\u677e --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 6 (\u5c08\u96c61-21). \u620a\u620c\u653f\u8b8a\u8a18. \u6539\u9769\u5be6\u60c5. \u767c\u7acb\u59cb\u672b\u8a18. \u653f\u8b8a\u524d\u7d00. \u653f\u8b8a\u6b63\u8a18. \u6b89\u96e3\u516d\u5217\u58eb\u50b3. \u6539\u9769\u8d77\u6e90. \u6e56\u5357\u5ee3\u6771\u60c5\u5f62. \u5149\u7dd6\u8056\u5fb7\u8a18. \u81ea\u7531\u66f8. \u81ea\u7531\u66f8\u6558\u8a00. \u6210\u6557(\u81ea\u7531\u66f8). \u4ffe\u58eb\u9ea5\u8207\u683c\u862d\u65af\u9813(\u81ea\u7531\u66f8). \u81ea\u7531\u7956\u570b\u4e4b\u7956(\u81ea\u7531\u66f8). \u5730\u7403\u7b2c\u4e00\u5b88\u820a\u9ee8(\u81ea\u7531\u66f8). \u6587\u91ce\u4e09\u754c\u4e4b\u5225(\u81ea\u7531\u66f8). \u82f1\u96c4\u8207\u6642\u52e2(\u81ea\u7531\u66f8). \u8fd1\u56e0\u9060\u56e0\u4e4b\u8aaa(\u81ea\u7531\u66f8). \u8349\u8305\u5371\u8a00(\u81ea\u7531\u66f8). \u990a\u5fc3\u8a9e\u9304(\u81ea\u7531\u66f8). \u7406\u60f3\u8207\u6c23\u529b(\u81ea\u7531\u66f8). \u81ea\u52a9\u8ad6(\u81ea\u7531\u66f8). \u5049\u4eba\u8a25\u8033\u905c\u8efc\u4e8b(\u81ea\u7531\u66f8). \u653e\u68c4\u81ea\u7531\u4e4b\u7f6a (\u81ea\u7531\u66f8)."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u570b\u6b0a\u8207\u6c11\u6b0a(\u81ea\u7531\u66f8). \u7834\u58de\u4e3b\u7fa9(\u81ea\u7531\u66f8). \u81ea\u4fe1\u529b(\u81ea\u7531\u66f8). \u5584\u8b8a\u4e4b\u8c6a\u5091(\u81ea\u7531\u66f8). \u52a0\u5e03\u5152\u8207\u8af8\u845b\u5b54\u660e(\u81ea\u7531\u66f8). \u8ad6\u5f37\u6b0a(\u81ea\u7531\u66f8). \u8c6a\u5091\u4e4b\u516c\u8166(\u81ea\u7531\u66f8). \u8b5a\u700f\u967d\u907a\u58a8(\u81ea\u7531\u66f8). \u7cbe\u795e\u6559\u80b2\u8005\u81ea\u7531\u6559\u80b2\u4e5f(\u81ea\u7531\u66f8). \u7948\u6230\u6b7b(\u81ea\u7531\u66f8). \u4e2d\u570b\u9b42\u5b89\u5728\u4e4e(\u81ea\u7531\u66f8). \u7b54\u5ba2\u96e3(\u81ea\u7531\u66f8). \u6182\u570b\u8207\u611b\u570b(\u81ea\u7531\u66f8). \u4fdd\u5168\u652f\u90a3(\u81ea\u7531\u66f8). \u50b3\u64ad\u6587\u660e\u4e09\u5229\u5668(\u81ea\u7531\u66f8). \u5080\u5121\u8aaa(\u81ea\u7531\u66f8). \u52d5\u7269\u8ac7(\u81ea\u7531\u66f8). \u60df\u5fc3(\u81ea\u7531\u66f8). \u6167\u89c0(\u81ea\u7531\u66f8). \u7121\u540d\u4e4b\u82f1\u96c4(\u81ea\u7531\u66f8). \u5fd7\u58eb\u7bb4\u8a00(\u81ea\u7531\u66f8). \u5929\u4e0b\u7121\u7121\u50f9\u4e4b\u7269(\u81ea\u7531\u66f8). \u820c\u4e0b\u7121\u82f1\u96c4\u7b46\u5e95\u7121\u5947\u58eb(\u81ea\u7531\u66f8). \u4e16\u754c\u6700\u5c0f\u4e4b\u6c11\u4e3b\u570b(\u81ea\u7531\u66f8). \u7dad\u65b0\u5716\u8aaa(\u81ea\u7531\u66f8). \u5341\u4e5d\u4e16\u7d00\u4e4b\u6b50\u6d32\u8207\u4e8c\u5341\u4e16\u7d00\u4e4b\u4e2d\u570b(\u81ea\u7531\u66f8). \u4fc4\u4eba\u4e4b\u81ea\u7531\u601d\u60f3(\u81ea\u7531\u66f8). \u4e8c\u5341\u4e16\u7d00\u4e4b\u65b0\u9b3c(\u81ea\u7531\u66f8). \u96e3\u547c\u70ba\u6c11\u4e0a\u8005(\u81ea\u7531\u66f8). \u7159\u571f\u62ab\u88e1\u7d14(INSPIRATTON)(\u81ea\u7531\u66f8). \u7121\u6b32\u8207\u591a\u6b32(\u81ea\u7531\u66f8). \u8aaa\u6094(\u81ea\u7531\u66f8). \u5bcc\u570b\u5f37\u5175(\u81ea\u7531\u66f8). \u4e16\u754c\u5916\u4e4b\u4e16\u754c(\u81ea\u7531\u66f8). \u8f3f\u8ad6\u4e4b\u6bcd\u8207\u8f3f\u8ad6\u4e4b\u50d5(\u81ea\u7531\u66f8). \u6587\u660e\u8207\u82f1\u96c4\u4e4b\u6bd4\u4f8b(\u81ea\u7531\u66f8). \u5e72\u6d89\u8207\u653e\u4efb(\u81ea\u7531\u66f8). \u4e0d\u5a5a\u4e4b\u5049\u4eba(\u81ea\u7531\u66f8). \u55dc\u5831\u4e4b\u570b\u6c11(\u81ea\u7531\u66f8). \u5974\u96b8\u5b78(\u81ea\u7531\u66f8). \u5e0c\u671b\u8207\u5931\u671b(\u81ea\u7531\u66f8). \u570b\u6c11\u4e4b\u81ea\u6bba(\u81ea\u7531\u66f8). \u52a0\u85e4\u535a\u58eb\u5929\u5247\u767e\u8a71(\u81ea\u7531\u66f8). \u8a18\u65af\u8cd3\u585e\u8ad6\u65e5\u672c\u61b2\u6cd5\u8a9e(\u81ea\u7531\u66f8). \u4e2d\u570b\u4e4b\u793e\u6703\u4e3b\u7fa9(\u81ea\u7531\u66f8)."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u8a18\u65e5\u672c\u4e00\u653f\u9ee8\u9818\u8896\u4e4b\u8a00(\u81ea\u7531\u66f8). \u8a18\u8d8a\u5357\u4ea1\u4eba\u4e4b\u8a00(\u81ea\u7531\u66f8). \u5f35\u52e4\u679c\u516c\u4f5a\u4e8b(\u81ea\u7531\u66f8). \u5b6b\u6587\u6b63\u516c\u98fe\u7d42\u4e4b\u5178(\u81ea\u7531\u66f8). \u8607\u5f5d\u58eb\u904b\u6cb3\u6545\u9053(\u81ea\u7531\u66f8). \u6c11\u5175\u8207\u50ad\u5175\u4e4b\u5f97\u5931(\u81ea\u7531\u66f8). \u6cbb\u5177\u8207\u6cbb\u9053(\u81ea\u7531\u66f8). \u5b78\u554f\u8207\u797f\u5229\u4e4b\u8def(\u81ea\u7531\u66f8). \u4e0d\u6085\u5b78\u4e4b\u5f0a(\u81ea\u7531\u66f8). \u8b66\u5077(\u81ea\u7531\u66f8). \u96ea\u6d6a\u548c\u5c1a\u8a9e\u9304\u4e8c\u5247(\u81ea\u7531\u66f8). \u4f7f\u6cd5\u5fc5\u884c\u4e4b\u6cd5(\u81ea\u7531\u66f8). \u6cbb\u6cbb\u975e\u6cbb\u4e82(\u81ea\u7531\u66f8). \u541b\u4e3b\u7121\u8cac\u4efb\u4e4b\u5b78\u8aaa(\u81ea\u7531\u66f8). \u6240\u4ee4\u8207\u6240\u597d(\u81ea\u7531\u66f8). \u597d\u4fee(\u81ea\u7531\u66f8). \u6028\u5929\u8005\u7121\u5fd7(\u81ea\u7531\u66f8). \u6b32\u60e1\u53d6\u6368(\u81ea\u7531\u66f8). \u4e2d\u570b\u56db\u5341\u5e74\u4f86\u5927\u4e8b\u8a18(\u4e00\u540d\u674e\u9d3b\u7ae0). \u65b0\u6c11\u8aaa(\u5ee3\u667a\u66f8\u5c40\u767c\u884c\u201c\u4e2d\u570b\u9b42\u201d\u55ae\u884c\u672c\u5373\u65b0\u6c11\u8aaa\u4e4b\u4e00\u90e8\u5206). \u5f35\u535a\u671b\u73ed\u5b9a\u9060\u5408\u50b3(\u4ee5\u4e0b\u81f3\u912d\u548c\u50b3\u70ba\u4e00\u985e). \u9ec3\u5e1d\u4ee5\u5f8c\u7b2c\u4e00\u5049\u4eba\u8d99\u6b66\u9748\u738b\u50b3\u9644\uff1a\u674e\u7267\u50b3. \u660e\u5b63\u7b2c\u4e00\u91cd\u8981\u4eba\u7269\u8881\u5d07\u7165\u50b3. \u4e2d\u570b\u6b96\u6c11\u516b\u5927\u5049\u4eba\u50b3. \u7956\u570b\u5927\u822a\u6d77\u5bb6\u912d\u548c\u50b3. \u5308\u52a0\u5229\u611b\u570b\u8005\u5676\u8607\u58eb\u50b3(\u4ee5\u4e0b\u81f3\u514b\u6797\u5a01\u723e\u50b3\u70ba\u4e00\u985e). \u610f\u5927\u5229\u5efa\u570b\u4e09\u5091\u50b3. \u8fd1\u4e16\u7b2c\u4e00\u5973\u5091\u7f85\u862d\u592b\u4eba\u50b3. \u65b0\u82f1\u570b\u5de8\u4eba\u514b\u6797\u5a01\u723e\u50b3. \u6ce2\u862d\u6ec5\u4ea1\u8a18. \u65af\u5df4\u9054\u5c0f\u5fd7. \u96c5\u5178\u5c0f\u53f2. \u671d\u9bae\u4ea1\u570b\u53f2\u7565. \u8d8a\u5357\u5c0f\u5fd7. \u8d8a\u5357\u4ea1\u570b\u53f2. \u671d\u9bae\u6ec5\u4ea1\u4e4b\u539f\u56e0. \u65e5\u672c\u4f75\u541e\u671d\u9bae\u8a18. \u9644: \u671d\u9bae\u5c0d\u65bc\u6211\u570b\u95dc\u4fc2\u4e4b\u8b8a\u9077 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 7 (\u5c08\u96c622-29). \u65b0\u5927\u9678\u6e38\u8a18\u7bc0\u9304\u2160(\u4ee5\u4e0b\u81f3\u6b50\u904a\u5fc3\u5f71\u9304\u7bc0\u9304\u70ba\u4e00\u985e). \u6b50\u904a\u5fc3\u5f71\u9304\u7bc0\u9304\u2160. \u4e2d\u570b\u4e4b\u6b66\u58eb\u9053. \u4e2d\u570b\u570b\u50b5\u53f2. \u9644: \u57c3\u53ca\u570b\u50b5\u53f2(\u63a1\u8b6f\u65e5\u672c\u67f4\u56db\u90ce\u57c3\u53ca\u8fd1\u4e16\u53f2\u7b2c\u5341\u4e8c\u7ae0). \u5fb7\u80b2\u9451. \u738b\u834a\u516c\u2160. \u7ba1\u5b50\u50b3. \u96d9\u6fe4\u95a3\u65e5\u8a18. \u9644: \u96a8\u7b46\u4e8c\u5247 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 8 (\u5c08\u96c630-45). \u6b50\u6d32\u6230\u5f79\u53f2\u8ad6. \u6e05\u53f2\u5546\u4f8b\u521d\u7a3f. \u570b\u6c11\u6dfa\u8a13. \u76fe\u9f3b\u96c6\u2160. \u6e05\u4ee3\u5b78\u8853\u6982\u8ad6(\u539f\u984c\u524d\u6e05\u4e00\u4ee3\u601d\u60f3\u754c\u4e4b\u86fb\u8b8a). \u8001\u5b50\u54f2\u5b78(\u4ee5\u4e0b\u81f3\u8001\u5b54\u58a8\u4ee5\u5f8c\u5b78\u6d3e\u6982\u89c0\u70ba\u4e00\u985e). \u5b54\u5b50. \u5b50\u58a8\u5b50\u5b78\u8aaa. \u58a8\u7d93\u6821\u91cb. \u58a8\u5b50\u5b78\u6848. \u8001\u5b54\u58a8\u4ee5\u5f8c\u5b78\u6d3e\u6982\u89c0. \u5148\u79e6\u8af8\u5b50\u8868. \u6b77\u53f2\u4e0a\u4e2d\u570b\u6c11\u65cf\u4e4b\u89c0\u5bdf(\u4ee5\u4e0b\u81f3\u5fd7\u4e09\u4ee3\u5b97\u6559\u79ae\u5b78\u70ba\u4e00\u985e). \u4e2d\u570b\u6b77\u53f2\u4e0a\u6c11\u65cf\u4e4b\u7814\u7a76. \u53f2\u8a18\u5308\u5974\u50b3\u620e\u72c4\u540d\u7fa9\u8003. \u6625\u79cb\u5937\u883b\u620e\u72c4\u8868. \u592a\u53e4\u53ca\u4e09\u4ee3\u8f09\u8a18. \u4e09\u82d7\u4e5d\u9ece\u86a9\u5c24\u8003. \u6d2a\u6c34\u8003. \u53e4\u4ee3\u767e\u59d3\u91cb\u7fa9. \u7d00\u590f\u6bb7\u738b\u696d. \u8ad6\u5f8c\u4ee3\u6cb3\u6d41\u9077\u5f99. \u79b9\u8ca2\u4e5d\u5dde\u8003. \u53c8\u79b9\u8ca2\u4e5d\u5dde\u8003. \u6625\u79cb\u8f09\u8a18. \u6625\u79cb\u5e74\u8868. \u5468\u4ee3\u5217\u570b\u4f75\u541e\u8868 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 9 (\u5c08\u96c646-72). \u6230\u570b\u8f09\u8a18. \u6230\u570b\u5e74\u8868. \u5730\u7406\u53ca\u5e74\u4ee3. \u6700\u521d\u53ef\u7d00\u4e4b\u5e74\u4ee3. \u5fd7\u8a9e\u8a00\u6587\u5b57. \u904b\u7528\u6587\u5b57\u4e4b\u6280\u8853. \u5fd7\u4e09\u4ee3\u5b97\u6559\u79ae\u5b78. \u539f\u64ec\u4e2d\u570b\u901a\u53f2\u76ee\u9304. \u539f\u64ec\u4e2d\u570b\u6587\u5316\u53f2\u76ee\u9304. \u5148\u79e6\u653f\u6cbb\u601d\u60f3\u53f2(\u539f\u540d\u4e2d\u570b\u8056\u4eba\u4e4b\u5929\u4eba\u89c0\u53ca\u5176\u653f\u6cbb\u54f2\u5b78)\u2160. \u5148\u79e6\u653f\u6cbb\u601d\u60f3. \u4e2d\u570b\u4f5b\u6cd5\u8208\u8870\u6cbf\u9769\u8aaa\u7565(\u4ee5\u4e0b\u81f3\u898b\u65bc\u9ad8\u50e7\u50b3\u4e2d\u4e4b\u652f\u90a3\u8457\u8ff0\u70ba\u4e00\u985e). \u4f5b\u6559\u5927\u4e8b\u8868. \u4f5b\u6559\u4e4b\u521d\u8f38\u5165. \u6f22\u660e\u6c42\u6cd5\u8aaa\u8faf\u507d. \u56db\u5341\u4e8c\u7ae0\u7d93\u8faf\u507d. \u725f\u5b50\u7406\u60d1\u8ad6\u8faf\u507d. \u5370\u5ea6\u4f5b\u6559\u6982\u89c0. \u4f5b\u9640\u6642\u4ee3\u53ca\u539f\u59cb\u4f5b\u6559\u6559\u7406\u7db1\u8981(\u539f\u984c\u5370\u5ea6\u4e4b\u4f5b\u6559). \u8aaa\u7121\u6211. \u4f5b\u6559\u8207\u897f\u57df. \u53c8\u4f5b\u6559\u8207\u897f\u57df. \u4e2d\u570b\u5370\u5ea6\u4e4b\u4ea4\u901a(\u4ea6\u984c\u70ba\u5343\u4e94\u767e\u5e74\u524d\u4e4b\u4e2d\u570b\u7559\u5b78\u751f). \u4f5b\u6559\u6559\u7406\u5728\u4e2d\u570b\u4e4b\u767c\u5c55. \u7ffb\u8b6f\u6587\u5b78\u8207\u4f5b\u5178. \u4f5b\u5178\u4e4b\u7ffb\u8b6f. \u4f5b\u6559\u5178\u7c4d\u8b5c\u9304\u8003. \u8b80\u7570\u90e8\u5b97\u8f2a\u8ad6\u8ff0\u8a18. \u8aaa\u56db\u963f\u542b. \u8aaa\u516d\u8db3\u767c\u667a. \u8aaa\u5927\u6bd8\u5a46\u6c99. \u8b80\u4fee\u884c\u9053\u5730\u7d93. \u90a3\u5148\u6bd4\u4e18\u7d93\u66f8. \u4f5b\u5bb6\u7d93\u9304\u5728\u4e2d\u570b\u76ee\u9304\u5b78\u4e4b\u4f4d\u7f6e. \u898b\u65bc\u9ad8\u50e7\u50b3\u4e2d\u4e4b\u652f\u90a3\u8457\u8ff0. \u5927\u4e58\u8d77\u56e0\u8ad6\u8003\u8b49\u5e8f. \u4f5b\u6559\u5fc3\u7406\u5b78\u6dfa\u6e2c\uff08\u5f9e\u5b78\u7406\u4e0a\u89e3\u91cb\u201c\u4e94\u860a\u7686\u7a7a\u201d\u7fa9\uff09. \u652f\u90a3\u5167\u5b78\u9662\u7cbe\u6821\u672c\u7384\u5958\u50b3\u66f8\u5f8c. \u95dc\u65bc\u7384\u5958\u5e74\u8b5c\u4e4b\u7814\u7a76. \u5927\u5bf6\u7a4d\u7d93\u8fe6\u8449\u54c1\u68b5\u85cf\u6f22\u6587\u516d\u7a2e\u5408\u523b\u5e8f. \u8b80\u66f8\u5206\u6708\u8ab2\u7a0b(1892)(\u4ee5\u4e0b\u81f3\u8981\u7c4d\u89e3\u984c\u53ca\u5176\u8b80\u6cd5\u70ba\u4e00\u985e). \u4f5c\u6587\u6559\u5b78\u6cd5. \u570b\u5b78\u5165\u9580\u66f8\u8981\u76ee\u53ca\u5176\u8b80\u6cd5. \u6700\u4f4e\u9650\u5ea6\u4e4b\u5fc5\u8b80\u66f8\u76ee. \u6cbb\u570b\u5b78\u96dc\u8a71. \u8b80\u80e1\u9069\u4e4b\u7684\u4e00\u500b\u6700\u4f4e\u9650\u5ea6\u7684\u570b\u5b78\u66f8\u76ee. \u8981\u7c4d\u89e3\u984c\u53ca\u5176\u8b80\u6cd5 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 10 (\u5c08\u96c673-87). \u4e2d\u570b\u6b77\u53f2\u7814\u7a76\u6cd5. \u4e2d\u570b\u4e4b\u7f8e\u6587\u53ca\u5176\u6b77\u53f2. \u4e2d\u570b\u8fd1\u4e09\u767e\u5e74\u5b78\u8853\u53f2. \u5148\u79e6\u5b78\u8853\u5e74\u8868(\u4ee5\u4e0b\u81f3\u6f22\u5fd7\u8af8\u5b50\u7565\u5404\u66f8\u5b58\u4f5a\u771f\u507d\u8868\u70ba\u4e00\u985e). \u838a\u5b50\u5929\u4e0b\u7bc7\u91cb\u7fa9 (\u5433\u5176\u660c\u7b46\u8a18). \u8340\u5b50\u8a55\u8af8\u5b50\u8a9e\u5f59\u89e3. \u97d3\u975e\u5b50\u986f\u5b78\u7bc7\u91cb\u7fa9. \u5c38\u5b50\u5ee3\u6fa4\u7bc7\u5442\u6c0f\u6625\u79cb\u4e0d\u4e8c\u7bc7\u5408\u91cb. \u6dee\u5357\u5b50\u8981\u7565\u66f8\u5f8c. \u53f8\u99ac\u8ac7\u8ad6\u516d\u5bb6\u8981\u6307\u66f8\u5f8c. \u53f2\u8a18\u4e2d\u6240\u8ff0\u8af8\u5b50\u53ca\u8af8\u5b50\u66f8\u6700\u9304\u8003\u91cb. \u6f22\u66f8\u85dd\u6587\u5fd7\u8af8\u5b50\u7565\u8003\u91cb. \u6f22\u5fd7\u8af8\u5b50\u7565\u5404\u66f8\u5b58\u4f5a\u771f\u507d\u8868. \u8003\u8af8\u5b50\u7565\u4ee5\u5916\u73fe\u5b58\u5b50\u66f8. \u4e2d\u570b\u6587\u5316\u53f2. \u5716\u66f8\u5927\u8fad\u5178\u7c3f\u9304\u4e4b\u90e8 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 11 (\u5c08\u96c688-95). \u4f73\u4eba\u5947\u9047(\u4ee5\u4e0b\u81f3\u5341\u4e94\u5c0f\u8c6a\u5091\u70ba\u4e00\u985e). \u65b0\u4e2d\u570b\u672a\u4f86\u8a18. \u4e16\u754c\u672b\u65e5\u8a18. \u4fc4\u7687\u5bae\u4e2d\u4e4b\u4eba\u9b3c. \u52ab\u7070\u5922\u50b3\u5947. \u65b0\u7f85\u99ac\u50b3\u5947. \u4fe0\u60c5\u8a18\u50b3\u5947. \u5341\u4e94\u5c0f\u8c6a\u5091. \u6843\u82b1\u6247\u6ce8(\u4e0a,\u4e0b) --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "volume 12 (\u5c08\u96c696-104). \u9676\u6df5\u660e. \u9676\u96c6\u79c1\u5b9a\u672c. \u6731\u821c\u6c34\u5148\u751f\u5e74\u8b5c(\u6b64\u5169\u7a2e\u70ba\u4e00\u985e\u8f9b\u8b5c\u70ba\u8457\u8005\u4e4b\u7d55\u7b46). \u8f9b\u7a3c\u8ed2\u5148\u751f\u5e74\u8b5c. \u4e2d\u570b\u6b77\u53f2\u7814\u7a76\u6cd5(\u88dc\u7de8)(1926 1927 \u5468\u50b3\u5112\u59da\u540d\u9054)\u7b46\u8a18. \u8340\u5b50\u6b63\u540d\u7bc7(\u5433\u5176\u660c\u8a18). \u4e2d\u570b\u8003\u53e4\u5b78\u4e4b\u904e\u53bb\u53ca\u5c07\u4f86(\u5468\u50b3\u5112\u8a18). \u66f8\u6cd5\u6307\u5c0e(\u5468\u50b3\u5112\u8a18). \u5112\u5bb6\u54f2\u5b78(\u5468\u50b3\u5112\u8a18). \u8b80\u66f8\u793a\u4f8b-\u8340\u5b50(\u5433\u5176\u660c\u8a18). \u53e4\u66f8\u771f\u507d\u53ca\u5176\u5e74\u4ee3(\u5468\u50b3\u5112\u59da\u540d\u9054\u5433\u5176\u660c\u8a18)."
+          }
+        ],
+        "note": [
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "Liang Qichao zhu."
+          },
+          {
+            "@altRepGroup": "05",
+            "#text": "Volume 1-5: yin bing shi wen ji 1-45, volume 6-12: yin bing shi zhuan ji 1-104."
+          },
+          {
+            "@altRepGroup": "06",
+            "#text": "Reprint. Originally published: Shanghai : Zhonghua shu ju, 1936."
+          },
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "\u6881\u555f\u8d85\u8457."
+          },
+          {
+            "@altRepGroup": "05",
+            "#text": "Volume 1-5: \u98ee\u51b0\u5ba4\u6587\u96c61-45, volume 6-12: \u98ee\u51b0\u5ba4\u5c08\u96c61-104."
+          },
+          {
+            "@altRepGroup": "06",
+            "#text": "Reprint. Originally published: Shanghai : \u4e2d\u83ef\u66f8\u5c40, 1936."
+          }
+        ],
+        "subject": [
+          {
+            "@authority": "ram",
+            "topic": [
+              "Id\u00e9es politiques",
+              "1644-1912 (Dynastie Mandchoue)"
+            ],
+            "geographic": "Chine"
+          },
+          {
+            "@authority": "ram",
+            "geographic": "Chine",
+            "topic": [
+              "Politique et gouvernement",
+              "1644-1912 (Dynastie Mandchoue)"
+            ]
+          },
+          {
+            "@authority": "ram",
+            "geographic": "Chine",
+            "topic": [
+              "Pens\u00e9e politique et sociale",
+              "1644-1912 (Dynastie Mandchoue)"
+            ]
+          },
+          {
+            "@authority": "ram",
+            "geographic": "Chine",
+            "topic": "Pens\u00e9e politique et sociale",
+            "temporal": "20e si\u00e8cle"
+          }
+        ],
+        "classification": [
+          {
+            "@authority": "lcc",
+            "#text": "DS764.23.L52 A2 1989"
+          },
+          {
+            "@edition": "20",
+            "@authority": "ddc",
+            "#text": "951/.035/092"
+          }
+        ],
+        "relatedItem": [
+          {
+            "@type": "constituent",
+            "titleInfo": {
+              "title": "Yin bing shi wen ji"
+            }
+          },
+          {
+            "@type": "constituent",
+            "titleInfo": {
+              "title": "Yin bing shi zhuan ji"
+            }
+          },
+          {
+            "@type": "otherFormat",
+            "@displayLabel": "Online version:",
+            "@otherType": "Online version:",
+            "titleInfo": {
+              "title": "Yin bing shi he ji"
+            },
+            "name": {
+              "namePart": "Liang, Qichao, 1873-1929."
+            },
+            "originInfo": {
+              "publisher": "Beijing : Zhonghua shu ju : Xin hua shu dian Beijing fa xing suo fa xing, 1989",
+              "edition": "Di 1 ban."
+            },
+            "identifier": {
+              "@type": "local",
+              "#text": "(OCoLC)734200346"
+            }
+          },
+          {
+            "@otherType": "HOLLIS record",
+            "location": {
+              "url": "https://id.lib.harvard.edu/alma/990019215460203941/catalog"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "@type": "isbn",
+            "#text": "710100475X"
+          },
+          {
+            "@type": "isbn",
+            "#text": "9787101004755"
+          },
+          {
+            "@type": "lccn",
+            "#text": "^^^90176275^"
+          },
+          {
+            "@type": "oclc",
+            "#text": "21223576"
+          }
+        ],
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "9120 3934 (1989)"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990019215460203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "001921546"
+                }
+              },
+              "processingDate": "2023-07-11T05:10Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "descriptionStandard": "aacr",
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "DLC-R"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "900924"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20170206"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990019215460203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)",
+          "languageOfCataloging": {
+            "languageTerm": {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "eng"
+            }
+          }
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "01",
+            "title": "Hui zu dian cang quan shu"
+          },
+          {
+            "@altRepGroup": "01",
+            "title": "\u56de\u65cf\u5178\u85cf\u5168\u66f8"
+          }
+        ],
+        "name": [
+          {
+            "@type": "personal",
+            "@altRepGroup": "04",
+            "namePart": "Wu, Haiying"
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "05",
+            "namePart": [
+              "Wu, Jianwei",
+              {
+                "@type": "date",
+                "#text": "1941-"
+              }
+            ]
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "06",
+            "namePart": "Lei, Xingkui."
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "07",
+            "namePart": "Lei, Xiaojing"
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "04",
+            "namePart": "\u5433\u6d77\u9df9."
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "05",
+            "namePart": [
+              "\u5433\u5efa\u5049",
+              {
+                "@type": "date",
+                "#text": "1941-"
+              }
+            ]
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "06",
+            "namePart": "\u96f7\u8208\u9b41."
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "07",
+            "namePart": "\u96f7\u66c9\u975c."
+          }
+        ],
+        "typeOfResource": "text",
+        "genre": {
+          "@authority": "rdacontent",
+          "#text": "text"
+        },
+        "originInfo": [
+          {
+            "@altRepGroup": "0203",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "cc"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "China"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "Lanzhou Shi"
+                }
+              }
+            ],
+            "publisher": "Gansu wen hua chu ban she",
+            "dateIssued": "2008",
+            "edition": "Di 1 ban.",
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "0203",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u862d\u5dde\u5e02 :"
+              }
+            },
+            "publisher": "\u7518\u8085\u6587\u5316\u51fa\u7248\u793e,",
+            "dateIssued": "2008.",
+            "edition": "\u7b2c1\u7248."
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "chi"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Chinese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": [
+            {
+              "@authority": "marcform",
+              "#text": "print"
+            },
+            {
+              "@type": "media",
+              "@authority": "rdamedia",
+              "#text": "unmediated"
+            },
+            {
+              "@type": "carrier",
+              "@authority": "rdacarrier",
+              "#text": "volume"
+            }
+          ],
+          "extent": "235 volumes : illustrations ; 30 cm"
+        },
+        "tableOfContents": [
+          {
+            "@altRepGroup": "04",
+            "#text": "v. 1-3. Bai hua yi jie Gu lan tian jing -- v. 4-5. Gu lan jing yi jie -- v. 5. Bao ming zhen jing zhi jie. Ke lan jing xuan ben yi jian zhu -- v. 6. Xuan yi xiang jie Weigaye -- v. 7-8. Ke lan zhen jing han yi -- v. 9. Gu lan jing da yi -- v. 10. Gu lan jing da yi zhu shi. Muhanmode de mo shi -- v. 11. Bao ming zhen jing zan. Tian jing yi jie. Sheng yu xiang jie. Nao wei si shi duan sheng yu. Muhanmode sheng ji lu. Muhanmode yan xing lu. Mu sheng de gan ying -- v. 12. Kelimo jie qi meng qian shuo. Si pian yao dao xiang jie. Gui zhen zong yi -- v. 13-14. Zheng jiao zhen -- v. 14. Qing zhen da xue. Xi zhen zheng da -- v. 15. Zhen quan yao lu. Tian fang wei zhen yao lu\u0308e. Zhao yuan mi jue -- v. 16-18. Qing zhen zhi nan -- v. 19. Zhi nan yao yan -- v. 20. Tian fang dian li ze yao jie -- v. 21-23. Tian fang zhi sheng shi lu nian pu -- v. 24-25. Tian fang xing li -- v. 25. Tian fang zi mu jie yi -- v. 25-26. Wu gong shi yi -- v. 26. Tian fang san zi you yi. Tian fang san zi jing. Wu geng yue. Wu geng yue jie. Zhen jing zhao wei -- v. 27-28. Jing xue xi zhuan pu -- v. 28. Zhen gong fa wei -- v. 29. Han zi he ting -- v. 29-30. Gui zhen yao dao -- v. 30. Xiu zhen meng yin. Tian fang san zi jing zhu jie. Xing mi lu. Shi er deng fu sheng ge -- v. 31. Da hua zong gui. Zhen de mi wei li fa qi ai he bian. Han yi dao xing jiu jing. Li fa jie jing -- v. 32. Si dian yao hui. Xing ming zong zhi. Xing shi zhen -- v. 33. Tian fang shi jing. Tian fang meng yin ge -- v. 34. Zhu tian da zan ji jie. Ju li zhi zheng. Bian li ming zheng yu lu. Xing li ben jing zhu jie. Zuan yi xing li ben jing zhu shi -- v. 35. Xu tian fang san zi jing. Tian fang ren yi bao zhen si zi jing. Xi lai zong pu. Ren li meng yin jiao ke shu. Ren li qie yao. Tian fang zheng xue. Qing zhen yu lu -- v. 36. Qing zhen shi yi. Qing zhen shi yi bu ji. Zhi sheng qian zi zan -- v. 37. Jiao kuan wei lun. Hui hui tong kao lu. Hui jiao kao lu\u0308e shu hou. Hui jiao kao. Jiao kuan jie yao. Qi kong xian qiao. Qing zhen tong su ge -- v. 38. Qing zhen ju zheng. Kao shi qing jiao chuan yi jie lu\u0308e zhang cheng. Qing zhen zhi yin. Qing zhen yi zhi lu. Qing zhen qi meng bi du. Qing zhen xing mi ge -- v. 39. Ze yao zhu jie za xue. Wanpu shi cang gao. Wu gong zong gang -- v. 40. Jing han zhu jie hei ting. Tian fang duan meng zheng jie. Shanghai qing zhen si cheng li dong shi hui hui zhi. Qing zhen xing shi pian -- v. 41. Li bai zhen gui. Zheng jiao yi mu xing. Qing zhen pi yi lun. Qing zhen jie yi. Zhi sheng bao xun. Qing zhen bi du. Yisilan jiao gai lun. Zong jiao zheng ji. Zheng jiao xu zhi -- v. 42. Qing zhen shi jing yi jiang. Qing zhen zui yao zhi -- v. 43. Tian fang qi yi quan shan lu. Tian fang qi guan. Xin yi du lou tan. Qing zhen cuo yao. Qing zhen xue li yi zhu. Wan hua zheng zong -- v. 44. Qing zhen yao yi. Zheng jiao li lun. Hui Han fen bie xuan yan lu\u0308e. Jing jie a lin xuan yan lu\u0308e. Hui jiao qian shuo. Ming zhen shi yi -- v. 45. Ren yi zhi nan. Zhen dao su yuan. Suo lei shi yi. Shanghai qing zhen xi si ji. Mu sheng yi xing lu ji yi zhu. Sheng zan shi lu\u0308e. Pu pi bai tiao. Hui jiao yi yu. Qing zhen gen yuan -- v. 46. Hui ye bian zhen. Zhen jing hua yuan. Sheng ji bian zheng. Kai li mai jiang jie -- v. 47. Mie tie jiang yi. Qing zhen qi meng. Han yi Yileishade. Pi zun Naizatai -- v. 48. Ren ji xing wu. Tao bai yin yi. He te yin yi. Mu min bi du. Du Yisilan shu zhi. Mu min quan shan ge. Yisilan jiao zong zhi. Jiao yi wen da. Wang xiang tian tang. Xing shi gui zhen -- v. 49. Si jiao yao kuo. Chuang jian mu min zong jiao yuan biao. Hai tie yi yin. Hai tie zhu jie. Jiao xin jing zhu. Ermude Han yi jing hua quan ce -- v. 50. Zhongguo hui jiao ming li bai si ji. Hui jiao yao zhi. Qing zhen an le pu. Hei bai an. Qing zhen hai chao xin yin. Ju\u0308e le jing. Wang Haoran Wu'ahong xiao zhuan shi jian lu\u0308e. Mu min xue yao. Tian fang dao cheng qi jing qian shuo -- v. 51. Zhu tian da zan zhen jing. Qing zhen hui kan. Xiang jie Yimani. Jiao jing shi sui bi. Hui jiao ren yi lun. Jiao dian ji yao. Qing zhen jiao dian ge. Hai yi si ji lu bu -- v. 52. Qing zhen ao zhi -- v. 52-53. Hui yu du ben chu ji -- v. 53. Chehaleifansu. Hui jiao bi zun -- v. 54-55. Hui yu du ben gao ji -- v. 55. Xiao xue jiao dian ke ben. Li fa wen da. Qing zhen zheng shi. Shuo zhai jie. Jing shen zhi dao jiang yi. Mu min xu zhi. Xing mi zhen yuan -- v. 56. Muxinmatai. Xing mi yao lu. Qing zhen jiao zhi yan jiu. Qing zhen jie yao. Qing zhen xiu dao cuo yao. He ping jiao. Ren sheng bai jue -- v. 57. Da tong yuan li. Gang chang. Qing zhen yan. Hui jiao sang li shu yao. Zhi sheng Muhanmode shi lu\u0308e. Guangxi hui jiao. Hui jiao wen hua. Tao? dai kai li mai -- v. 58. Mo'anbihatai. Yimani wen da shi shuo. Nu\u0308 zi mu yu li bai jiao ke shu. Nan zi mu yu li bai jiao ke shu. Qing zhen mu yu jiao ke shu. He ti. He ping shi ming -- v. 59. Ma Duansu zou yi. Fu an dong yi ji. Xi zheng Shi cheng ji. Xing fu Hami ji -- v. 60-61. Bei wang ji -- v. 62-63. Ma Wenzhuang gong ji -- v. 63. Qing zhen jiao kao qun shu hui ji. Yuanyou dang ji bei kao. Hui hui yuan lai -- v. 64-74. Zang shu -- v. 74. Dao gu lu -- v. 75-80. Xu Zang shu -- v. 81-83. Shi gang ping yao -- v. 83. Chen Jiang ju shu Ding shi pu die -- v. 84-86. Li Wenling ji -- v. 87-89. Ding Qinghui gong yi ji -- v. 90-93. Feng Shaoxu ji -- v. 93. Yuan ru kao lu\u0308e -- v. 94. Yuan tu da yan. Sai dian chi jia pu. Tong'an Ding shi zu pu -- v. 95-101. Ma shi zong pu -- v. 101. Dian nan za ji. Wuding shi lu\u0308e -- v. 102. You yi lu. Gang zhi -- v. 103-104. Ma Duanmin gong zou yi -- v. 105. Ma Duanmin gong nian pu. Qing zhen xian zheng yan xing lu\u0308e -- v. 106. Ma shi xin shu. Feng zhu xue chao -- v. 107. Zhi tian sui bi -- v. 108. Qiu xin lu. Ma Xiaonu\u0308 yi gao -- v. 109. Lun yu yi shu. Lai xue zuan yan. Dian shi shu wen. Tui an liu shi liu sui zhui shu zi xu -- v. 110. Qing zhen jiao kao. Zheng He jia pu kao shi -- v. 111-113. Gurun Jin shi zong pu -- v. 113. Linqing Hei shi jia pu. Liu zhen tang Zhang shi jia pu -- v. 114. Nanhai gan jiao Pu shi jia pu. Ma shi jia pu -- v. 115-116. Yanmen Sa shi zu pu -- v. 116. Xianyang wang fu Dian gong ji. Xing hui pian. Xing hui pian zhai yao. Ma fu tu si ji -- v. 117. Du Wenxiu zi zhuan. Du Wenxiu shuai fu wen gao. Du Wenxiu wen shu ji yi. Du Wenxiu ge ming yuan qi. Bian yuan jie yuan lu. Dian yuan shi si nian da huo ji. Dian xi bian luan xiao shi. Ta lang Nan'an zheng kuang ji -- v. 118. Tianjin quan fei bian luan ji shi. Bi zhou qian jin. Yu zhou zhi da yi wen -- v. 119. Ru bu diao cha fu wen. Zang du jie yu. Zang zheng jie yao. Xian fa guan jian -- v. 120-128. Zhu yuan cong hua -- v. 128. Tian kong you ji. Kao zheng hui jiao li shi -- v. 129-132. Shu fang dao zhi -- v. 133-134. Ma shi zu pu -- v. 134. Meng Zang zhuang kuang -- v. 135. Wuyuan zhui dao Ning jun zhen wang guan bing wen ci. Qing Jianwei jiang jun xian fu jun xing lu\u0308e. Qingdao Anqing liu bie shou shu gao. Xian zhe yan xing lei chao -- v. 136. Tian fang da hua li shi -- v. 137. Xinjiang zhuang kuang tan. Tian fang zhan ke lu. Shi jie hui jiao shi lu\u0308e. Zhonguo li dai hui jiao ming xian shi lu\u0308e hui bian. Hui jiao min zu shuo. Zhongguo hui jiao shi yan jiu -- v. 138. Zhongguo hui jiao shi. Zhe xue yu ren sheng -- v. 139. Zhui qiu zhong de zhen zai. Zhongguo jin dai hui jiao wen hua shi liao -- v. 139-140. Cheng da wen hui -- v. 141. San shi nian lai zhi Zhongguo hui jiao wen hua gai kuang. Riben zhi hui jiao zheng ce. Ningxia hui jiao zhan shi zhuan kan. Hui jiao yu zun Kong. Shuo zhong. Ren dao tian dao hui bian -- v. 142. Yong qing shi shi wu jue san bai shou. Li chao shi shi -- v. 143. Hui jiao fa zhan shi lu\u0308e. Zhongguo hui jiao yu shi jie hui jiao. Zhongguo zhi hui jiao. Hui jiao xue shu si xiang shi -- v. 144. Zhongguo hui jiao shi jian. Hui jiao zhu guo wen hua shi -- v. 145. Hui jiao jiao yu shi. Xibei hui jiao sheng huo. Zhongguo hui jiao xiao shi -- v. 146. Zhongguo Yisilan shi gang yao can kao zi liao -- v. 147. Zhongguo Yisilan shi gang yao. Faguo ge ming shi. Xin bian Huaping Xian zhi -- v. 148. Qiong yao ji. Xin quan xue shi gao. Xin quan shi yu. Jin tai ji. Heshuo fang gu ji. Nai Qiangang shi ji. Gu Bei ji -- v. 149. Ma Jiugao ci. Ma Jiugao san qu. Fang shan ji. Sa Tianxi shi ji. Tianxi ci."
+          },
+          {
+            "@altRepGroup": "05",
+            "#text": "v. 150-152. Yan men ji -- v. 153. Xue Angfu san qu ji. Tang cai zi zhuan -- v. 154. Lan Chufang san qu. Yu Yuanding san qu. Suan zhai shi ji. Suan tian yue fu. Guan yun shi san qu. Henian shi ji. Ding Henian ji -- v. 155. Su xuan ji -- v. 156. Bo du lu ding yi ji. Zi zhong ji. Mai lu\u0308e yi shi. Cang hai yi zhu. Xie Yuli shi ji ben. Ma Duansu gong shi ji. Gui nang yi gao -- v. 157-159. Chu tan ji -- v. 160. Shan si yi wen ji. Fen shu. Shan shui yin shi ji -- v. 161. Li shi xu fen shu -- v. 162-164. Shan zhong yi xi hua -- v. 164. Ya xiao. Ma shi ri chao. Kunming Sun Qingmin gong ji -- v. 165. Hai Gangfeng ji. Jin Ziyou ji. Jin Zikun ji. Ma Jilong shi xuan -- v. 166-167. Xiang Yiwen ji -- v. 168-172. Miao yuan tang quan ji -- v. 173-174. San ling ji -- v. 174. Fu li ci -- v. 175-180. Yuhuazi you yi ji -- v. 181. Shan Jidi shi xuan. Shan Yinglei shi xuan. Yang Yingkui shi ji ben. Tao qing ling. Xianglanzi ji. Ji ben Xianglanzi ji. Xue an shi cun. Xiang hu cao tang ji. Ma Huizhai xian sheng yi ji. Ma Ruwei yi wei -- v. 182-183. Fu li tang wen ji -- v. 183. Fu li tang shi ji hui xuan -- v. 184. Kuang an wen ji -- v. 185. Kuang an shi qian ji -- v. 185-186. Kuang an shi ji -- v. 187. Wen shan wen ji -- v. 188-189. Wen shan shi ji -- v. 189. Zi yun ci. Fei e tang wen ji. Da shan shi ji xuan -- v. 190. Chun hui ge shi xuan -- v. 190-191. Qi jing lou wen chao -- v. 191. Jiang shang shi ji -- v. 192. Shu fa. Hua quan. Xiao zheng ji. Meng yu ji. Jia shen ji. Lu\u0308 yi yin -- v. 193. Jian chun ci. Yu Linshu shi ji. Yuhushanren shi chao. Yuhu shan fang ci. Gaiqi yi shi. Kongzi sheng ji tu. Bai fu mei hua tu. Bu jing mei ren tu. Hong lou meng tu yong -- v. 194. Gu yi ji -- v. 194-195. Diancangshanren shi chao -- v. 195. Xue lou shi xuan. Ma Zhilong yi wen. Sang yu yin cao -- v. 196. Chui xiang lou wen ji -- v. 197. Huang chi sui bi. Tiao deng shi hua -- v. 198. Pu li zi -- v. 199. Chui xiang lou shi gao. Nan cun shi ji. Ji ben Sun Peng shi xuan. Ji ben Sun Peng wen xuan -- v. 200. Xu Pu li zi. Lu xi shi chao -- v. 201. Qiao yue shan fang shi ji. Zhi xiang shan fang shi cao. Bi xie ci. Xian yu za yong -- v. 202. Shi fu shi cun. Hai tang chao ci gao -- v. 203. Ping shu shi cun. Teng xiang guan ci chao. Teng xiang guan ci er zhong -- v. 204. Teng xiang guang shi chao -- v. 205. Bai hua lou shi chao. Bai hua lou fen yu gao. Li ying tang shi chao -- v. 206. Wang yun jing she shi chao. Xiang nan yin cao. Zhu guang ji. Wan qing shi jia shu -- v. 207. Du Wenxiu shi ci ying lian. Song he tang ji shi chu cao. Yi yun shu wu shi chao -- v. 208. Ha tui xuan tai shi shi gao. Ha Rui shi wen ji. Mo dun yu mo. Hui zhu guan jin gao. Yin hen ji. Ti lu sheng gao. Xun yang lou -- v. 209. Ma Dai hua wen. Shan shui hua jue. Ming sheng shan shui hua pu -- v. 210. Ren wu hua fan. Li dai ming jiang hua pu. Gu jin ren wu hua pu. Mei ren bai tai hua pu. Lan zhu bo gu hua pu -- v. 211. Shi qing hua yi hua pu. Bai hua xie sheng hua pu. Hua niao hua pu. Hua hui cao chong hua fa. Yu chong gua guo hua fa -- v. 212. Hai yao ben cao ji ben. Da Yuan da yi tong -- v. 213. Yin shan zheng yao. He fang tong yi -- v. 214. Hui hui shi pin. Hui hui guan yi yu. Hui hui guan lai wen -- v. 215. Hui hui yao fang -- v. 216. Nong sang yi shi cuo yao. Rui zhu tang jing yan fang. Yi xue lei -- v. 217. Tian wen shu. Tian wen xiang zong shu -- v. 218. Qi zheng tui bu -- v. 219. Hui hui li fa. Hui hui li fa shi li. Hang hai tu. Ying ya sheng lan. Xing cha sheng lan -- v. 220. Nong shuo. Xi zheng shu. Lu shan ji you. Gua qi biao. Yan pao tu shuo ji yao -- v. 221. Hua yue tu jing. Jiangxi shui dao kao -- v. 222-223. Tian fang er ya -- v. 223. Tian fang li fa tu zhen ben. Tian fang li yuan. Chao jin tu ji. Huan yu shu yao. Tian fang shi fa. Qing zhen qi meng zi mu. Xi li yao zhi -- v. 224. Shuo yi. Tian fang zi mu yi yin hui bian. Xun yue zhi nan -- v. 225. Xing yi quan pu. Zhonghua xin shi wu shu gun shu ke -- v. 226. Jiao men tan tui tu shuo -- v. 226-227. Zhonghua xin shi wu shu jian shu ke -- v. 227. Zhonghua xin shi wu shu shuai jiao ke -- v. 228. Zhonghua xin shi wu shu quan jiao ke -- v. 229. Shuo yue xuan lu. Tian fang yue lun -- v. 229-230. Zhong A xin zi dian -- v. 230. Heilongjiang sheng cheng qing zhen xue xiao yi lan. Li yuan zhen ben -- v. 231. Weigaye zi dian. Jialing Jiang zhi. Hui hui li -- v. 232. Xi xing ri ji. Tian fang ji cheng -- v. 233. Zhang A chu hun. Maijia xun li ji -- v. 234. Yin xu bu ci jiang hua. Jin Shanwei fang gu ji gang yao. Gui bu. Yi zhai jin shi tu lu fang gu pai yin ben. Liu sha yi zhen. Zhongguo yin biao zi shu. Han yi yue bei -- v. 235. Kang Zang yao zheng. Kang Zang yao zheng xu ji. Zhong A yao yu he bi. Hua Ya zi dian ze yao. Hui li gang yao."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u7b2c1-3\u518a. \u767d\u8a71\u8b6f\u89e3\u53e4\u862d\u5929\u7d93 -- \u7b2c4-5\u518a. \u53e4\u862d\u7d93\u8b6f\u89e3 -- \u7b2c5\u518a. \u5bf3\u547d\u771f\u7d93\u76f4\u89e3. \u514b\u862d\u7d93\u9078\u672c\u8b6f\u7b8b\u6ce8 -- \u7b2c6\u518a. \u9078\u8b6f\u8a73\u89e3\u5049\u560e\u696d -- \u7b2c7-8\u518a. \u53ef\u862d\u771f\u7d93\u6f22\u8b6f -- \u7b2c9\u518a. \u53e4\u862d\u7d93\u5927\u7fa9 -- \u7b2c10\u518a. \u53e4\u862d\u7d93\u5927\u7fa9\u6ce8\u91cb. \u7a46\u7f55\u9ed8\u5fb7\u7684\u9ed8\u793a -- \u7b2c11\u518a. \u5bf3\u547d\u771f\u7d93\u8d0a. \u5929\u7d93\u8b6f\u89e3. \u8056\u8aed\u8a73\u89e3. \u8166\u5a01\u56db\u5341\u6bb5\u8056\u8aed. \u7a46\u7f55\u9ed8\u5fb7\u8056\u8de1\u9304. \u7a46\u7f55\u9ed8\u5fb7\u8a00\u884c\u9304. \u7a46\u8056\u7684\u611f\u61c9 -- \u7b2c12\u518a. \u514b\u7406\u9ed8\u89e3\u5553\u8499\u6dfa\u8aaa. \u56db\u7bc7\u8981\u9053\u8b6f\u89e3. \u6b78\u771f\u7e3d\u7fa9 -- \u7b2c13-14\u518a. \u6b63\u6559\u771f -- \u7b2c14\u518a. \u6e05\u771f\u5927\u5b78. \u5e0c\u771f\u6b63\u7b54 -- \u7b2c15\u518a. \u771f\u8a6e\u8981\u9304. \u5929\u65b9\u885b\u771f\u8981\u7565. \u662d\u5143\u79d8\u8a23 -- \u7b2c16-18\u518a. \u6e05\u771f\u6307\u5357 -- \u7b2c19\u518a. \u6307\u5357\u8981\u8a00-- \u7b2c20\u518a. \u5929\u65b9\u5178\u79ae\u64c7\u8981\u89e3 -- \u7b2c21-23\u518a. \u5929\u65b9\u81f3\u8056\u5be6\u9304\u5e74\u8b5c -- \u7b2c24-25\u518a. \u5929\u65b9\u6027\u7406 -- \u7b2c25\u518a. \u5929\u65b9\u5b57\u6bcd\u89e3\u7fa9 -- .\u7b2c25-26\u518a. \u4e94\u529f\u91cb\u7fa9 -- \u7b2c26\u518a. \u5929\u65b9\u4e09\u5b57\u5e7c\u7fa9. \u5929\u65b9\u4e09\u5b57\u7d93. \u4e94\u66f4\u6708. \u4e94\u66f4\u6708\u5048. \u771f\u5883\u662d\u5fae -- \u7b2c27-28\u518a. \u7d93\u5b78\u7cfb\u50b3\u8b5c -- \u7b2c28\u518a. \u771f\u529f\u767c\u5fae -- \u7b2c29\u518a. \u6f22\u5b57\u8d6b\u5ef3 -- \u7b2c29-30\u518a. \u6b78\u771f\u8981\u9053 -- \u7b2c30\u518a. \u4fee\u771f\u8499\u5f15. \u5929\u65b9\u4e09\u5b57\u7d93\u6ce8\u89e3. \u7701\u8ff7\u9304. \u5341\u4e8c\u7b49\u5fa9\u751f\u6b4c -- \u7b2c31\u518a. \u5927\u5316\u7e3d\u6b78. \u771f\u5fb7\u5f4c\u7dad\u79ae\u6cd5\u5553\u611b\u5408\u7de8. \u6f22\u8b6f\u9053\u884c\u7a76\u7adf. \u79ae\u6cd5\u6377\u5f91 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u7b2c32\u518a. \u56db\u5178\u8981\u6703. \u6027\u547d\u5b97\u65e8. \u9192\u4e16\u7bb4 -- \u7b2c33\u518a. \u5929\u65b9\u8a69\u7d93. \u5929\u65b9\u8499\u5f15\u6b4c -- \u7b2c34\u518a. \u795d\u5929\u5927\u8d0a\u96c6\u89e3. \u64da\u7406\u8cea\u8b49. \u8fa8\u7406\u660e\u6b63\u8a9e\u9304. \u6027\u7406\u672c\u7d93\u6ce8\u91cb. \u7e82\u8b6f\u6027\u7406\u672c\u7d93\u6ce8\u91cb -- \u7b2c35\u518a. \u7e8c\u5929\u65b9\u4e09\u5b57\u7d93. \u5929\u65b9\u8a8d\u4e00\u5bf3\u73cd\u56db\u5b57\u7d93. \u897f\u4f86\u5b97\u8b5c. \u8a8d\u79ae\u8499\u5f15\u6559\u79d1\u66f8. \u8a8d\u79ae\u5207\u8981. \u5929\u65b9\u6b63\u5b78. \u6e05\u771f\u8a9e\u9304 -- \u7b2c36\u518a. \u6e05\u771f\u91cb\u7591. \u6e05\u771f\u91cb\u7591\u88dc\u8f2f. \u81f3\u8056\u5343\u5b57\u8d0a -- \u7b2c37\u518a. \u6559\u6b3e\u5fae\u8ad6. \u56de\u56de\u901a\u8003\u9304. \u56de\u6559\u8003\u7565\u66f8\u5f8c. \u56de\u6559\u8003. \u6559\u6b3e\u6377\u8981. \u4e03\u7a7a\u50ca\u6a4b. \u6e05\u771f\u901a\u4fd7\u6b4c -- \u7b2c38\u518a. \u6e05\u771f\u5c45\u6b63. \u8003\u8a66\u6e05\u6559\u7a7f\u8863\u7bc0\u7565\u7ae0\u7a0b. \u6e05\u771f\u6307\u5f15. \u6e05\u771f\u6613\u77e5\u9304. \u6e05\u771f\u5553\u8499\u5fc5\u8b80. \u6e05\u771f\u9192\u8ff7\u6b4c -- \u7b2c39\u518a. \u64c7\u8981\u6ce8\u89e3\u96dc\u5b78. \u5b8c\u749e\u6c0f\u85cf\u7a3f. \u4e94\u529f\u7e3d\u7db1 -- \u7b2c40\u518a. \u7d93\u6f22\u6ce8\u89e3\u9ed1\u5ef3. \u5929\u65b9\u7aef\u8499\u6b63\u89e3. \u4e0a\u6d77\u6e05\u771f\u5bfa\u6210\u7acb\u8463\u4e8b\u6703\u5f59\u8a8c. \u6e05\u771f\u9192\u4e16\u7bc7 -- \u7b2c41\u518a. \u79ae\u62dc\u7bb4\u898f. \u6b63\u6559\u4e00\u76ee\u9192. \u6e05\u771f\u95e2\u7570\u8ad6. \u6e05\u771f\u89e3\u7fa9. \u81f3\u8056\u5bf3\u8a13. \u6e05\u771f\u5fc5\u8b80. \u4f0a\u65af\u862d\u6559\u6982\u8ad6. \u5b97\u6559\u6b63\u57fa. \u6b63\u6559\u9808\u77e5 -- \u7b2c42\u518a. \u6e05\u771f\u8a69\u7d93\u8b6f\u8b1b. \u6e05\u771f\u6700\u8981\u8a8c -- \u7b2c43\u518a. \u5929\u65b9\u5947\u7570\u52f8\u5584\u9304. \u5929\u65b9\u5947\u89c0. \u65b0\u8b6f\u9ad1\u9acf\u5606. \u6e05\u771f\u64ae\u8981. \u6e05\u771f\u5b78\u7406\u8b6f\u8457. \u842c\u5316\u6b63\u5b97 -- \u7b2c44\u518a. \u6e05\u771f\u8981\u7fa9. \u6b63\u6559\u7406\u8ad6. \u56de\u6f22\u5206\u5225\u5ba3\u8a00\u7565. \u8b66\u6212\u963f\u81e8\u5ba3\u8a00\u7565. \u56de\u6559\u6dfa\u8aaa. \u660e\u771f\u91cb\u7591 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u7b2c45\u518a. \u8a8d\u4e00\u6307\u5357. \u771f\u9053\u6eaf\u6e90. \u7463[\u96f7]\u91cb\u7fa9. \u4e0a\u6d77\u6e05\u771f\u897f\u5bfa\u8a18. \u7a46\u8056\u5100\u884c\u9304\u53ca\u907a\u56d1. \u8056\u8d0a\u8a69\u7565. \u666e\u6279\u767e\u689d. \u56de\u6559\u81c6\u8a9e. \u6e05\u771f\u6839\u6e90 -- \u7b2c46\u518a. \u56de\u8036\u8fa8\u771f. \u771f\u5883\u82b1\u5712. \u8056\u5fcc\u8faf\u8b49. \u958b\u79ae\u9ea5\u8b1b\u89e3 -- \u7b2c47\u518a. \u4e5c\u5e16\u8b1b\u7fa9. \u6e05\u6b63\u5553\u8499. \u6f22\u8b6f\u4f0a[\u96f7]\u6c99\u5fb7. \u5426\u5c0a\u4e43\u624e\u53f0 -- \u7b2c48\u518a. \u8a8d\u5df1\u7701\u609f. \u8a0e\u767d\u97f3\u7fa9. \u8d6b\u5fd2\u97f3\u7fa9. \u7a46\u6c11\u5fc5\u8b80. \u8b80\u4f0a\u65af\u862d\u66f8\u8a8c. \u7a46\u6c11\u52f8\u5584\u6b4c. \u4f0a\u65af\u862d\u6559\u5b97\u65e8. \u6559\u7fa9\u554f\u7b54. \u671b\u60f3\u5929\u5802. \u9192\u4e16\u6b78\u771f -- \u7b2c49\u518a. \u56db\u6559\u8981\u62ec. \u5275\u5efa\u7a46\u6c11\u7e3d\u6559\u9662\u8868. \u4ea5\u5e16\u8b6f\u97f3. \u4ea5\u5e16\u6ce8\u89e3. \u6559\u5fc3\u7d93\u6ce8. \u8033\u76ee\u5fb7\u6f22\u8b6f\u7cbe\u83ef\u5168\u518a -- \u7b2c50\u518a. \u4e2d\u570b\u56de\u6559\u540d\u79ae\u62dc\u5bfa\u8a18. \u56de\u6559\u8981\u6307. \u6e05\u771f\u5b89\u6a02\u8b5c. \u9ed1\u767d\u6848. \u6e05\u771f\u6d77\u6f6e\u5fc3\u8a00. \u89ba\u6a02\u7d93. \u738b\u6d69\u7136\u4e94\u963f\u8a07\u5c0f\u50b3\u53f2\u7c21\u7565. \u7a46\u6c11\u5b78\u8981. \u5929\u65b9\u9053\u7a0b\u5553\u5f91\u6dfa\u8aaa -- \u7b2c51\u518a. \u795d\u5929\u5927\u8d0a\u771f\u7d93. \u6e05\u771f\u5f59\u520a. \u8a73\u89e3\u58f9\u746a\u5c3c. \u6821\u7d93\u5ba4\u96a8\u7b46. \u56de\u6559\u8a8d\u4e00\u8ad6. \u6559\u5178\u8f2f\u8981. \u6e05\u771f\u6559\u5178\u6b4c. \u6d77\u4e59\u5bfa\u8a18\u9304\u7c3f -- \u7b2c52\u518a. \u6e05\u771f\u5965\u65e8 -- \u7b2c52-53\u518a. \u56de\u8a9e\u8b80\u672c\u521d\u7d1a -- \u7b2c53\u518a. \u8eca\u54c8\u96f7\u51e1\u901f. \u56de\u6559\u5fc5\u9075 -- \u7b2c54-55\u518a. \u56de\u8a9e\u8b80\u672c\u9ad8\u7d1a -- \u7b2c55\u518a. \u5c0f\u5b78\u6559\u5178\u8ab2\u672c. \u79ae\u6cd5\u554f\u7b54. \u6e05\u771f\u6b63\u53f2. \u8aaa\u9f4b\u6212. \u7cbe\u795e\u6307\u5c0e\u8b1b\u7fa9. \u7a46\u6c11\u9808\u77e5. \u7701\u8ff7\u771f\u539f -- \u7b2c56\u518a. \u7a46\u4fe1\u55ce\u81fa. \u9192\u8ff7\u8981\u9304. \u6e05\u771f\u6559\u4e4b\u7814\u7a76. \u6e05\u771f\u63ed\u8981."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u6e05\u771f\u4fee\u9053\u64ae\u8981. \u548c\u5e73\u6559. \u4eba\u751f\u767e\u8a23 -- \u7b2c57\u518a. \u5927\u540c\u5143\u7406. \u7db1\u5e38. \u6e05\u771f\u8a00. \u56de\u6559\u55aa\u79ae\u8ff0\u8981. \u81f3\u8056\u7a46\u7f55\u9ed8\u5fb7\u4e8b\u7565. \u5ee3\u897f\u56de\u6559. \u56de\u65cf\u6587\u5316. \u6fe4? \u6234\u6137\u79ae\u9081 -- \u7b2c58\u518a. \u8b28\u95c7\u5fc5\u54c8\u53f0. \u4f0a\u746a\u5c3c\u554f\u7b54\u5be6\u8aaa. \u5973\u5b50\u6c90\u6d74\u79ae\u62dc\u6559\u79d1\u66f8. \u7537\u5b50\u6c90\u6d74\u79ae\u62dc\u6559\u79d1\u66f8. \u6e05\u771f\u6c90\u6d74\u6559\u79d1\u66f8. \u6838\u63d0. \u548c\u5e73\u4f7f\u547d -- \u7b2c59\u518a. \u99ac\u7aef\u8085\u594f\u8b70. \u64ab\u5b89\u6771\u5937\u8a18. \u897f\u5f81\u77f3\u57ce\u8a18. \u8208\u5fa9\u54c8\u5bc6\u8a18 -- \u7b2c60-61\u518a. \u5099\u5fd8\u96c6 -- \u7b2c62-63\u518a. \u99ac\u6587\u838a\u516c\u96c6 -- \u7b2c63\u518a. \u6e05\u771f\u6559\u8003\u7fa4\u66f8\u5f59\u8f2f. \u5143\u7950\u9ee8\u7c4d\u7891\u8003. \u56de\u56de\u539f\u4f86 -- \u7b2c64-74\u518a. \u85cf\u66f8 -- \u7b2c74\u518a. \u9053\u53e4\u9304 -- \u7b2c75-80\u518a. \u7e8c\u85cf\u66f8 -- \u7b2c81-83\u518a. \u53f2\u7db1\u8a55\u8981 -- \u7b2c83\u518a. \u9673\u6c5f\u805a\u66f8\u4e01\u6c0f\u8b5c\u7252 -- \u7b2c84-86\u518a. \u674e\u6e29\u9675\u96c6 -- \u7b2c87-89\u518a. \u4e01\u6e05\u60e0\u516c\u907a\u96c6 -- \u7b2c90-93\u518a. \u99ae\u5c11\u589f\u96c6 -- \u7b2c93\u518a. \u5143\u5112\u8003\u7565 -- \u7b2c94\u518a. \u5143\u5716\u5927\u884d. \u8cfd\u5178\u8d64\u5bb6\u8b5c. \u540c\u5b89\u4e01\u6c0f\u65cf\u8b5c -- \u7b2c95-101\u518a. \u99ac\u6c0f\u5b97\u8b5c -- \u7b2c101\u518a. \u6ec7\u5357\u96dc\u8a18. \u6b66\u5b9a\u4e8b\u7565 -- \u7b2c102\u518a. \u904a\u827a\u9304. \u5ca1\u8a8c -- \u7b2c103-104\u518a. \u99ac\u7aef\u654f\u516c\u594f\u8b70 -- \u7b2c105\u518a. \u99ac\u7aef\u654f\u516c\u5e74\u8b5c. \u6e05\u771f\u5148\u6b63\u8a00\u884c\u7565 -- \u7b2c106\u518a. \u99ac\u6c0f\u5fc3\u66f8. \u98a8\u71ed\u5b78\u9214 -- \u7b2c107\u518a. \u829d\u7530\u96a8\u7b46 -- \u7b2c108\u518a. \u6c42\u5fc3\u9304. \u99ac\u5b5d\u5973\u907a\u7a3f -- \u7b2c109\u518a. \u8ad6\u8a9e\u7fa9\u758f. \u4f86\u5b78\u7e82\u8a00."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u6ec7\u4e8b\u8ff0\u805e. \u86fb\u5eb5\u516d\u5341\u516d\u5d57\u8ffd\u8ff0\u81ea\u6558 -- \u7b2c110\u518a. \u6e05\u771f\u6559\u8003. \u912d\u548c\u5bb6\u8b5c\u8003\u91cb -- \u7b2c111-113\u518a. \u53e4\u6f64\u91d1\u6c0f\u5b97\u8b5c -- \u7b2c113\u518a. \u81e8\u6e05\u9ed1\u6c0f\u5bb6\u8b5c. \u516d\u7bb4\u5802\u5f35\u6c0f\u5bb6\u8b5c -- \u7b2c114\u518a. \u5357\u6d77\u7518\u8549\u84b2\u5f0f\u5bb6\u8b5c. \u99ac\u6c0f\u5bb6\u8b5c -- \u7b2c115-116\u518a. \u96c1\u9580\u85a9\u6c0f\u65cf\u8b5c -- \u7b2c116\u518a. \u54b8\u967d\u738b\u64ab\u6ec7\u529f\u7e3e. \u9192\u56de\u7bc7. \u9192\u56de\u7bc7\u6458\u8981. \u99ac\u8ca0\u5716\u79c1\u8a18 -- \u7b2c117\u518a. \u675c\u6587\u79c0\u81ea\u50b3. \u675c\u6587\u79c0\u5e25\u5e9c\u6587\u544a. \u675c\u6587\u79c0\u6587\u66f8\u8f2f\u4f5a. \u675c\u6587\u79c0\u9769\u547d\u7de3\u8d77. \u8faf\u51a4\u89e3\u51a4\u9304. \u6ec7\u57a3\u5341\u56db\u5e74\u5927\u798d\u8a18. \u6ec7\u897f\u8b8a\u4e82\u5c0f\u53f2. \u4ed6\u90ce\u5357\u5b89\u4e89\u7926\u8a18 -- \u7b2c118\u518a. \u5929\u6d25\u62f3\u532a\u8b8a\u4e82\u7d00\u4e8b. \u655d\u5e1a\u5343\u91d1. \u5b87\u5b99\u4e4b\u5927\u7591\u554f -- \u7b2c119\u518a. \u5165\u6b65\u8abf\u67e5\u5fa9\u6587. \u85cf\u7258\u52ab\u9918. \u85cf\u653f\u64f7\u8981. \u61b2\u6cd5\u7ba1\u898b -- \u7b2c120-128\u518a. \u7af9\u5712\u53e2\u8a71 -- \u7b2c128\u518a. \u5929\u7a7a\u904a\u8a18. \u8003\u8b49\u56de\u6559\u6b77\u53f2 -- \u7b2c129-132\u518a. \u6714\u65b9\u9053\u8a8c -- \u7b2c133-134\u518a. \u99ac\u6c0f\u65cf\u8b5c -- \u7b2c134\u518a. \u8499\u85cf\u72c0\u6cc1 -- \u7b2c135\u518a. \u4e94\u539f\u8ffd\u60bc\u5be7\u8ecd\u9663\u4ea1\u5b98\u5175\u6587\u8a5e. \u6e05\u5efa\u5a01\u5c07\u8ecd\u5148\u5e9c\u541b\u884c\u7565. \u9752\u5cf6\u5b89\u6176\u7559\u5225\u624b\u66f8\u7a3f. \u5148\u54f2\u8a00\u884c\u985e\u9214 -- \u7b2c136\u518a. \u5929\u65b9\u5927\u5316\u6b77\u53f2 -- \u7b2c137\u518a. \u65b0\u7586\u72c0\u51b5\u8ac7. \u5929\u65b9\u6230\u514b\u9304. \u4e16\u754c\u56de\u6559\u53f2\u7565. \u4e2d\u570b\u6b77\u4ee3\u56de\u6559\u540d\u8ce2\u4e8b\u7565\u5f59\u7de8. \u56de\u6559\u6c11\u65cf\u8aaa. \u4e2d\u570b\u56de\u6559\u53f2\u7814\u7a76 -- \u7b2c138\u518a. \u4e2d\u570b\u56de\u6559\u53f2. \u54f2\u5b78\u8207\u4eba\u751f -- \u7b2c139\u518a. \u8ffd\u6c42\u4e2d\u7684\u771f\u5bb0."
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u4e2d\u570b\u8fd1\u4ee3\u56de\u6559\u6587\u5316\u53f2\u6599 -- \u7b2c139-140\u518a. \u6210\u9054\u6587\u8588 -- \u7b2c141\u518a. \u4e09\u5341\u5e74\u4f86\u4e4b\u4e2d\u570b\u56de\u6559\u6587\u5316\u6982\u51b5. \u65e5\u672c\u4e4b\u56de\u6559\u653f\u7b56. \u5be7\u590f\u56de\u6559\u6230\u6642\u5c08\u520a. \u56de\u6559\u8207\u5c0a\u5b54. \u8aaa\u4e2d. \u4eba\u9053\u5929\u9053\u5f59\u7de8 -- \u7b2c142\u518a. \u548f\u6e05\u53f2\u8a69\u4e94\u7d76\u4e09\u767e\u9996. \u6b77\u671d\u53f2\u8a69 -- \u7b2c143\u518a. \u56de\u6559\u767c\u5c55\u53f2\u7565. \u4e2d\u570b\u56de\u6559\u8207\u4e16\u754c\u56de\u6559. \u4e2d\u570b\u4e4b\u56de\u6559. \u56de\u6559\u5b78\u8853\u601d\u60f3\u53f2 -- \u7b2c144\u518a. \u4e2d\u570b\u56de\u6559\u53f2\u9452. \u56de\u6559\u8af8\u570b\u6587\u5316\u53f2 -- \u7b2c145\u518a. \u56de\u6559\u6559\u80b2\u53f2. \u897f\u5317\u56de\u6559\u751f\u6d3b. \u4e2d\u570b\u56de\u6559\u5c0f\u53f2 -- \u7b2c146\u518a. \u4e2d\u570b\u4f0a\u65af\u862d\u53f2\u7db1\u8981\u53c3\u8003\u8cc7\u6599 -- \u7b2c147\u518a. \u4e2d\u570b\u4f0a\u65af\u862d\u53f2\u7db1\u8981. \u6cd5\u570b\u9769\u547d\u53f2. \u65b0\u7de8\u5316\u5e73\u7e23\u8a8c -- \u7b2c148\u518a. \u74ca\u7464\u96c6. \u5fc3\u6cc9\u5b78\u8a69\u7a3f. \u5fc3\u6cc9\u8a69\u9918. \u91d1\u81fa\u96c6. \u6cb3\u6714\u8a2a\u53e4\u8a18. \u4e43\u524d\u5ca1\u8a69\u96c6. \u9867\u5317\u96c6 -- \u7b2c149\u518a. \u99ac\u4e5d\u81ef\u8a5e. \u99ac\u4e5d\u81ef\u6563\u66f2. \u623f\u5c71\u96c6. \u85a9\u5929\u932b\u8a69\u96c6. \u5929\u932b\u8a5e -- \u7b2c150-152\u518a. \u96c1\u9580\u96c6 -- \u7b2c153\u518a. \u859b\u6602\u592b\u6563\u66f2\u96c6. \u5510\u624d\u5b50\u50b3 -- \u7b2c154\u518a. \u862d\u695a\u82b3\u6563\u66f2. \u7389\u5143\u9f0e\u6563\u66f2. \u9178\u9f4b\u8a69\u96c6. \u9178\u751c\u6a02\u5e9c. \u8cab\u96f2\u77f3\u6563\u66f2. \u9db4\u5e74\u8a69\u96c6. \u4e01\u9db4\u5e74\u96c6 -- \u7b2c155\u518c. \u7d20\u8ed2\u96c6 -- \u7b2c156\u518c. \u4f2f\u7be4\u9b6f\u4e01\u4f5a\u96c6. \u5b50\u4e2d\u96c6. \u8cb7\u95ad\u907a\u8a69. \u6ec4\u6d77\u907a\u73e0. \u5070\u7389\u7acb\u8a69\u8f2f\u672c. \u99ac\u7aef\u8085\u516c\u8a69\u96c6. \u6b78\u56ca\u907a\u7a3f -- \u7b2c157-159\u518a. \u521d\u6f6d\u96c6 -- \u7b2c160\u518c. \u8d0d\u601d\u4f5a\u6587\u96c6. \u711a\u66f8. \u5c71\u6c34\u97f3\u8a69\u96c6 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u7b2c161\u518a. \u674e\u6c0f\u7e8c\u711a\u66f8 -- \u7b2c162-164\u518a. \u5c71\u4e2d\u4e00\u5915\u8a71 -- \u7b2c164\u518a. \u96c5\u7b11. \u99ac\u6c0f\u65e5\u6284. \u6606\u660e\u5b6b\u6e05[\u668b]\u516c\u96c6 -- \u7b2c165\u518a. \u6d77\u525b\u5cf0\u96c6. \u91d1\u5b50\u6709\u96c6. \u91d1\u5b50\u5764\u96c6. \u99ac\u7e7c\u9f8d\u8a69\u9078 -- \u7b2c166-167\u518a. \u8944\u6bc5\u6587\u96c6 -- \u7b2c168-172\u518c. \u5999\u9060\u5802\u5168\u96c6 -- \u7b2c173-174\u518c. \u4e09\u9675\u96c6 -- \u7b2c174\u96c6. \u6276\u8354\u8a5e -- \u7b2c175-180\u518c. \u7389\u83ef\u5b50\u6e38\u85dd\u96c6 -- \u7b2c181\u518a. \u9583\u7e7c\u8fea\u8a69\u9078. \u9583\u61c9\u96f7\u8a69\u9078. \u694a\u61c9\u594e\u8a69\u8f2f\u672c. \u9676\u60c5\u4ee4. \u6e58\u862d\u5b50\u96c6. \u8f2f\u672c\u6e58\u862d\u5b50\u96c6. \u96ea\u5eb5\u8a69\u5b58. \u9999\u6e56\u8349\u5802\u96c6. \u99ac\u6094\u9f4b\u5148\u751f\u907a\u96c6. \u99ac\u6c5d\u70ba\u907a\u6587 -- \u7b2c182-183\u518a. \u6276\u8354\u5802\u6587\u96c6 -- \u7b2c183\u518a. \u6276\u8354\u5802\u8a69\u96c6\u5f59\u9078 -- \u7b2c184\u518a. \u5321\u5eb5\u6587\u96c6 -- \u7b2c185\u518a. \u5321\u5eb5\u8a69\u524d\u96c6 -- \u7b2c185-186\u518a. \u5321\u5eb5\u8a69\u96c6 -- \u7b2c187\u518a. \u554f\u5c71\u6587\u96c6 -- \u7b2c188-189\u518a. \u554f\u5c71\u8a69\u96c6 -- \u7b2c189\u518a. \u7d2b\u96f2\u8a5e. \u532a\u83aa\u5802\u6587\u96c6. \u5927\u5c71\u8a69\u8f2f\u9078 -- \u7b2c190\u518a. \u6625\u6689\u95a3\u8a69\u9078 -- \u7b2c190-191\u518a. \u4e03\u7d93\u6a13\u6587\u9214 -- \u7b2c191\u518a. \u6c5f\u4e0a\u8a69\u96c6 -- \u7b2c192\u518a. \u66f8\u7b4f. \u756b\u7b4c. \u9704\u5d22\u96c6. \u5922\u9918\u96c6. \u7532\u7533\u96c6. \u7387\u610f\u541f -- \u7b2c193\u518a. \u526a\u6625\u8a5e. \u4fde\u9716\u6f8d\u8a69\u96c6. \u7389\u58fa\u5c71\u4eba\u8a69\u9214. \u7389\u58fa\u5c71\u623f\u8a5e. \u6539\u7426\u4f5a\u8a69. \u5b54\u5b50\u8056\u8de1\u5716. \u767e\u5e45\u6885\u82b1\u5716. \u88dc\u666f\u7f8e\u4eba\u5716. \u7d05\u6a13\u5922\u5716\u548f -- \u7b2c194\u518a. \u9f13\u67bb\u96c6 -- \u7b2c194-195\u518a. \u9ede\u84bc\u5c71\u4eba\u8a69\u9214 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u7b2c195\u518a. \u96ea\u6a13\u8a69\u9078. \u99ac\u4e4b\u9f8d\u907a\u6587. \u6851\u6986\u541f\u8349 -- \u7b2c196\u518a. \u5782\u9999\u6a13\u6587\u96c6 -- \u7b2c197\u518a. \u9ec3\u6c60\u96a8\u7b46. \u6311\u71c8\u8a69\u8a71 -- \u7b2c198\u518a. \u6a38\u9e97\u5b50 -- \u7b2c199\u518a. \u5782\u9999\u6a13\u8a69\u7a3f. \u5357\u6751\u8a69\u96c6. \u8f2f\u672c\u5b6b\u9d6c\u8a69\u9078. \u8f2f\u672c\u5b6b\u9d6c\u6587\u9078 -- \u7b2c200\u518a. \u7e8c\u6a38\u9e97\u5b50. \u8606\u6eaa\u8a69\u6284 -- \u7b2c201\u518a. \u6a35\u6708\u5c71\u623f\u8a69\u96c6. \u67b3\u9999\u5c71\u623f\u8a69\u8349. \u78a7\u7023\u8a5e. \u71f9\u9918\u96dc\u548f -- \u7b2c202\u518a. \u5be6\u592b\u8a69\u5b58. \u6d77\u68e0\u5de2\u8a5e\u7a3f -- \u7b2c203\u518a. \u5e73\u53d4\u8a69\u5b58. \u85e4\u9999\u9928\u8a5e\u9214. \u85e4\u9999\u9928\u8a5e\u4e8c\u7a2e -- \u7b2c204\u518a. \u85e4\u9999\u9928\u8a69\u9214 -- \u7b2c205\u518a. \u767d\u83ef\u6a13\u8a69\u9214. \u767d\u83ef\u6a13\u711a\u9918\u7a3f. \u8354\u5f71\u5802\u8a69\u9214 -- \u7b2c206\u518a. \u671b\u96f2\u7cbe\u820d\u8a69\u9214. \u6e58\u5357\u541f\u8349. \u73e0\u5149\u96c6. \u665a\u6674\u5ba4\u5bb6\u66f8 -- \u7b2c207\u518a. \u675c\u6587\u79c0\u8a69\u8a5e\u6979\u806f. \u677e\u9db4\u5802\u7d00\u4e8b\u521d\u8349. \u6021\u96f2\u66f8\u5c4b\u8a69\u9214 -- \u7b2c208\u518a. \u54c8\u9000\u8ed2\u592a\u53f2\u8a69\u7a3f. \u54c8\u92b3\u8a69\u6587\u96c6. \u78e8\u76fe\u9918\u58a8. \u6666\u73e0\u9928\u8fd1\u7a3f. \u98ee\u6068\u96c6. \u60d5\u76e7\u5269\u7a3f. \u6f6f\u967d\u6a13 -- \u7b2c209\u518a. \u99ac\u99d8\u756b\u554f. \u5c71\u6c34\u756b\u8a23. \u540d\u52dd\u5c71\u6c34\u756b\u8b5c -- \u7b2c210\u518a. \u4eba\u7269\u756b\u7bc4. \u6b77\u4ee3\u540d\u5c07\u756b\u8b5c. \u53e4\u4eca\u4eba\u7269\u756b\u8b5c. \u7f8e\u4eba\u767e\u614b\u756b\u8b5c. \u862d\u7af9\u535a\u53e4\u756b\u8b5c -- \u7b2c211\u518a. \u8a69\u60c5\u756b\u610f\u756b\u8b5c. \u767e\u82b1\u5beb\u751f\u756b\u8b5c. \u82b1\u9ce5\u756b\u8b5c. \u82b1\u5349\u8349\u87f2\u756b\u6cd5. \u9b5a\u87f2\u74dc\u679c\u756b\u8b5c -- \u7b2c212\u518a. \u6d77\u85e5\u672c\u8349\u8f2f\u672c. \u5927\u5143\u5927\u4e00\u7d71 -- \u7b2c213\u518a. \u98ee\u81b3\u6b63\u8981. \u6cb3\u9632\u901a\u8b70 -- \u7b2c214\u518a. \u56de\u56de\u98df\u54c1. \u56de\u56de\u9928\u8b6f\u8a9e. \u56de\u56de\u9928\u4f86\u6587 --"
+          },
+          {
+            "@altRepGroup": "00",
+            "#text": "\u7b2c215\u518a. \u56de\u56de\u85e5\u65b9 -- \u7b2c216\u518a. \u8fb2\u6851\u8863\u98df\u64ae\u8981. \u745e\u7af9\u5802\u7d93\u9a57\u65b9. \u91ab\u5b78\u985e -- \u7b2c217\u518a. \u5929\u6587\u66f8. \u5929\u6587\u8c61\u5b97\u66f8 -- \u7b2c218\u518a. \u4e03\u653f\u63a8\u6b65 -- \u7b2c219\u518a. \u56de\u56de\u66c6\u6cd5. \u56de\u56de\u66c6\u6cd5\u91cb\u4f8b. \u822a\u6d77\u5716. \u701b\u6daf\u52dd\u89bd. \u661f\u69ce\u52dd\u89bd -- \u7b2c220\u518a. \u8fb2\u8aaa. \u897f\u5f81\u8ff0. \u5eec\u5c71\u7d00\u904a. \u5366\u6c23\u8868. \u6f14\u70ae\u5716\u8aaa\u8f2f\u8981 -- \u7b2c221\u518a. \u83ef\u5cb3\u5716\u7d93. \u6c5f\u897f\u6c34\u9053\u8003 -- \u7b2c222-223\u518a. \u5929\u65b9\u723e\u96c5 -- \u7b2c223\u518a. \u5929\u65b9\u66c6\u6cd5\u5716\u771f\u672c. \u5929\u65b9\u66c6\u6e90. \u671d\u89b2\u9014\u8a18. \u5bf0\u5b87\u8ff0\u8981. \u5929\u65b9\u8a69\u6cd5. \u6e05\u771f\u5553\u8499\u5b57\u6bcd. \u897f\u66c6\u8981\u65e8 -- \u7b2c224\u518a. \u8aaa\u75ab. \u5929\u65b9\u5b57\u6bcd\u8b6f\u97f3\u5f59\u7de8. \u5c0b\u6708\u6307\u5357 -- \u7b2c225\u518a. \u5f62\u610f\u62f3\u8b5c. \u4e2d\u83ef\u65b0\u5f0f\u6b66\u8853\u68cd\u8853\u79d1 -- \u7b2c226\u518a. \u6559\u9580\u5f48\u817f\u5716\u8aaa -- \u7b2c226-227\u518a. \u4e2d\u83ef\u65b0\u5f0f\u6b66\u8853\u528d\u8853\u79d1 -- \u7b2c227\u518a. \u4e2d\u83ef\u65b0\u5f0f\u6b66\u8853\u6454\u8de4\u79d1 -- \u7b2c228\u518a. \u4e2d\u83ef\u65b0\u5f0f\u6b66\u8853\u62f3\u8173\u79d1 -- \u7b2c229\u518a. \u8aaa\u6708\u9078\u9304. \u5929\u65b9\u6708\u8ad6 -- \u7b2c229-230\u518a. \u4e2d\u963f\u65b0\u5b57\u5178 -- \u7b2c230\u518a. \u9ed1\u9f8d\u6c5f\u7701\u57ce\u6e05\u771f\u5b78\u6821\u4e00\u89bd. \u66c6\u6e90\u771f\u672c -- \u7b2c231\u518a. \u5049\u560e\u696d\u5b57\u5178. \u5609\u9675\u6c5f\u8a8c. \u56de\u56de\u66c6 -- \u7b2c232\u518a. \u897f\u884c\u65e5\u8a18. \u5929\u65b9\u7d00\u7a0b -- \u7b2c233\u518a. \u4e2d\u963f\u521d\u5a5a. \u9ea5\u52a0\u5de1\u79ae\u8a18 -- \u7b2c234\u518a. \u6bb7\u589f\u535c\u8fad\u8b1b\u8a71. \u91d1\u5c71\u885b\u8a2a\u53e4\u8a18\u7db1\u8981. \u9f9c\u535c. \u90fc\u9f4b\u91d1\u77f3\u5716\u9304\u4eff\u53e4\u6392\u5370\u672c. \u6d41\u6c99\u907a\u73cd. \u4e2d\u570b\u97f3\u6a19\u5b57\u66f8. \u6f22\u8b6f\u6708\u7891 -- \u7b2c235\u518a. \u5eb7\u85cf\u8efa\u5f81. \u5eb7\u85cf\u8efa\u5f81\u7e8c\u8a18. \u4e2d\u963f\u8981\u8a9e\u5408\u74a7. \u83ef\u4e9e\u5b57\u5178\u64b0\u8981. \u56de\u66c6\u7db1\u8981."
+          }
+        ],
+        "note": [
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "zhu bian Wu Haiying ; fu zhu bian Wu Jianwei, Lei Xingkui, Lei Xiaojing."
+          },
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "\u4e3b\u7de8\u5433\u6d77\u9df9 ; \u526f\u4e3b\u7de8\u5433\u5efa\u5049, \u96f7\u8208\u9b41, \u96f7\u66c9\u975c."
+          }
+        ],
+        "subject": [
+          {
+            "geographicCode": {
+              "@authority": "marcgac",
+              "#text": "a-cc---"
+            }
+          },
+          {
+            "@authority": "lcsh",
+            "topic": "Muslims",
+            "geographic": "China",
+            "genre": "Sources"
+          },
+          {
+            "@authority": "lcsh",
+            "topic": [
+              "Islam",
+              "History"
+            ],
+            "geographic": "China",
+            "genre": "Sources"
+          }
+        ],
+        "classification": {
+          "@authority": "lcc",
+          "#text": "DS731.M87 H833 2008"
+        },
+        "identifier": [
+          {
+            "@type": "isbn",
+            "#text": "9787807145585"
+          },
+          {
+            "@type": "isbn",
+            "#text": "7807145587"
+          },
+          {
+            "@type": "oclc",
+            "#text": "319169173"
+          }
+        ],
+        "relatedItem": {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990147835130203941/catalog"
+          }
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "DS731.M87 H833 2008"
+          },
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "DS731.M87 H833 2008"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990147835130203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "014783513"
+                }
+              },
+              "processingDate": "2022-10-06T08:44Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "descriptionStandard": "aacr",
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "YUS"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "090424"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20161213"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990147835130203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)",
+          "languageOfCataloging": {
+            "languageTerm": {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "eng"
+            }
+          }
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "02",
+            "title": "Nihongo no tabiji"
+          },
+          {
+            "@altRepGroup": "02",
+            "title": "\u65e5\u672c\u8a9e\u306e\u65c5\u8def"
+          }
+        ],
+        "name": [
+          {
+            "@type": "personal",
+            "@altRepGroup": "01",
+            "namePart": [
+              "Sugimoto, Tsutomu",
+              {
+                "@type": "date",
+                "#text": "1927-"
+              }
+            ],
+            "role": {
+              "roleTerm": {
+                "@type": "text",
+                "#text": "creator"
+              }
+            }
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "01",
+            "namePart": [
+              "\u6749\u672c\u3064\u3068\u3080",
+              {
+                "@type": "date",
+                "#text": "1927-"
+              }
+            ]
+          }
+        ],
+        "typeOfResource": "text",
+        "originInfo": [
+          {
+            "@altRepGroup": "03",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "ja"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "Japan"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "T\u014dky\u014d"
+                }
+              }
+            ],
+            "publisher": "K\u014dseisha",
+            "dateIssued": "2010",
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "03",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u6771\u4eac :"
+              }
+            },
+            "publisher": "\u7693\u661f\u793e,",
+            "dateIssued": "2010."
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Japanese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": {
+            "@authority": "marcform",
+            "#text": "print"
+          },
+          "extent": "450 p. : ill., maps ; 16 x 16 cm."
+        },
+        "note": [
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "Sugimoto Tsutomu."
+          },
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "\u6749\u672c\u3064\u3068\u3080."
+          }
+        ],
+        "subject": [
+          {
+            "geographicCode": {
+              "@authority": "marcgac",
+              "#text": "a-ja---"
+            }
+          },
+          {
+            "@authority": "lcsh",
+            "topic": [
+              "Japanese language",
+              "History"
+            ]
+          },
+          {
+            "@authority": "lcsh",
+            "topic": "Sociolinguistics",
+            "geographic": "Japan"
+          }
+        ],
+        "classification": {
+          "@authority": "lcc",
+          "#text": "PL525 .S845 2010"
+        },
+        "tableOfContents": {
+          "@altRepGroup": "00",
+          "#text": "\u307e\u3048\u304c\u304d : \u65e5\u672c\u4eba\u30fb\u65e5\u672c\u8a9e\u306eIdentity\u3092\u6a21\u7d22\u3057\u3066 -- 1. \u65e5\u672c\u4eba\u3068\u8a00\u8a9e\u751f\u6d3b (\u30b5\u30af\u30e9\u3001\u3055\u304f\u3089\u3001\u685c\u3001Sakura ; \u8a9e\u6e90\u30fb\u66fc\u9640\u7f85 ; \u6f22\u5b57\u3068\u65e5\u672c\u8a9e ; \u9d8f\u808b\u306e\u65ad\u7ae0 ; \u3053\u3068\u3070\u306e\u9109\u571f\u6599\u7406 ; \u65b9\u8a00\u3001\u6771\u3068\u897f ; \u8a9e\u308a\u306e\u4f1d\u7d71 ; \u4e09\u904a\u4ead\u5ef6\u9577\u3068\u901f\u8a18 ; \u843d\u8a9e\u306e\u8a00\u8449 : \u305d\u306e\u8868\u73fe\u3068\u52b9\u679c ; \u307b\u304b) -- 2. \u65e5\u672c\u4eba\u3068\u65e5\u672c\u8a9e\u3068\u5916\u56fd\u4eba (\u65e5\u672c\u4eba\u3068\u65e5\u672c\u8a9e ; \u5916\u56fd\u4eba\u3068\u65e5\u672c\u8a9e\u3068\u65e5\u672c\u4eba ; <\u4ed8>\u5927\u5b66\u51fa\u7248\u90e8\u3068\u79c1 ; \u73fe\u4ee3\u65e5\u672c\u8a9e\u3078\u306e\u8a3c\u8a00 : \u73fe\u4ee3\u8a9e\u306f\u679c\u305f\u3057\u3066\u4e71\u308c\u3066\u3044\u308b\u306e\u304b ; \u73fe\u4ee3\u65e5\u672c\u8a9e\u3092\u307f\u3060\u3059\u3082\u306e ; \u6c5f\u6236\u671f\u3001\u6a2a\u6587\u5b57\u306b\u61b6\u3046 ; \u307b\u304b) -- 3. \u65e5\u672c\u8a9e\u3001\u8272\u3068\u611b (\u8272\u306e\u4e16\u754c ; \u5409\u539f\u3068\u904a\u5973\u3068 ; \u5143\u7984\u306e\u5409\u539f\u3001\u91cc\u8a1b\u308a\u306e\u98a8\u666f ; \u6620\u753b\u300c\u5bdd\u305a\u306e\u756a\u300d\u306e\u3053\u3068\u3070\u8003\u8a3c ; \u6226\u56fd\u5973\u6027\u3001\u540d\u524d\u3068\u3053\u3068\u3070 ; \u65e5\u672c\u4eba\u3068<\u611b>\u306e\u8868\u73fe) -- 4. \u65e5\u672c\u8a9e\u306e\u898b\u3048\u308b\u98a8\u666f (\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u3068\u79c1 ; \u30ad\u30e3\u30f3\u30d9\u30e9\u306e\u56fd\u7acb\u5927\u5b66 ; \u30b8\u30e3\u30d7\u30ea\u30c3\u30b7\u30e5 ; \u4e2d\u592e\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u7e26\u65ad\u306e\u8a18 ; \u30ab\u30a6\u30e9\u8a2a\u554f\u306e\u8a18 ; \u30dd\u30ea\u30cd\u30b7\u30a2\u6587\u5316\u3068\u8a00\u8a9e ; \u30e9\u30a4\u30c7\u30f3\u3060\u3088\u308a ; \u56db\u8ff7\u7d42\u7109\u306e\u5730\u3092\u8a2a\u306d\u3066 ; \u4e8c\u3064\u306e\u9b42 ; \u30c8\u30eb\u30b9\u30c8\u30a4\u306e\u751f\u5bb6\u3092\u8a2a\u306d\u308b ; \u5317\u4eac\u5b66\u8853\u6155\u60c5 ; \u307b\u304b)."
+        },
+        "identifier": [
+          {
+            "@type": "isbn",
+            "#text": "4774404438"
+          },
+          {
+            "@type": "isbn",
+            "#text": "9784774404431"
+          },
+          {
+            "@type": "oclc",
+            "#text": "651599523"
+          }
+        ],
+        "relatedItem": {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990129482400203941/catalog"
+          }
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "PL525 .S845 2010"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990129482400203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "012948240"
+                }
+              },
+              "processingDate": "2022-09-18T08:14Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "descriptionStandard": "aacr",
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "LWU"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "100527"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20120214"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990129482400203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)"
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "01",
+            "title": "Shinrigaku tetsugaku ronbunsh\u016b",
+            "subTitle": "Hayami Hakushi kanreki kinen"
+          },
+          {
+            "@altRepGroup": "01",
+            "title": "\u5fc3\u7406\u5b66\u54f2\u5b66\u8ad6\u6587\u96c6",
+            "subTitle": "\u901f\u898b\u535a\u58eb\u9084\u66a6\u8a18\u5ff5"
+          }
+        ],
+        "name": [
+          {
+            "@type": "personal",
+            "@altRepGroup": "05",
+            "namePart": "Kuroda, Ry\u014d."
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "06",
+            "namePart": "Hayami, Hiroshi."
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "05",
+            "namePart": "\u9ed2\u7530\u4eae."
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "06",
+            "namePart": "\u901f\u6c34\u6ec9."
+          }
+        ],
+        "typeOfResource": "text",
+        "originInfo": [
+          {
+            "@altRepGroup": "02",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "ja"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "Japan"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "T\u014dky\u014d"
+                }
+              }
+            ],
+            "publisher": "Iwanami Shoten",
+            "dateIssued": "1937",
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "02",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u6771\u4eac :"
+              }
+            },
+            "publisher": "\u5ca9\u6ce2\u66f8\u5e97,",
+            "dateIssued": "1937."
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Japanese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": {
+            "@authority": "marcform",
+            "#text": "print"
+          },
+          "extent": "431 p. ; 23 cm."
+        },
+        "tableOfContents": [
+          {
+            "@altRepGroup": "04",
+            "#text": "<Detailed contents in vernacular field only>."
+          },
+          {
+            "@altRepGroup": "04",
+            "#text": "\u30aa\u30ed\u30c1\u30e7\u30f3\u6c17\u8cea(\u79cb\u8449\u9686) -- \u30b6\u30eb\u30c4\u30de\u30f3\u306e\u4f1d\u8a18\u306b\u5bfe\u3059\u308b\u4e00\u3064\u306e\u88dc\u907a(\u7530\u82b1\u70ba\u96c4) -- \u8ad6\u8a9e\u306e\u7de8\u7e82\u53ca\u3073\u4f53\u4f8b\u306b\u95a2\u3059\u308b\u4e8c\u4e09\u306e\u8003\u5bdf(\u85e4\u585a\u9130) -- \u5358\u8abf\u611f\u3092\u4f34\u3075\u4f5c\u696d\u3068\u5358\u8abf\u611f\u3092\u899a\u3086\u308b\u4eba(\u5897\u7530\u5e78\u4e00) -- \u5859\u691c\u6821\u8003(\u9ed2\u7530\u4eae) -- \u4e8c\u3064\u306e\u73fe\u8c61\u5f62\u614b\u306b\u3064\u3044\u3066(\u57ce\u6236\u5e61\u592a\u90ce) -- \u7b97\u8853\u8a08\u7b97\u306e\u8aa4\u306e\u7a2e\u985e\u3068\u5176\u306e\u51fa\u73fe\u5ea6\u6570(\u672c\u5e84\u7cbe\u6b21) -- \u8a00\u8a9e\u306b\u304a\u3051\u308b\u6c34\u6e96\u8ee2\u79fb(\u4f50\u4e45\u9593\u9f0e) -- \u5c71\u96c0\u306e\u660e\u308b\u3055\u9078\u629e\u53cd\u5fdc\u306b\u65bc\u3051\u308b\u76f8\u5bfe\u7684\u8981\u56e0\u3068\u7d76\u5bfe\u7684\u8981\u56e0(\u9ad8\u6728\u8c9e\u4e8c) -- \u5167\u8499\u53e4\u306e\u5b97\u654e\u7684\u5e74\u4e2d\u884c\u4e8b(\u8d64\u677e\u667a\u57ce) -- \u5341\u4e03\u6761\u61b2\u6cd5\u3068\u52dd\u3013\u7d4c\u7fa9\u758f\u3068\u306e\u601d\u60f3\u7684\u9023\u95a2(\u767d\u4e95\u6210\u5141) -- \u9676\u51b6\u306e\u69ea\u5ff5(\u677e\u6708\u79c0\u96c4) -- \u8996\u7684\u5927\u3055\u306e\u6bd4\u8f03\u306b\u65bc\u3051\u308b\u523a\u621f\u5448\u793a\u5834\u51e6\u306e\u610f\u7fa9\u306b\u5c31\u3044\u3066(\u77e2\u7530\u90e8\u9054\u90ce) -- \u9ad8\u9f62\u306b\u3088\u308b\u7cbe\u795e\u6a5f\u80fd\u306e\u6e1b\u8870(\u4e45\u4fdd\u826f\u82f1) -- \u611f\u60c5\u8ad6\u7406\u306b\u5c31\u3066(\u6ce2\u591a\u91ce\u5b8c\u6cbb) -- \u8eab\u4f53\u3068\u7cbe\u795e\u3068\u306e\u95a2\u4fc2\u306b\u5c31\u3044\u3066(\u5929\u91ce\u5229\u6b66) -- \u30b9\u30d4\u30ce\u30b6\u54f2\u5b66\u306b\u65bc\u3051\u308b\u771f\u7406\u3068\u81ea\u7531(\u5b89\u500d\u80fd\u6210) -- \u30ae\u30ea\u30b7\u30e4\u5efa\u7bc9\u3068\u671d\u9bae\u5efa\u7bc9, \u7279\u306b\u67f1\u306b\u3064\u3044\u3066(\u4e0a\u91ce\u76f4\u662d) -- \u4eba\u683c\u69ea\u5ff5\u306e\u4e00\u8003\u5bdf(\u5c0f\u5cf6\u8ecd\u9020) -- \u6216\u308b\u5fc3\u970a\u73fe\u8c61\u306e\u5b9f\u9a13\u306b\u3064\u3044\u3066(\u5c0f\u718a\u864e\u4e4b\u52a9)."
+          }
+        ],
+        "note": [
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "Kuroda Ry\u014d hen."
+          },
+          {
+            "@altRepGroup": "03",
+            "#text": "Hayami Hakushi no sh\u014dz\u014d ari."
+          },
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "\u9ed2\u7530\u4eae\u7de8."
+          },
+          {
+            "@altRepGroup": "03",
+            "#text": "\u901f\u898b\u535a\u58eb\u306e\u8096\u50cf\u3042\u308a."
+          }
+        ],
+        "identifier": {
+          "@type": "oclc",
+          "#text": "33846217"
+        },
+        "relatedItem": {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990080152640203941/catalog"
+          }
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "J 1003 323"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990080152640203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "008015264"
+                }
+              },
+              "processingDate": "2022-10-03T18:53Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "*LWU*"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "920901"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20024617"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990080152640203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)",
+          "languageOfCataloging": {
+            "languageTerm": {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            }
+          }
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "01",
+            "title": "Shinshiki Nihongo sokkijutsu"
+          },
+          {
+            "@altRepGroup": "01",
+            "title": "\u65b0\u5f0f\u65e5\u672c\u8a9e\u901f\u8a18\u8853"
+          }
+        ],
+        "name": {
+          "@type": "personal",
+          "namePart": [
+            "Gauntlett, George Edward Lockman",
+            {
+              "@type": "date",
+              "#text": "1868-1956"
+            }
+          ],
+          "role": {
+            "roleTerm": {
+              "@type": "text",
+              "#text": "creator"
+            }
+          }
+        },
+        "typeOfResource": "text",
+        "originInfo": [
+          {
+            "@altRepGroup": "02",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "ja"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "Japan"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "T\u014dky\u014d"
+                }
+              }
+            ],
+            "publisher": "Ky\u014dbunkan",
+            "dateIssued": [
+              "Meiji 32 [1899]",
+              {
+                "@encoding": "marc",
+                "#text": "1899"
+              }
+            ],
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "02",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u6771\u4eac :"
+              }
+            },
+            "publisher": "\u6559\u6587\u9928,",
+            "dateIssued": "\u660e\u6cbb32 [1899]"
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Japanese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": {
+            "@authority": "marcform",
+            "#text": "print"
+          },
+          "extent": "2 v. in 1 ; 17 cm."
+        },
+        "subject": {
+          "@authority": "lcsh",
+          "topic": "Shorthand, Japanese"
+        },
+        "identifier": {
+          "@type": "oclc",
+          "#text": "36290726"
+        },
+        "relatedItem": {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990073693690203941/catalog"
+          }
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "J 5823 30"
+          },
+          {
+            "url": {
+              "@access": "raw object",
+              "#text": "https://hdl.handle.net/2027/hvd.32044063445944"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990073693690203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "007369369"
+                }
+              },
+              "processingDate": "2023-04-15T08:13Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "*YNH*"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "970129"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20024617"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990073693690203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)"
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "01",
+            "title": "Shinshiki Nihongo sokkijutsu"
+          },
+          {
+            "@altRepGroup": "01",
+            "title": "\u65b0\u5f0f\u65e5\u672c\u8a9e\u901f\u8a18\u8853"
+          }
+        ],
+        "name": {
+          "@type": "personal",
+          "namePart": [
+            "Gauntlett, George Edward Lockman",
+            {
+              "@type": "date",
+              "#text": "1868-1956"
+            }
+          ],
+          "role": {
+            "roleTerm": {
+              "@type": "text",
+              "#text": "creator"
+            }
+          }
+        },
+        "typeOfResource": "text",
+        "originInfo": [
+          {
+            "@altRepGroup": "02",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "ja"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "Japan"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "T\u014dky\u014d"
+                }
+              }
+            ],
+            "publisher": "Chiky\u016bd\u014d",
+            "dateIssued": [
+              "Meiji 39 [1906]",
+              {
+                "@encoding": "marc",
+                "#text": "1906"
+              }
+            ],
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "02",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u6771\u4eac :"
+              }
+            },
+            "publisher": "\u5730\u7403\u5802,",
+            "dateIssued": "\u660e\u6cbb39 [1906]"
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Japanese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": {
+            "@authority": "marcform",
+            "#text": "print"
+          },
+          "extent": "[11], 234 p. : port. ; 19 cm."
+        },
+        "note": [
+          {
+            "@altRepGroup": "03",
+            "#text": "Karis\u014d."
+          },
+          {
+            "@altRepGroup": "04",
+            "#text": "Kig\u014d oyobi rensh\u016b mondai kait\u014d 1-satsu."
+          },
+          {
+            "@altRepGroup": "03",
+            "#text": "\u5047\u88dd."
+          },
+          {
+            "@altRepGroup": "04",
+            "#text": "\u8a18\u865f\u53ca\u7df4\u7fd2\u554f\u984c\u89e3\u7b541\u518c."
+          }
+        ],
+        "subject": {
+          "@authority": "lcsh",
+          "topic": "Shorthand, Japanese"
+        },
+        "identifier": {
+          "@type": "oclc",
+          "#text": "36290738"
+        },
+        "relatedItem": {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990073693720203941/catalog"
+          }
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "J 5823 31"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990073693720203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "007369372"
+                }
+              },
+              "processingDate": "2022-10-07T08:04Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "*YNH*"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "970129"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20024617"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990073693720203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)"
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "02",
+            "title": "Gengo bunka taikei"
+          },
+          {
+            "@altRepGroup": "02",
+            "title": "\u8a00\u8a9e\u6587\u5316\u9ad4\u7cfb"
+          }
+        ],
+        "name": [
+          {
+            "@type": "corporate",
+            "@altRepGroup": "01",
+            "namePart": "Bansuikai",
+            "role": {
+              "roleTerm": {
+                "@type": "text",
+                "#text": "creator"
+              }
+            }
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "10",
+            "namePart": "Kobayashi, Atsuo."
+          },
+          {
+            "@type": "corporate",
+            "@altRepGroup": "01",
+            "namePart": "\u665a\u7fe0\u6703"
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "10",
+            "namePart": "\u5c0f\u6797\u6df3\u7537."
+          }
+        ],
+        "typeOfResource": "text",
+        "genre": {
+          "@authority": "marcgt",
+          "#text": "bibliography"
+        },
+        "originInfo": [
+          {
+            "@altRepGroup": "03",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "ja"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "Japan"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "[T\u014dky\u014d]"
+                }
+              }
+            ],
+            "publisher": "Bansuikai",
+            "dateIssued": [
+              "Sh\u014dwa 12 [1937]",
+              {
+                "@encoding": "marc",
+                "#text": "1937"
+              }
+            ],
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "03",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "[\u6771\u4eac] :"
+              }
+            },
+            "publisher": "\u665a\u7fe0\u6703,",
+            "dateIssued": "\u662d\u548c12 [1937]"
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Japanese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": {
+            "@authority": "marcform",
+            "#text": "print"
+          },
+          "extent": "349, 161-197 p. ; 23 cm."
+        },
+        "tableOfContents": [
+          {
+            "@altRepGroup": "08",
+            "#text": "Gengo no sekai to shii no sekai / Kobayashi Atsuo cho -- Gengo tetsugaku no shomondai / Koshimizu minoru cho -- Geshitaruto no shakai riron / Hatano Kanji cho -- Fug\u014d gengo to anji gengo / Tanabe Juri cho -- Bunp\u014dronj\u014d no konpon mondai / Kikuzawa Sueo cho -- Kokugo bigaku / Kinbara Seigo cho -- Girisha ni okeru gengo to ky\u014diku / Ishiyama Sh\u016bhei cho."
+          },
+          {
+            "@altRepGroup": "08",
+            "#text": "\u8a00\u8a9e\u306e\u4e16\u754c\u3068\u601d\u60df\u306e\u4e16\u754c/ \u5c0f\u6797\u6df3\u7537\u8457 -- \u8a00\u8a9e\u54f2\u5b78\u306e\u8af8\u554f\u984c/ \u8f3f\u6c34\u5be6\u8457 -- \u30b2\u30b7\u30bf\u30eb\u30c8\u306e\u793e\u6703\u7406\u8ad6/ \u6ce2\u591a\u91ce\u5b8c\u6cbb\u8457 -- \u7b26\u865f\u8a00\u8a9e\u3068\u6697\u793a\u8a00\u8a9e/ \u7530\u908a\u58fd\u5229\u8457 -- \u6587\u6cd5\u8ad6\u4e0a\u306e\u6839\u672c\u554f\u984c/ \u83ca\u6fa4\u5b63\u751f\u8457 -- \u570b\u8a9e\u7f8e\u5b78/ \u91d1\u539f\u7701\u543e\u8457 -- \u30ae\u30ea\u30b7\u30e3\u306b\u65bc\u3051\u308b\u8a00\u8a9e\u3068\u654e\u80b2/ \u77f3\u5c71\u8129\u5e73\u8457."
+          }
+        ],
+        "note": [
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "Bansuikai hensan ; Kobayashi Atsuo ... [et al.] cho."
+          },
+          {
+            "@altRepGroup": "05",
+            "#text": "Hatsubaijo: Fur\u014dkaku Shob\u014d ; \u014durisabaki: Rinpei Shoten, Yanagihara Shoten."
+          },
+          {
+            "@altRepGroup": "06",
+            "#text": "[Kaito Matsuz\u014d Sensei gakuk\u014d kinen ronbunsh\u016b]"
+          },
+          {
+            "@altRepGroup": "07",
+            "#text": "Kaito Ky\u014dju chosho ronbun happy\u014d nenpy\u014d (Taish\u014d 11-nen yori Sh\u014dwa 11-nen itaru): p.185-197."
+          },
+          {
+            "@type": "bibliography",
+            "#text": "Includes bibliographical footnotes."
+          },
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "\u665a\u7fe0\u6703\u7de8\u7e82; \u5c0f\u6797\u6df3\u7537 ... [et al.]\u8457."
+          },
+          {
+            "@altRepGroup": "05",
+            "#text": "\u767c\u8ce3\u6240: \u4e0d\u8001\u95a3\u66f8\u623f; \u5927\u8ce3\u634c: \u6797\u5e73\u66f8\u5e97, \u67f3\u539f\u66f8\u5e97."
+          },
+          {
+            "@altRepGroup": "06",
+            "#text": "[\u57a3\u5167\u677e\u4e09\u5148\u751f\u5b78\u529f\u8a18\u5ff5\u8ad6\u6587\u96c6]"
+          },
+          {
+            "@altRepGroup": "07",
+            "#text": "\u57a3\u5167\u654e\u6388\u8457\u66f8\u8ad6\u6587\u767c\u8868\u5e74\u8868(\u81ea\u5927\u6b6311\u5e74\u81f3\u662d\u548c11\u5e74): p.185-197. (2nd group)"
+          }
+        ],
+        "subject": [
+          {
+            "@authority": "lcsh",
+            "@altRepGroup": "09",
+            "name": {
+              "@type": "personal",
+              "namePart": [
+                "Kaito, Matsuzo\u0304",
+                {
+                  "@type": "date",
+                  "#text": "1878-1952"
+                }
+              ]
+            }
+          },
+          {
+            "@authority": "lcsh",
+            "@altRepGroup": "09",
+            "name": {
+              "@type": "personal",
+              "namePart": [
+                "\u57a3\u5167\u677e\u4e09",
+                {
+                  "@type": "date",
+                  "#text": "1878-1952"
+                }
+              ]
+            }
+          }
+        ],
+        "classification": {
+          "@authority": "lcc",
+          "#text": "P49 .G46 1937"
+        },
+        "relatedItem": [
+          {
+            "titleInfo": {
+              "title": "Bansuikai kiy\u014d ; dai 1-satsu"
+            }
+          },
+          {
+            "@otherType": "HOLLIS record",
+            "location": {
+              "url": "https://id.lib.harvard.edu/alma/990073790610203941/catalog"
+            }
+          }
+        ],
+        "identifier": {
+          "@type": "oclc",
+          "#text": "33684209"
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "J 5810.34 6180"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990073790610203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "007379061"
+                }
+              },
+              "processingDate": "2022-12-29T06:16Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "*LWU*"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "910716"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20024617"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990073790610203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)",
+          "languageOfCataloging": {
+            "languageTerm": {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            }
+          }
+        }
+      },
+      {
+        "titleInfo": [
+          {
+            "@altRepGroup": "02",
+            "title": "\"Sang\u014d goroku\" ni okeru Mansh\u016b moji hy\u014dki Mongorugo no kenky\u016b =",
+            "subTitle": "The study of Mongolian text in \"Sanhe-Yulu\", transcribed in Manchu script at the beginning of 19th century"
+          },
+          {
+            "@type": "alternative",
+            "title": "Study of Mongolian text in \"Sanhe-Yulu\", transcribed in Manchu script at the beginning of 19th century"
+          },
+          {
+            "@altRepGroup": "02",
+            "title": "\u300c\u4e09\u5408\u8a9e\u9304\u300d\u306b\u304a\u3051\u308b\u6e80\u6d32\u6587\u5b57\u8868\u8a18\u30e2\u30f3\u30b4\u30eb\u8a9e\u306e\u7814\u7a76 =",
+            "subTitle": "The study of Mongolian text in \"Sanhe-Yulu\", transcribed in Manchu script at the beginning of 19th century"
+          }
+        ],
+        "name": [
+          {
+            "@type": "personal",
+            "@altRepGroup": "01",
+            "namePart": [
+              "Sechinbat",
+              {
+                "@type": "date",
+                "#text": "1972-"
+              }
+            ],
+            "role": {
+              "roleTerm": {
+                "@type": "text",
+                "#text": "creator"
+              }
+            }
+          },
+          {
+            "@type": "personal",
+            "@altRepGroup": "01",
+            "namePart": [
+              "\u65af\u6b3d\u5df4\u56f3",
+              {
+                "@type": "date",
+                "#text": "1972-"
+              }
+            ]
+          }
+        ],
+        "typeOfResource": "text",
+        "genre": {
+          "@authority": "marcgt",
+          "#text": "bibliography"
+        },
+        "originInfo": [
+          {
+            "@altRepGroup": "03",
+            "place": [
+              {
+                "placeTerm": [
+                  {
+                    "@authority": "marccountry",
+                    "@type": "code",
+                    "#text": "ja"
+                  },
+                  {
+                    "@authority": "marccountry",
+                    "@type": "text",
+                    "#text": "Japan"
+                  }
+                ]
+              },
+              {
+                "placeTerm": {
+                  "@type": "text",
+                  "#text": "Sendai-shi"
+                }
+              }
+            ],
+            "publisher": "T\u014dhoku Daigaku Shuppankai",
+            "dateIssued": "2012",
+            "issuance": "monographic"
+          },
+          {
+            "@altRepGroup": "03",
+            "place": {
+              "placeTerm": {
+                "@type": "text",
+                "#text": "\u4ed9\u53f0\u5e02 :"
+              }
+            },
+            "publisher": "\u6771\u5317\u5927\u5b66\u51fa\u7248\u4f1a,",
+            "dateIssued": "2012."
+          }
+        ],
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Japanese"
+            }
+          ]
+        },
+        "physicalDescription": {
+          "form": {
+            "@authority": "marcform",
+            "#text": "print"
+          },
+          "extent": "548 p. ; 22 cm."
+        },
+        "note": [
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "Sechinbat cho."
+          },
+          {
+            "@type": "bibliography",
+            "#text": "Includes bibliographical references (p. 205-209)."
+          },
+          {
+            "@altRepGroup": "00",
+            "@type": "statement of responsibility",
+            "#text": "\u30b9\u30c1\u30f3\u30d0\u30c8\u8457."
+          }
+        ],
+        "subject": [
+          {
+            "@authority": "lcsh",
+            "topic": [
+              "Mongolian language",
+              "History"
+            ]
+          },
+          {
+            "@authority": "lcsh",
+            "topic": "Manchu language"
+          },
+          {
+            "@authority": "lcsh",
+            "topic": "Mongolian alphabet"
+          },
+          {
+            "@authority": "jlabsh/4",
+            "@altRepGroup": "04",
+            "topic": "Mongorugo"
+          },
+          {
+            "@authority": "jlabsh/4",
+            "@altRepGroup": "04",
+            "topic": "\u30e2\u30f3\u30b4\u30eb\u8a9e"
+          }
+        ],
+        "classification": [
+          {
+            "@authority": "lcc",
+            "#text": "PL401 .S43 2012"
+          },
+          {
+            "@authority": "njb/9",
+            "#text": "829.55"
+          }
+        ],
+        "identifier": [
+          {
+            "@type": "isbn",
+            "#text": "9784861631825"
+          },
+          {
+            "@type": "isbn",
+            "#text": "4861631823"
+          },
+          {
+            "@type": "oclc",
+            "#text": "779877766"
+          }
+        ],
+        "relatedItem": {
+          "@otherType": "HOLLIS record",
+          "location": {
+            "url": "https://id.lib.harvard.edu/alma/990131503900203941/catalog"
+          }
+        },
+        "location": [
+          {
+            "physicalLocation": {
+              "@valueURI": "http://isni.org/isni/0000000121790804",
+              "@displayLabel": "Harvard repository",
+              "@type": "repository",
+              "#text": "Harvard-Yenching Library, Harvard University"
+            },
+            "shelfLocator": "PL401 .S43 2012"
+          },
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "HarvardRepositories": {
+                "HarvardRepository": "Harvard-Yenching"
+              },
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/990131503900203941",
+              "priorrecordids": {
+                "recordIdentifier": {
+                  "@source": "MH:ALEPH",
+                  "#text": "013150390"
+                }
+              },
+              "processingDate": "2022-09-26T08:07Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "descriptionStandard": "aacr",
+          "recordContentSource": {
+            "@authority": "marcorg",
+            "#text": "TRCLS"
+          },
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "120312"
+          },
+          "recordChangeDate": {
+            "@encoding": "iso8601",
+            "#text": "20140716"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "990131503900203941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)"
+        }
+      },
+      {
+        "titleInfo": {
+          "title": "\u30e2\u30f3\u30b4\u30eb\u8a9e\u65e5\u672c\u8a9e\u3053\u3068\u308f\u3056\u6bd4\u8f03\u7814\u7a76 [[\u30e2\u30f3\u30b4\u30eb\u30b4 \u30cb\u30db\u30f3\u30b4 \u30b3\u30c8\u30ef\u30b6 \u30d2\u30ab\u30af \u30b1\u30f3\u30ad\u30e5\u30a6]]"
+        },
+        "typeOfResource": "text",
+        "genre": {
+          "@authority": "marcgt",
+          "#text": "government publication"
+        },
+        "originInfo": {
+          "place": {
+            "placeTerm": [
+              {
+                "@authority": "marccountry",
+                "@type": "code",
+                "#text": "uuu"
+              },
+              {
+                "@authority": "marccountry",
+                "@type": "text"
+              }
+            ]
+          },
+          "publisher": "\u5927\u962a\u5916\u56fd\u8a9e\u5927\u5b66\u5b66\u8853\u7814\u7a76\u53cc\u66f8",
+          "dateIssued": [
+            {
+              "@encoding": "marc",
+              "@point": "start",
+              "#text": "2004"
+            },
+            {
+              "@encoding": "marc",
+              "@point": "end",
+              "#text": "uuuu"
+            }
+          ],
+          "issuance": "monographic"
+        },
+        "language": {
+          "languageTerm": [
+            {
+              "@authority": "iso639-2b",
+              "@type": "code",
+              "#text": "jpn"
+            },
+            {
+              "@authority": "iso639-2b",
+              "@type": "text",
+              "#text": "Japanese"
+            }
+          ]
+        },
+        "relatedItem": [
+          null,
+          {
+            "@otherType": "HOLLIS record",
+            "location": {
+              "url": "https://id.lib.harvard.edu/alma/99155805274303941/catalog"
+            }
+          }
+        ],
+        "location": [
+          null,
+          null
+        ],
+        "extension": [
+          {
+            "librarycloud": {
+              "originalDocument": "https://s3.amazonaws.com/harvard.librarycloud.marc/99155805274303941",
+              "processingDate": "2021-10-27T05:12Z"
+            }
+          },
+          {
+            "sets": null
+          }
+        ],
+        "recordInfo": {
+          "recordCreationDate": {
+            "@encoding": "marc",
+            "#text": "211020"
+          },
+          "recordIdentifier": {
+            "@source": "MH:ALMA",
+            "#text": "99155805274303941"
+          },
+          "recordOrigin": "Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl\n        (Revision 1.117 2017/02/14)"
+        }
+      }
+    ]
+  }
 }

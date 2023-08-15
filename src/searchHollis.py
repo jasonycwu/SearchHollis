@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:18:58
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-01 00:39:02
+# @Last Modified time: 2023-08-13 13:35:10
 
 import sys
 import os
@@ -11,22 +11,12 @@ from src.data_structures.data_structures import Payload
 from src.searches.isbn_search import search_by_isbn
 from src.searches.title_search import search_by_title
 from src.configs.configs import Configs
-from src.input_output import get_input, extract_input_payload
+from src.input_output import extract_input_payload
 from csv import writer, reader
 
-# INPUT_ROOT = "/Users/jasonycwu/Documents/GitHub/harvardScript/input"
-# INPUT_FILE_PATH = (
-#     "/Users/jasonycwu/Documents/GitHub/harvardScript/tests/input/to-search-official.csv"
-# )
 
-
-# main
-# if __name__ == "__main__":
 def searchHollis(input_file, output_file, column_indices):
-    # input_data = get_input(INPUT_FILE_PATH)
-    # input_data = get_input(input_file)
     found = 0
-    total_items_num = 0
     header_row = True
 
     col_indices = {
@@ -75,7 +65,13 @@ def searchHollis(input_file, output_file, column_indices):
                         print(
                             f"--FOUND by TITLE {title_search_result['item_location']}"
                         )
-                        result[0] = f"Held in {title_search_result['item_location']}"
+                        if title_search_result["item_location"] == None:
+                            result[0] = f"Held Online; Not in Widener/Yenching"
+                        else:
+                            result[
+                                0
+                            ] = f"Held in {title_search_result['item_location']}"
+
                         if title_search_result["permalink"]:
                             result[1] = title_search_result["permalink"]
                     else:

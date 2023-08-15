@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:33:18
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-01 00:29:26
+# @Last Modified time: 2023-08-13 13:22:10
 import json
 import math
 import pandas as pd
@@ -27,6 +27,17 @@ def get_input(filename):
     return df
 
 
+def get_authors(author):
+    authors = []
+    if author:
+        for name in author.split(" "):
+            if len(name) >= 2:
+                authors.append(name)
+    if len(authors) == 0:
+        authors.append("")
+    return authors
+
+
 def extract_input_payload(input_data, col_indices) -> Payload:
     isbn = input_data[col_indices["ISBN"]]
     title = input_data[col_indices["TITLE"]]
@@ -40,16 +51,12 @@ def extract_input_payload(input_data, col_indices) -> Payload:
     else:
         all_title_parts = [title, title.split(" ")[0]]
 
-    # breaks down and groups all author name
-    if author:
-        authors = [t for t in ([author[0]] + author.split(" ")) if len(t) >= 2]
-    else:
-        authors = [""]
+    authors = get_authors(author)
 
     extracted_input = Payload(
         format_isbn(str(isbn)),  # ISBN
         title,  # TITLE
-        authors[0],  # AUTHOR, will need a list
+        authors,  # AUTHOR, will need a list
         publisher,  # PUBLISHER
         str(pub_year),  # PUB YEAR
         all_title_parts,  # list of TITLE broken down

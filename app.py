@@ -2,16 +2,12 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-03 17:17:54
+# @Last Modified time: 2023-08-13 10:43:52
 
 import os
 import sys
-import time
-import requests
-import pandas as pd
-import math
 from flask import Flask, request, render_template, send_from_directory
-import threading
+from flaskwebgui import FlaskUI
 
 # adds the root directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
@@ -19,6 +15,7 @@ from src.searchHollis import searchHollis
 
 
 app = Flask(__name__)
+# ui = FlaskUI(app=app, server="flask", width=800, height=500)
 
 INTERFACE_FOLDER = os.path.join(os.path.dirname(__file__), "interface")
 app.template_folder = os.path.join(INTERFACE_FOLDER, "templates")
@@ -102,3 +99,4 @@ if __name__ == "__main__":
         os.makedirs(DOWNLOAD_FOLDER)
 
     app.run(debug=True)
+    # ui.run()
