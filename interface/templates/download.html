@@ -2,7 +2,7 @@
   @Author: Jason Y. Wu
   @Date:   2023-08-01 01:22:37
   @Last Modified by:   Jason Y. Wu
-  @Last Modified time: 2023-08-15 03:01:31
+  @Last Modified time: 2023-08-15 11:58:04
 -->
 <!DOCTYPE html>
 <html>
@@ -72,7 +72,7 @@
     <div class="container">
         <h1>Download File</h1>
         <p>File successfully processed!</p>
-        <p>Download the processed file here: <a href="{{ url_for('download_file', processed_filename=processed_filename) }}"> {{ processed_filename }}</a>.</p>
+        <p>Download the processed file here: <a href="{{ url_for('download_file', OUTPUT_FILENAME=OUTPUT_FILENAME) }}"> {{ OUTPUT_FILENAME }}</a>.</p>
         <br>
         <a href="/">Back to Home</a>
     </div>

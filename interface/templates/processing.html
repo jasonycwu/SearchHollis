@@ -2,7 +2,7 @@
   @Author: Jason Y. Wu
   @Date:   2023-08-15 02:13:12
   @Last Modified by:   Jason Y. Wu
-  @Last Modified time: 2023-08-15 09:20:43
+  @Last Modified time: 2023-08-15 12:50:40
 -->
 <!DOCTYPE html>
 <html>
@@ -68,11 +68,12 @@
     </style>
     <script>
         function fetchAndCheckProcessingStatus(){
-            fetch("{{ url_for('processing', input_filename=input_filename) }}")
+            fetch("{{ url_for('processing', INPUT_FILENAME=INPUT_FILENAME, OUTPUT_FILENAME=OUTPUT_FILENAME, BOOK_COUNT=BOOK_COUNT) }}")
                 .then(response => response.text())
                 .then(data => {
+                    // console.log("LMFAO",data, data[0], data[1])
                     if (data === "COMPLETE") {
-                        window.location.href = "{{ url_for('download_page') }}"
+                        window.location.href = "{{ url_for('download_page', OUTPUT_FILENAME=OUTPUT_FILENAME) }}"
                     } else if (data == "CONTINUE") {
                         fetchAndCheckProcessingStatus();
                     } else if (data == "LIMIT") {
@@ -86,9 +87,9 @@
                         }, 30000); // Every 30 seconds
                     } else {
                         // TODO: go to error page with home button
-                        window.location.href = "{{ url_for('download_page') }}"
+                        window.location.href = "{{ url_for('download_page', OUTPUT_FILENAME=OUTPUT_FILENAME) }}"
                     }
-                    console.log(data);
+                    // console.log(data);
                 })
         }
         
