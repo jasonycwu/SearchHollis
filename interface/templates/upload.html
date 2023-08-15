@@ -2,7 +2,7 @@
   @Author: Jason Y. Wu
   @Date:   2023-07-24 04:47:25
   @Last Modified by:   Jason Y. Wu
-  @Last Modified time: 2023-08-08 10:22:05
+  @Last Modified time: 2023-08-15 04:22:15
 -->
 
 <!DOCTYPE html>
@@ -72,22 +72,6 @@
         function clearForm() {
             document.getElementById("uploadForm").reset();
         }
-
-        async function getRequest(url = ''){
-            const response = await fetch(url, {method: "GET", cache:"no-cache"})
-            return response.json()
-        }
-
-        document.addEventListener("DOMContentLoaded", function(){
-            let url = document.location
-            let route = "/flaskwebgui-keep-server-alive"
-            let interval_request = 3 * 1000 //sec
-            function keep_alive_server() {
-                getRequest(url + route)
-                    .then(data => console.log(data))
-            }
-            setInterval(keep_alive_server, interval_request)()
-        })
     </script>
 </head>
 <body>

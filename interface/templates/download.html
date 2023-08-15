@@ -2,18 +2,79 @@
   @Author: Jason Y. Wu
   @Date:   2023-08-01 01:22:37
   @Last Modified by:   Jason Y. Wu
-  @Last Modified time: 2023-08-08 10:31:58
+  @Last Modified time: 2023-08-15 03:01:31
 -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Download File</title>
+    <style>
+        /* Set background image for the entire body */
+        body {
+            margin: 0; /* Remove default body margin */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make sure the background covers the entire viewport height */
+            overflow: hidden; /* Hide overflow to prevent scrolling */
+        }
+
+        /* Separate container for the background image */
+        .background-image-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://wallpapers.com/images/hd/harvard-university-widener-library-with-banners-is9x6cw83ypb5fyf.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-color: rgba(0, 0, 0, 0.9); /* Black overlay with 0.7 opacity */
+            /* opacity: 0.5; Adjust the opacity to control the dimming effect */
+            z-index: -1; /* place background image behind the texts */
+        }
+
+        /* Style the container div for the content */
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Add some opacity to make the text more readable */
+            padding: 20px;
+            text-align: left;
+            max-width: 400px; /* Limit the width of the container */
+            position: relative; /* Set position to allow z-index to work */
+            z-index: 1; /* Place the content container above the background image container */
+        }
+
+        /* Style the h1 heading */
+        h1 {
+            text-align: center; /* Center the heading text */
+        }
+
+        /* Style the form */
+        form {
+            margin-top: 20px; /* Add some space between heading and form */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Style the file input and submit button */
+        input[type="file"], input[type="submit"] {
+            display: block;
+            margin-top: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Download File</h1>
-    <p>File successfully processed!</p>
-    <p>Download the processed file here: <a href="{{ url_for('download_file', filename=processed_filename) }}"> {{ processed_filename }}</a>.</p>
-    <br>
-    <a href="/">Back to Home</a>
+    <div class="background-image-container"></div>
+    <div class="container">
+        <h1>Download File</h1>
+        <p>File successfully processed!</p>
+        <p>Download the processed file here: <a href="{{ url_for('download_file', processed_filename=processed_filename) }}"> {{ processed_filename }}</a>.</p>
+        <br>
+        <a href="/">Back to Home</a>
+    </div>
 </body>
 </html>
