@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:56:17
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-15 07:44:02
+# @Last Modified time: 2023-08-15 16:38:42
 from src.configs.configs import Configs
 from src.input_output import writeToFile
 from src.determinant.determinant import determinant, held_at_harvard

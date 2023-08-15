@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-15 09:20:08
+# @Last Modified time: 2023-08-15 16:37:25
 
 import os
 import sys
@@ -29,10 +29,6 @@ app.static_folder = os.path.join(INTERFACE_FOLDER, "static")
 UPLOAD_FOLDER = os.path.join(INTERFACE_FOLDER, "uploads")
 DOWNLOAD_FOLDER = os.path.join(INTERFACE_FOLDER, "downloads")
 
-INPUT_FILENAME = ""
-INPUT_FILE_PATH = ""
-OUTPUT_FILENAME = ""
-OUTPUT_FILE_PATH = ""
 COLUMN_INDICES = {
     "ISBN": "A",
     "TITLE": "B",
@@ -43,12 +39,6 @@ COLUMN_INDICES = {
 
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
-app.config["COLUMN_INDICES"] = COLUMN_INDICES
-app.config["INPUT_FILENAME"] = INPUT_FILENAME
-app.config["INPUT_FILE_PATH"] = INPUT_FILE_PATH
-app.config["OUTPUT_FILENAME"] = OUTPUT_FILENAME
-app.config["OUTPUT_FILE_PATH"] = OUTPUT_FILE_PATH
-app.config["BOOK_COUNT"] = 0
 
 
 def clear_folder(folder_path):
@@ -59,19 +49,15 @@ def clear_folder(folder_path):
 
 
 def run_search_hollis(
-    input_file_path, output_file_path, book_count, column_indices
+    input_file_path, output_file_path, BOOK_COUNT, column_indices
 ) -> str:
-    print(f"LOGGER: RUNNING BACKEND CODE. Returning {app.config['OUTPUT_FILENAME']}")
     result = searchHollis(
         input_file_path,
         output_file_path,
-        book_count,
-        column_indices=column_indices,
+        BOOK_COUNT,
+        column_indices=app.config["COLUMN_INDICES"],
     )
-    print("RESULT", result)
     return result
-    # return app.config["OUTPUT_FILENAME"]
-    # return "complete"
 
 
 @app.route("/", methods=["GET", "POST"])
@@ -96,50 +82,47 @@ def upload_file():
         # clears files within the download and upload folders to free space
         clear_folder(app.config["DOWNLOAD_FOLDER"])
         clear_folder(app.config["UPLOAD_FOLDER"])
+        # reset BOOK_COUNT
+        app.config["BOOK_COUNT"] = 0
 
         # config input file name and path
-        app.config["INPUT_FILENAME"] = file.filename
-        app.config["INPUT_FILE_PATH"] = os.path.join(
-            app.config["UPLOAD_FOLDER"], app.config["INPUT_FILENAME"]
-        )
+        INPUT_FILENAME = file.filename
+        INPUT_FILE_PATH = os.path.join(app.config["UPLOAD_FOLDER"], INPUT_FILENAME)
         # save input file
-        file.save(app.config["INPUT_FILE_PATH"])
+        file.save(INPUT_FILE_PATH)
 
         # config output file name and path
-        app.config[
-            "OUTPUT_FILENAME"
-        ] = f"{os.path.splitext(app.config['INPUT_FILENAME'])[0]}_processed.csv"
-        app.config["OUTPUT_FILE_PATH"] = os.path.join(
-            app.config["DOWNLOAD_FOLDER"], app.config["OUTPUT_FILENAME"]
-        )
-
-        print(
-            "HERE",
-            app.config["INPUT_FILENAME"],
-            app.config["INPUT_FILE_PATH"],
-            app.config["OUTPUT_FILENAME"],
-            app.config["OUTPUT_FILE_PATH"],
-        )
+        OUTPUT_FILENAME = f"{os.path.splitext(INPUT_FILENAME)[0]}_processed.csv"
+        OUTPUT_FILE_PATH = os.path.join(app.config["DOWNLOAD_FOLDER"], OUTPUT_FILENAME)
 
         return render_template(
             "processing.html",
-            input_filename=app.config["INPUT_FILENAME"],
-            processed_filename=app.config["OUTPUT_FILENAME"],
+            INPUT_FILENAME=INPUT_FILENAME,
+            OUTPUT_FILENAME=OUTPUT_FILENAME,
+            BOOK_COUNT=app.config["BOOK_COUNT"],
         )
 
     # if the method is GET, render the upload form
     return render_template("upload.html")
 
 
-@app.route("/processing/<input_filename>", methods=["GET", "POST"])
-def processing(input_filename):
+@app.route(
+    "/processing/<INPUT_FILENAME>/<OUTPUT_FILENAME>/<BOOK_COUNT>",
+    methods=["GET", "POST"],
+)
+def processing(INPUT_FILENAME, OUTPUT_FILENAME, BOOK_COUNT):
     print(f"LOGGER: in processing route")
     print("book count before=", app.config["BOOK_COUNT"])
 
+    INPUT_FILE_PATH = os.path.join(app.config["UPLOAD_FOLDER"], INPUT_FILENAME)
+    OUTPUT_FILE_PATH = os.path.join(app.config["DOWNLOAD_FOLDER"], OUTPUT_FILENAME)
+
+    print("FML", INPUT_FILE_PATH, OUTPUT_FILE_PATH)
+
     # run backend code
     result = run_search_hollis(
-        app.config["INPUT_FILE_PATH"],
-        app.config["OUTPUT_FILE_PATH"],
+        INPUT_FILE_PATH,
+        OUTPUT_FILE_PATH,
         app.config["BOOK_COUNT"],
         app.config["COLUMN_INDICES"],
     )
@@ -150,18 +133,16 @@ def processing(input_filename):
     return result[0]
 
 
-@app.route("/download_page")
-def download_page():
+@app.route("/download_page/<OUTPUT_FILENAME>")
+def download_page(OUTPUT_FILENAME):
     print(f"LOGGER: in download_page route")
-    return render_template(
-        "download.html", processed_filename=app.config["OUTPUT_FILENAME"]
-    )
+    return render_template("download.html", OUTPUT_FILENAME=OUTPUT_FILENAME)
 
 
-@app.route("/download/<processed_filename>")
-def download_file(processed_filename):
+@app.route("/download/<OUTPUT_FILENAME>")
+def download_file(OUTPUT_FILENAME):
     print(f"LOGGER: in download_file route")
-    return send_from_directory(app.config["DOWNLOAD_FOLDER"], processed_filename)
+    return send_from_directory(app.config["DOWNLOAD_FOLDER"], OUTPUT_FILENAME)
 
 
 @app.route("/killtime")

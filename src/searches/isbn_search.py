@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:22:51
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-15 07:44:07
+# @Last Modified time: 2023-08-15 16:39:23
 # from harvardScript import BASE_URL
 from src.configs.configs import Configs
 from src.input_output import writeToFile

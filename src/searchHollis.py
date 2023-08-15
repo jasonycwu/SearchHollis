@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-06-23 01:18:58
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-15 08:49:25
+# @Last Modified time: 2023-08-15 16:38:00
 
 import sys
 import os
@@ -15,10 +15,10 @@ from src.input_output import extract_input_payload
 from csv import writer, reader
 
 
-def searchHollis(input_file, output_file, book_count, column_indices):
+def searchHollis(input_file, output_file, BOOK_COUNT, column_indices):
     SEARCH_INDEX = 0  # receive from flask app
-    SEARCH_CEILING = SEARCH_INDEX + 4
-    BOOK_COUNT = book_count
+    SEARCH_CEILING = SEARCH_INDEX + 200
+    BOOK_COUNT = BOOK_COUNT
     header = True  # flag for header row
 
     # convert column indices
