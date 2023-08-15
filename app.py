@@ -2,7 +2,7 @@
 # @Author: Jason Y. Wu
 # @Date:   2023-07-24 04:47:04
 # @Last Modified by:   Jason Y. Wu
-# @Last Modified time: 2023-08-15 16:37:25
+# @Last Modified time: 2023-08-15 16:48:48
 
 import os
 import sys
@@ -39,6 +39,7 @@ COLUMN_INDICES = {
 
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 app.config["DOWNLOAD_FOLDER"] = DOWNLOAD_FOLDER
+app.config["BOOK_COUNT"] = 0
 
 
 def clear_folder(folder_path):
